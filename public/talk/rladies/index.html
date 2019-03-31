@@ -51,7 +51,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -73,8 +73,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -118,7 +118,7 @@
   
   <meta property="og:site_name" content="Zhi Yang">
   <meta property="og:url" content="/talk/rladies/">
-  <meta property="og:title" content="Good Practices in R | Zhi Yang">
+  <meta property="og:title" content="Good practices in R | Zhi Yang">
   <meta property="og:description" content="An example talk on developing good pratices in R"><meta property="og:image" content="/talk/rladies/featured.jpg">
   <meta property="og:locale" content="en-us">
   
@@ -129,12 +129,21 @@
 
   
 
-  
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<script async type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
-  <title>Good Practices in R | Zhi Yang</title>
+  <title>Good practices in R | Zhi Yang</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
@@ -335,7 +344,7 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">Good Practices in R</h1>
+        <h1 itemprop="name">Good practices in R</h1>
 
         
 
@@ -430,7 +439,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Good%20Practices%20in%20R&amp;url=%2ftalk%2frladies%2f"
+         href="https://twitter.com/intent/tweet?text=Good%20practices%20in%20R&amp;url=%2ftalk%2frladies%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -444,21 +453,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2frladies%2f&amp;title=Good%20Practices%20in%20R"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2frladies%2f&amp;title=Good%20practices%20in%20R"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2ftalk%2frladies%2f&amp;title=Good%20Practices%20in%20R"
+         href="http://service.weibo.com/share/share.php?url=%2ftalk%2frladies%2f&amp;title=Good%20practices%20in%20R"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Good%20Practices%20in%20R&amp;body=%2ftalk%2frladies%2f">
+         href="mailto:?subject=Good%20practices%20in%20R&amp;body=%2ftalk%2frladies%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -478,7 +487,7 @@
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">Good Practices in R</h1>
+  <h1 itemprop="name">Good practices in R</h1>
 
   
 
@@ -511,7 +520,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Good%20Practices%20in%20R&amp;url=%2ftalk%2frladies%2f"
+         href="https://twitter.com/intent/tweet?text=Good%20practices%20in%20R&amp;url=%2ftalk%2frladies%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -525,21 +534,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2frladies%2f&amp;title=Good%20Practices%20in%20R"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2frladies%2f&amp;title=Good%20practices%20in%20R"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2ftalk%2frladies%2f&amp;title=Good%20Practices%20in%20R"
+         href="http://service.weibo.com/share/share.php?url=%2ftalk%2frladies%2f&amp;title=Good%20practices%20in%20R"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Good%20Practices%20in%20R&amp;body=%2ftalk%2frladies%2f">
+         href="mailto:?subject=Good%20practices%20in%20R&amp;body=%2ftalk%2frladies%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>

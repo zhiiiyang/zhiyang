@@ -14,7 +14,7 @@ location: Pasadena, California
 math: true
 summary: An example talk on developing good pratices in R
 tags: []
-title: Good Practices in R
+title: Good practices in R
 url_code: ""
 url_pdf: ""
 url_slides: "https://zhiiiyang.github.io/GoodPractices/"

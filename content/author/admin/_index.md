@@ -15,7 +15,7 @@ education:
     institution: University of Illinois at Chicago
     year: 2013
   - course: BS in Physical Chemistry
-    institution: University of Illinois at Chicago
+    institution: University of Science and Technology of China
     year: 2011
 email: ""
 interests:

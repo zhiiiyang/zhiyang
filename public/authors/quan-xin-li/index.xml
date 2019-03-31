@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quan-xin Li on Zhi Yang</title>
+    <link>/authors/quan-xin-li/</link>
+    <description>Recent content in Quan-xin Li on Zhi Yang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/authors/quan-xin-li/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Highly Efficient Synthesis of Clean Biofuels from Biomass Using FeCuZnAlK Catalyst</title>
+      <link>/publication/biofuel/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/biofuel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

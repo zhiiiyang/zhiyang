@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="An tutorial talk on what I&#39;ve learned from going to the RStudio conference 2019">
+  <meta name="description" content="A talk on what I&#39;ve learned from going to the RStudio conference 2019">
 
   
   <link rel="alternate" hreflang="en-us" href="/talk/laerug/">
@@ -51,7 +51,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -73,8 +73,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -118,8 +118,8 @@
   
   <meta property="og:site_name" content="Zhi Yang">
   <meta property="og:url" content="/talk/laerug/">
-  <meta property="og:title" content="What I&#39;ve Learned from rstudio::2019 | Zhi Yang">
-  <meta property="og:description" content="An tutorial talk on what I&#39;ve learned from going to the RStudio conference 2019"><meta property="og:image" content="/talk/laerug/featured.jpg">
+  <meta property="og:title" content="What I&#39;ve learned from rstudio::2019 | Zhi Yang">
+  <meta property="og:description" content="A talk on what I&#39;ve learned from going to the RStudio conference 2019"><meta property="og:image" content="/talk/laerug/featured.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-02-11T18:30:00-07:00">
@@ -129,12 +129,21 @@
 
   
 
-  
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<script async type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
-  <title>What I&#39;ve Learned from rstudio::2019 | Zhi Yang</title>
+  <title>What I&#39;ve learned from rstudio::2019 | Zhi Yang</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
@@ -326,7 +335,7 @@
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/talk/laerug/featured_hu4b988d35b3a12e2216090854b31f342e_6094_800x0_resize_q90_lanczos.jpg');"></div>
+  <div class="featured-image" style="background-image: url('/talk/laerug/featured_hu74eed32a7486bb45abb404cd1dd8498c_113493_800x0_resize_q90_lanczos.jpg');"></div>
   <span class="article-header-caption">Image credit: <a href="https://www.meetup.com/Los-Angeles-R-Users-Group-Data-Science/" target="_blank"><strong>Meetup</strong></a></span>
 </div>
 
@@ -335,7 +344,7 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">What I&#39;ve Learned from rstudio::2019</h1>
+        <h1 itemprop="name">What I&#39;ve learned from rstudio::2019</h1>
 
         
 
@@ -430,7 +439,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019&amp;url=%2ftalk%2flaerug%2f"
+         href="https://twitter.com/intent/tweet?text=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019&amp;url=%2ftalk%2flaerug%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -444,21 +453,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019"
+         href="http://service.weibo.com/share/share.php?url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019&amp;body=%2ftalk%2flaerug%2f">
+         href="mailto:?subject=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019&amp;body=%2ftalk%2flaerug%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -470,7 +479,7 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/talk/laerug/featured_hu4b988d35b3a12e2216090854b31f342e_6094_680x500_fill_q90_lanczos_right.jpg" itemprop="image" alt="">
+        <img src="/talk/laerug/featured_hu74eed32a7486bb45abb404cd1dd8498c_113493_680x500_fill_q90_lanczos_right.jpg" itemprop="image" alt="">
         <span class="article-header-caption">Image credit: <a href="https://www.meetup.com/Los-Angeles-R-Users-Group-Data-Science/" target="_blank"><strong>Meetup</strong></a></span>
       </div>
     </div>
@@ -478,7 +487,7 @@
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">What I&#39;ve Learned from rstudio::2019</h1>
+  <h1 itemprop="name">What I&#39;ve learned from rstudio::2019</h1>
 
   
 
@@ -511,7 +520,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019&amp;url=%2ftalk%2flaerug%2f"
+         href="https://twitter.com/intent/tweet?text=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019&amp;url=%2ftalk%2flaerug%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -525,21 +534,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019"
+         href="http://service.weibo.com/share/share.php?url=%2ftalk%2flaerug%2f&amp;title=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=What%20I%27ve%20Learned%20from%20rstudio%3a%3a2019&amp;body=%2ftalk%2flaerug%2f">
+         href="mailto:?subject=What%20I%27ve%20learned%20from%20rstudio%3a%3a2019&amp;body=%2ftalk%2flaerug%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>

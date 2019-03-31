@@ -9,6 +9,12 @@
   
     <url>
     
+      <loc>/publication/hilda/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/talk/ocrug/</loc>
       <lastmod>2019-02-26T18:30:00-07:00</lastmod>
     </url>
@@ -57,6 +63,12 @@
   
     <url>
     
+      <loc>/publication/dance/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/project/hilda/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
     </url>
@@ -75,14 +87,14 @@
   
     <url>
     
-      <loc>/publication/person-re-id/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+      <loc>/publication/biofuel/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
     </url>
   
     <url>
     
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00-07:00</lastmod>
+      <loc>/publication/biooil/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
     </url>
   
     <url>
@@ -92,15 +104,8 @@
   
     <url>
     
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -138,6 +143,41 @@
   
     <url>
     
+      <loc>/authors/charles-spanbauer/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/chenggui-hong/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/darryl-shibata/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/david-v.-conti/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/david-x.-marquez/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
@@ -152,8 +192,15 @@
   
     <url>
     
-      <loc>/authors/ga-cushen/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+      <loc>/authors/fei-yan-gong/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/feiyan-gong/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -166,8 +213,36 @@
   
     <url>
     
-      <loc>/authors/ms-nixon/</loc>
-      <lastmod>2013-07-01T00:00:00-07:00</lastmod>
+      <loc>/authors/joellen-wilbur/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/kimberly-d.-siegmund/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/louis-fogg/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/mitsuo-yamamoto/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/paul-marjoram/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -175,6 +250,20 @@
     
       <loc>/post/</loc>
       <lastmod>2019-03-31T21:13:14-05:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/priscilla-v%C3%A1squez/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/priyatama-pandey/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
     </url>
   
     <url>
@@ -187,14 +276,21 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00-07:00</lastmod>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
     
       <loc>/publication/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/quanxin-li/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
     </url>
   
     <url>
@@ -219,6 +315,55 @@
   
     <url>
     
+      <loc>/authors/robert-wilson/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/spss/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/shen-ning/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/song-bai-qiu/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/statistics/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/susan-agui%C3%B1aga/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/susan-hughes/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/tags/</loc>
       <lastmod>2018-01-13T00:00:00-08:00</lastmod>
       <priority>0</priority>
@@ -226,8 +371,50 @@
   
     <url>
     
+      <loc>/authors/tong-qi-ye/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/weiwei-huang/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/yong-liu/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/yong-xu/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/zhaoxia-zhang/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/</loc>
       <lastmod>2019-03-31T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/zhi-yang/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   

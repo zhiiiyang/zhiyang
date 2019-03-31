@@ -23,7 +23,16 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>Xaringan Slides</title>
+      <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
+      <link>/publication/hilda/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/hilda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to make xaringan slides in R</title>
       <link>/talk/ocrug/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
@@ -32,7 +41,7 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>What I&#39;ve Learned from rstudio::2019</title>
+      <title>What I&#39;ve learned from rstudio::2019</title>
       <link>/talk/laerug/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
@@ -41,7 +50,7 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>Statistical Approach for Investigating Change in Mutational Processes During Cancer Growth and Development</title>
+      <title>Statistical approach for investigating vhange in mutational processes during cancer growth and development</title>
       <link>/talk/jsmtalk/</link>
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       

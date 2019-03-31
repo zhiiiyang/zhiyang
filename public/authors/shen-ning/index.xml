@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shen Ning on Zhi Yang</title>
+    <link>/authors/shen-ning/</link>
+    <description>Recent content in Shen Ning on Zhi Yang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Oct 2011 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/authors/shen-ning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selective conversion of bio-oil to light olefins - controlling catalytic cracking for maximum olefins</title>
+      <link>/publication/biooil/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/biooil/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

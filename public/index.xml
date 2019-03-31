@@ -64,7 +64,16 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>Xaringan Slides</title>
+      <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
+      <link>/publication/hilda/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/hilda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to make xaringan slides in R</title>
       <link>/talk/ocrug/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
@@ -73,7 +82,7 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>What I&#39;ve Learned from rstudio::2019</title>
+      <title>What I&#39;ve learned from rstudio::2019</title>
       <link>/talk/laerug/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
@@ -145,7 +154,7 @@ rm Untitled.md
     </item>
     
     <item>
-      <title>Good Practices in R</title>
+      <title>Good practices in R</title>
       <link>/talk/rladies/</link>
       <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
       
@@ -174,7 +183,7 @@ rm Untitled.md
     </item>
     
     <item>
-      <title>Statistical Approach for Investigating Change in Mutational Processes During Cancer Growth and Development</title>
+      <title>Statistical approach for investigating vhange in mutational processes during cancer growth and development</title>
       <link>/talk/jsmtalk/</link>
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
@@ -190,6 +199,15 @@ rm Untitled.md
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Regular Latin dancing and health education may improve cognition of late middle-aged and older Latinos</title>
+      <link>/publication/dance/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/dance/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -610,23 +628,21 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-id/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <title>Highly efficient synthesis of clean biofuels from biomass using FeCuZnAlK catalyst</title>
+      <link>/publication/biofuel/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
       
-      <guid>/publication/person-re-id/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/biofuel/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 -0700</pubDate>
+      <title>Selective conversion of bio-oil to light olefins - controlling catalytic cracking for maximum olefins</title>
+      <link>/publication/biooil/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
       
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/biooil/</guid>
+      <description></description>
     </item>
     
   </channel>
