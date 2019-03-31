@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Zhi Yang</title>
+    <link>/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Zhi Yang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Feb 2019 18:30:00 -0700</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xaringan Slides</title>
+      <link>/talk/ocrug/</link>
+      <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talk/ocrug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What I&#39;ve Learned from rstudio::2019</title>
+      <link>/talk/laerug/</link>
+      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talk/laerug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Good Practices in R</title>
+      <link>/talk/rladies/</link>
+      <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talk/rladies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Approach for Investigating Change in Mutational Processes During Cancer Growth and Development</title>
+      <link>/talk/jsmtalk/</link>
+      <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
+      
+      <guid>/talk/jsmtalk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

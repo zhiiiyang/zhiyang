@@ -1,0 +1,23 @@
+---
+abstract: xaringan is an R package that creates slideshows with remark.js through R Markdown. It simply turns a single R Markdown file to slides that support code syntax highlighting, live demos, images, gifs, math equations, and etc.. It makes your codes readable and easy to explain in those beautiful and effective browser-based slides with the presenter mode. And it also provides power and flexibility to customize advanced presentation themes with CSS. We will go over how to use xaringan to make slides, highlight code/output, manipulate images and texts, create layouts, host slides, version control and etc.
+all_day: false
+authors: []
+date: "2019-02-26T18:30:00-07:00"
+date_end: "2019-02-26T20:30:00-07:00"
+event: Orange County R Users Group
+event_url: https://www.meetup.com/OC-RUG/events/258863152/
+featured: false
+image:
+  caption: 'Image credit: [**Meetup**](https://www.meetup.com/OC-RUG)'
+  focal_point: Right
+location: Orange County, California
+math: true
+summary: An tutorial talk on how to make xaringan slides in R
+tags: [R, xaringan]
+title: Xaringan Slides
+url_code: ""
+url_pdf: ""
+url_slides: "https://zhiiiyang.github.io/XaringanTutorial/"
+url_video: ""
+---
+
