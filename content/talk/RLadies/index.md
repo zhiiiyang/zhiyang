@@ -13,7 +13,7 @@ image:
 location: Pasadena, California
 math: true
 summary: An example talk on developing good pratices in R
-tags: []
+tags: [R]
 title: Good practices in R
 url_code: ""
 url_pdf: ""

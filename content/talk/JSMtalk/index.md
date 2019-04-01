@@ -13,7 +13,7 @@ image:
 location: Vancouver, Canada
 math: true
 summary: An example talk using Academic's Markdown slides feature.
-tags: [Bayesian, R]
+tags: [Bayesian statistics, R]
 title: Statistical approach for investigating change in mutational processes during cancer growth and development
 url_code: ""
 url_pdf: ""

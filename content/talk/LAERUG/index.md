@@ -13,7 +13,7 @@ image:
 location: Los Angeles, California
 math: true
 summary: A talk on what I've learned from going to the RStudio conference 2019
-tags: [R]
+tags: [R, RStudio, GitHub, Open source]
 title: What I've learned from rstudio::2019
 url_code: ""
 url_pdf: ""

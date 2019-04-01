@@ -6,7 +6,7 @@ date: "2019-04-08T18:30:00-07:00"
 date_end: "2019-04-08T20:30:00-07:00"
 event: Los Angeles East R Users Group
 event_url: https://www.meetup.com/Los-Angeles-R-Users-Group-Data-Science/events/260240499/
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**flickr**](https://www.flickr.com/photos/mattbuck007/3676624894)'
   focal_point: Right

@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>GitHub</title>
+      <link>/tags/github/</link>
+      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>JAGS</title>
       <link>/tags/jags/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
@@ -57,11 +66,29 @@
     </item>
     
     <item>
+      <title>Open source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/tags/rstudio/</guid>
       <description></description>
     </item>
     
