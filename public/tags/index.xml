@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zhi Yang</title>
-    <link>/zhiyang/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/zhiyang/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academic</title>
-      <link>/zhiyang/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bayesian</title>
-      <link>/zhiyang/tags/bayesian/</link>
+      <link>/tags/bayesian/</link>
       <pubDate>Sun, 31 Mar 2019 21:13:14 -0500</pubDate>
       
-      <guid>/zhiyang/tags/bayesian/</guid>
+      <guid>/tags/bayesian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>/zhiyang/tags/deep-learning/</link>
+      <link>/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/tags/deep-learning/</guid>
+      <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>/zhiyang/tags/demo/</link>
+      <link>/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/tags/demo/</guid>
+      <guid>/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JAGS</title>
-      <link>/zhiyang/tags/jags/</link>
+      <link>/tags/jags/</link>
       <pubDate>Sun, 31 Mar 2019 21:13:14 -0500</pubDate>
       
-      <guid>/zhiyang/tags/jags/</guid>
+      <guid>/tags/jags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/zhiyang/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Sun, 31 Mar 2019 21:13:14 -0500</pubDate>
       
-      <guid>/zhiyang/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SPSS</title>
-      <link>/zhiyang/tags/spss/</link>
+      <link>/tags/spss/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/tags/spss/</guid>
+      <guid>/tags/spss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>/zhiyang/tags/statistics/</link>
+      <link>/tags/statistics/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/tags/statistics/</guid>
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xaringan</title>
-      <link>/zhiyang/tags/xaringan/</link>
+      <link>/tags/xaringan/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/zhiyang/tags/xaringan/</guid>
+      <guid>/tags/xaringan/</guid>
       <description></description>
     </item>
     

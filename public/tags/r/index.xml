@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Zhi Yang</title>
-    <link>/zhiyang/tags/r/</link>
+    <link>/tags/r/</link>
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Mar 2019 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/zhiyang/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hierarchical Topic Models in Comparing Differences in Mutational Signatures</title>
-      <link>/zhiyang/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Sun, 31 Mar 2019 21:13:14 -0500</pubDate>
       
-      <guid>/zhiyang/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>Mutational SignaturesR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
@@ -24,37 +24,37 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>/zhiyang/publication/hilda/</link>
+      <link>/publication/hilda/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/publication/hilda/</guid>
+      <guid>/publication/hilda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>/zhiyang/talk/ocrug/</link>
+      <link>/talk/ocrug/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/zhiyang/talk/ocrug/</guid>
+      <guid>/talk/ocrug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What I&#39;ve learned from rstudio::2019</title>
-      <link>/zhiyang/talk/laerug/</link>
+      <link>/talk/laerug/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/zhiyang/talk/laerug/</guid>
+      <guid>/talk/laerug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistical approach for investigating vhange in mutational processes during cancer growth and development</title>
-      <link>/zhiyang/talk/jsmtalk/</link>
+      <link>/talk/jsmtalk/</link>
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/talk/jsmtalk/</guid>
+      <guid>/talk/jsmtalk/</guid>
       <description></description>
     </item>
     

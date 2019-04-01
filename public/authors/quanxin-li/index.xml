@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quanxin Li on Zhi Yang</title>
-    <link>/zhiyang/authors/quanxin-li/</link>
+    <link>/authors/quanxin-li/</link>
     <description>Recent content in Quanxin Li on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Dec 2011 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/zhiyang/authors/quanxin-li/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/quanxin-li/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Highly efficient synthesis of clean biofuels from biomass using FeCuZnAlK catalyst</title>
-      <link>/zhiyang/publication/biofuel/</link>
+      <link>/publication/biofuel/</link>
       <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/publication/biofuel/</guid>
+      <guid>/publication/biofuel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selective conversion of bio-oil to light olefins - controlling catalytic cracking for maximum olefins</title>
-      <link>/zhiyang/publication/biooil/</link>
+      <link>/publication/biooil/</link>
       <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/publication/biooil/</guid>
+      <guid>/publication/biooil/</guid>
       <description></description>
     </item>
     

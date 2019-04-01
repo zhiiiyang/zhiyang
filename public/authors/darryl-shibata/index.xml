@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Darryl Shibata on Zhi Yang</title>
-    <link>/zhiyang/authors/darryl-shibata/</link>
+    <link>/authors/darryl-shibata/</link>
     <description>Recent content in Darryl Shibata on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Mar 2019 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/zhiyang/authors/darryl-shibata/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/darryl-shibata/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>/zhiyang/publication/hilda/</link>
+      <link>/publication/hilda/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
-      <guid>/zhiyang/publication/hilda/</guid>
+      <guid>/publication/hilda/</guid>
       <description></description>
     </item>
     
