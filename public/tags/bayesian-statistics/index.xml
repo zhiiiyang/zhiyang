@@ -6,10 +6,19 @@
     <description>Recent content in Bayesian statistics on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 18:30:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/bayesian-statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bayesian Modeling with R2jags</title>
+      <link>/talk/jags/</link>
+      <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talk/jags/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Colorectal cancer study</title>
