@@ -1,11 +1,18 @@
 ---
-date: "2016-04-27T00:00:00-07:00"
-external_link: http://example.org
+date: "2016-05-01T00:00:00-07:00"
+external_link: ""
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Photo by Shopify Partners on burst
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: 
 tags:
-- Demo
-title: Hierarchical Topic Models
+- R
+- Bayesian statistics
+- Data analysis
+title: Colorectal cancer study
+url_code: https://github.com/USCbiostats/HiLDA
+url_pdf: ""
+url_slides: ""
+url_video: ""
 ---
+

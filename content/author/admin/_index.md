@@ -1,8 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: 
 education:
   courses:
   - course: PhD in Biostatistics
@@ -21,7 +20,7 @@ email: ""
 interests:
 - Data Science
 - Machine learning
-- Advanced statistical modeling
+- Bayesian statistiscs 
 name: Zhi Yang
 organizations:
 - name: University of Southern California
@@ -50,4 +49,4 @@ user_groups:
 - Visitors
 ---
 
-Zhi Yang is a PhD candidate in biostatistics at the University of Southern California. 
+Zhi Yang is a PhD candidate in biostatistics at the University of Southern California. She has been providing statistical support to a wide range of research teams in both academia and industry to answer real-life problems, including e-cigarette policy, Alzheimer's prevention, drug marketing strategy, free-roaming dogs vaccination strategy in Africa, colorectal cancer development, e-cigarette use among adolescents and etc. She has over six years' programming experiences in R, SQL, SAS, and Stata. 

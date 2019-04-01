@@ -58,5 +58,23 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <description></description>
     </item>
     
+    <item>
+      <title>E-cigarette use among adolescents</title>
+      <link>/project/ecig/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/project/ecig/</guid>
+      <description>This project is focused on studying e-cigarette Product Characteristics and Frequency of Smoking Among Young Adults. Previous research suggests that e-cigarette use is associated with cigarette initiation, including the frequency and heaviness of cigarette smoking. The goal of this research is to examine the impact of specific e-cigarette characteristics on cigarette smoking frequency. What we did is to use advanced counts model to model the association between the e-cigarette exposures and the outcome, the number of cigarette use in the past 30 days.</description>
+    </item>
+    
+    <item>
+      <title>Colorectal cancer study</title>
+      <link>/project/hilda/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/project/hilda/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

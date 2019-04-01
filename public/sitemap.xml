@@ -63,6 +63,12 @@
   
     <url>
     
+      <loc>/project/ecig/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/publication/dance/</loc>
       <lastmod>2017-07-03T00:00:00-07:00</lastmod>
     </url>
@@ -70,13 +76,7 @@
     <url>
     
       <loc>/project/hilda/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/project/internal-project/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
+      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
     </url>
   
     <url>
@@ -137,6 +137,13 @@
   
     <url>
     
+      <loc>/tags/bayesian-statistics/</loc>
+      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/categories/</loc>
       <priority>0</priority>
     </url>
@@ -164,6 +171,13 @@
   
     <url>
     
+      <loc>/tags/data-analysis/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/authors/david-v.-conti/</loc>
       <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
@@ -173,20 +187,6 @@
     
       <loc>/authors/david-x.-marquez/</loc>
       <lastmod>2017-07-03T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -269,7 +269,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00-07:00</lastmod>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -317,6 +317,13 @@
     
       <loc>/authors/robert-wilson/</loc>
       <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/sas/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
