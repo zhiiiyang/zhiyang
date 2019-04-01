@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Zhi Yang</title>
-    <link>https://zhiyang.netlify.com/tags/r/</link>
+    <link>/tags/r/</link>
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Apr 2019 18:30:00 -0700</lastBuildDate>
     
-	<atom:link href="https://zhiyang.netlify.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bayesian Modeling with R2jags</title>
-      <link>https://zhiyang.netlify.com/talk/jags/</link>
+      <title>Bayesian modeling with R2jags</title>
+      <link>/talk/jags/</link>
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/talk/jags/</guid>
+      <guid>/talk/jags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>https://zhiyang.netlify.com/publication/hilda/</link>
+      <link>/publication/hilda/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/publication/hilda/</guid>
+      <guid>/publication/hilda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>https://zhiyang.netlify.com/talk/ocrug/</link>
+      <link>/talk/ocrug/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/talk/ocrug/</guid>
+      <guid>/talk/ocrug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What I&#39;ve learned from rstudio::2019</title>
-      <link>https://zhiyang.netlify.com/talk/laerug/</link>
+      <link>/talk/laerug/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/talk/laerug/</guid>
+      <guid>/talk/laerug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Good practices in R</title>
-      <link>https://zhiyang.netlify.com/talk/rladies/</link>
+      <link>/talk/rladies/</link>
       <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/talk/rladies/</guid>
+      <guid>/talk/rladies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistical approach for investigating change in mutational processes during cancer growth and development</title>
-      <link>https://zhiyang.netlify.com/talk/jsmtalk/</link>
+      <link>/talk/jsmtalk/</link>
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/talk/jsmtalk/</guid>
+      <guid>/talk/jsmtalk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>E-cigarette use among adolescents</title>
-      <link>https://zhiyang.netlify.com/project/ecig/</link>
+      <link>/project/ecig/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/project/ecig/</guid>
+      <guid>/project/ecig/</guid>
       <description>This project is focused on studying e-cigarette Product Characteristics and Frequency of Smoking Among Young Adults. Previous research suggests that e-cigarette use is associated with cigarette initiation, including the frequency and heaviness of cigarette smoking. The goal of this research is to examine the impact of specific e-cigarette characteristics on cigarette smoking frequency. What we did is to use advanced counts model to model the association between the e-cigarette exposures and the outcome, the number of cigarette use in the past 30 days.</description>
     </item>
     
     <item>
       <title>Colorectal cancer study</title>
-      <link>https://zhiyang.netlify.com/project/hilda/</link>
+      <link>/project/hilda/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/project/hilda/</guid>
+      <guid>/project/hilda/</guid>
       <description></description>
     </item>
     

@@ -21,7 +21,7 @@ publication: In *Human Kinetics Journals*
 publication_types:
 - "2"
 summary: ""
-tags: [SPSS, Statistics]
+tags: [SPSS, Statistics, Data analysis]
 title: Regular Latin dancing and health education may improve cognition of late middle-aged and older Latinos
 url_code: ""
 url_dataset: ""

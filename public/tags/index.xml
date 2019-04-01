@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zhi Yang</title>
-    <link>https://zhiyang.netlify.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://zhiyang.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bayesian</title>
-      <link>https://zhiyang.netlify.com/tags/bayesian/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/bayesian/</guid>
+      <guid>/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bayesian statistics</title>
-      <link>https://zhiyang.netlify.com/tags/bayesian-statistics/</link>
+      <link>/tags/bayesian-statistics/</link>
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/bayesian-statistics/</guid>
+      <guid>/tags/bayesian-statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data analysis</title>
-      <link>https://zhiyang.netlify.com/tags/data-analysis/</link>
+      <link>/tags/data-analysis/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/data-analysis/</guid>
+      <guid>/tags/data-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GitHub</title>
-      <link>https://zhiyang.netlify.com/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/github/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JAGS</title>
-      <link>https://zhiyang.netlify.com/tags/jags/</link>
+      <link>/tags/jags/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/jags/</guid>
+      <guid>/tags/jags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open source</title>
-      <link>https://zhiyang.netlify.com/tags/open-source/</link>
+      <link>/tags/open-source/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/open-source/</guid>
+      <guid>/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://zhiyang.netlify.com/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RStudio</title>
-      <link>https://zhiyang.netlify.com/tags/rstudio/</link>
+      <link>/tags/rstudio/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/rstudio/</guid>
+      <guid>/tags/rstudio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SAS</title>
-      <link>https://zhiyang.netlify.com/tags/sas/</link>
+      <link>/tags/sas/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/sas/</guid>
+      <guid>/tags/sas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SPSS</title>
-      <link>https://zhiyang.netlify.com/tags/spss/</link>
+      <link>/tags/spss/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/spss/</guid>
+      <guid>/tags/spss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>https://zhiyang.netlify.com/tags/statistics/</link>
+      <link>/tags/statistics/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/statistics/</guid>
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xaringan</title>
-      <link>https://zhiyang.netlify.com/tags/xaringan/</link>
+      <link>/tags/xaringan/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/tags/xaringan/</guid>
+      <guid>/tags/xaringan/</guid>
       <description></description>
     </item>
     

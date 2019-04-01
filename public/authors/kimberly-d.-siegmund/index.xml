@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kimberly D. Siegmund on Zhi Yang</title>
-    <link>https://zhiyang.netlify.com/authors/kimberly-d.-siegmund/</link>
+    <link>/authors/kimberly-d.-siegmund/</link>
     <description>Recent content in Kimberly D. Siegmund on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Mar 2019 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://zhiyang.netlify.com/authors/kimberly-d.-siegmund/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/kimberly-d.-siegmund/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>https://zhiyang.netlify.com/publication/hilda/</link>
+      <link>/publication/hilda/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
-      <guid>https://zhiyang.netlify.com/publication/hilda/</guid>
+      <guid>/publication/hilda/</guid>
       <description></description>
     </item>
     
