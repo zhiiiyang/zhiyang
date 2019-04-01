@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Zhi Yang</title>
-    <link>/publication_types/2/</link>
+    <link>/zhiyang/publication_types/2/</link>
     <description>Recent content in 2 on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Mar 2019 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/zhiyang/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>/publication/hilda/</link>
+      <link>/zhiyang/publication/hilda/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
-      <guid>/publication/hilda/</guid>
+      <guid>/zhiyang/publication/hilda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regular Latin dancing and health education may improve cognition of late middle-aged and older Latinos</title>
-      <link>/publication/dance/</link>
+      <link>/zhiyang/publication/dance/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
-      <guid>/publication/dance/</guid>
+      <guid>/zhiyang/publication/dance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highly efficient synthesis of clean biofuels from biomass using FeCuZnAlK catalyst</title>
-      <link>/publication/biofuel/</link>
+      <link>/zhiyang/publication/biofuel/</link>
       <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
       
-      <guid>/publication/biofuel/</guid>
+      <guid>/zhiyang/publication/biofuel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selective conversion of bio-oil to light olefins - controlling catalytic cracking for maximum olefins</title>
-      <link>/publication/biooil/</link>
+      <link>/zhiyang/publication/biooil/</link>
       <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
       
-      <guid>/publication/biooil/</guid>
+      <guid>/zhiyang/publication/biooil/</guid>
       <description></description>
     </item>
     

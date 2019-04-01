@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Zhi Yang</title>
-    <link>/talk/</link>
+    <link>/zhiyang/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Feb 2019 18:30:00 -0700</lastBuildDate>
     
-	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/zhiyang/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>/talk/ocrug/</link>
+      <link>/zhiyang/talk/ocrug/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/ocrug/</guid>
+      <guid>/zhiyang/talk/ocrug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What I&#39;ve learned from rstudio::2019</title>
-      <link>/talk/laerug/</link>
+      <link>/zhiyang/talk/laerug/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/laerug/</guid>
+      <guid>/zhiyang/talk/laerug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Good practices in R</title>
-      <link>/talk/rladies/</link>
+      <link>/zhiyang/talk/rladies/</link>
       <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/rladies/</guid>
+      <guid>/zhiyang/talk/rladies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistical approach for investigating vhange in mutational processes during cancer growth and development</title>
-      <link>/talk/jsmtalk/</link>
+      <link>/zhiyang/talk/jsmtalk/</link>
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
-      <guid>/talk/jsmtalk/</guid>
+      <guid>/zhiyang/talk/jsmtalk/</guid>
       <description></description>
     </item>
     

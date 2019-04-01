@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Song-bai Qiu on Zhi Yang</title>
-    <link>/authors/song-bai-qiu/</link>
+    <link>/zhiyang/authors/song-bai-qiu/</link>
     <description>Recent content in Song-bai Qiu on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Dec 2011 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/authors/song-bai-qiu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/zhiyang/authors/song-bai-qiu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Highly efficient synthesis of clean biofuels from biomass using FeCuZnAlK catalyst</title>
-      <link>/publication/biofuel/</link>
+      <link>/zhiyang/publication/biofuel/</link>
       <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
       
-      <guid>/publication/biofuel/</guid>
+      <guid>/zhiyang/publication/biofuel/</guid>
       <description></description>
     </item>
     

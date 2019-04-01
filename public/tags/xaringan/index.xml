@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xaringan on Zhi Yang</title>
-    <link>/tags/xaringan/</link>
+    <link>/zhiyang/tags/xaringan/</link>
     <description>Recent content in xaringan on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Feb 2019 18:30:00 -0700</lastBuildDate>
     
-	<atom:link href="/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/zhiyang/tags/xaringan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>/talk/ocrug/</link>
+      <link>/zhiyang/talk/ocrug/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/ocrug/</guid>
+      <guid>/zhiyang/talk/ocrug/</guid>
       <description></description>
     </item>
     

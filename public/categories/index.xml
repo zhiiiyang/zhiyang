@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Zhi Yang</title>
-    <link>/categories/</link>
+    <link>/zhiyang/categories/</link>
     <description>Recent content in Categories on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/zhiyang/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>/zhiyang/categories/r/</link>
       <pubDate>Sun, 31 Mar 2019 21:13:14 -0500</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>/zhiyang/categories/r/</guid>
       <description></description>
     </item>
     
