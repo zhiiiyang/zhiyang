@@ -2,6 +2,7 @@
 abstract: Just Another Gibbs Sampler (JAGS) is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. R2jags is an R package that allows us to implement Bayesian analysis by using JAGS in R. In this talk, I'll give a gentle introduction on how to fit a simple Bayesian model, visualize and summarize the output using R2jags.
 all_day: false
 authors: []
+publishDate: "2019-03-31T18:30:00-07:00"
 date: "2019-04-08T18:30:00-07:00"
 date_end: "2019-04-08T20:30:00-07:00"
 event: Los Angeles East R Users Group
@@ -11,6 +12,7 @@ image:
   caption: 'Image credit: [**flickr**](https://www.flickr.com/photos/mattbuck007/3676624894)'
   focal_point: Right
 location: Los Angeles, California
+draft: false
 math: true
 summary: a gentle introduction on how to fit a simple Bayesian model, visualize and summarize the output using R2jags.
 tags: [R, Bayesian statistics]

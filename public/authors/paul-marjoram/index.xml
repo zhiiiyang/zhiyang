@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Marjoram on Zhi Yang</title>
-    <link>/authors/paul-marjoram/</link>
+    <link>https://zhiyang.netlify.com/authors/paul-marjoram/</link>
     <description>Recent content in Paul Marjoram on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Mar 2019 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/authors/paul-marjoram/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhiyang.netlify.com/authors/paul-marjoram/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>/publication/hilda/</link>
+      <link>https://zhiyang.netlify.com/publication/hilda/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
-      <guid>/publication/hilda/</guid>
+      <guid>https://zhiyang.netlify.com/publication/hilda/</guid>
       <description></description>
     </item>
     

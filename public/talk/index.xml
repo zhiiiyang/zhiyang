@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Zhi Yang</title>
-    <link>/talk/</link>
+    <link>https://zhiyang.netlify.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Apr 2019 18:30:00 -0700</lastBuildDate>
     
-	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhiyang.netlify.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bayesian Modeling with R2jags</title>
-      <link>/talk/jags/</link>
+      <link>https://zhiyang.netlify.com/talk/jags/</link>
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/jags/</guid>
+      <guid>https://zhiyang.netlify.com/talk/jags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>/talk/ocrug/</link>
+      <link>https://zhiyang.netlify.com/talk/ocrug/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/ocrug/</guid>
+      <guid>https://zhiyang.netlify.com/talk/ocrug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What I&#39;ve learned from rstudio::2019</title>
-      <link>/talk/laerug/</link>
+      <link>https://zhiyang.netlify.com/talk/laerug/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/laerug/</guid>
+      <guid>https://zhiyang.netlify.com/talk/laerug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Good practices in R</title>
-      <link>/talk/rladies/</link>
+      <link>https://zhiyang.netlify.com/talk/rladies/</link>
       <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/rladies/</guid>
+      <guid>https://zhiyang.netlify.com/talk/rladies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistical approach for investigating change in mutational processes during cancer growth and development</title>
-      <link>/talk/jsmtalk/</link>
+      <link>https://zhiyang.netlify.com/talk/jsmtalk/</link>
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
-      <guid>/talk/jsmtalk/</guid>
+      <guid>https://zhiyang.netlify.com/talk/jsmtalk/</guid>
       <description></description>
     </item>
     

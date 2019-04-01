@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data analysis on Zhi Yang</title>
-    <link>/tags/data-analysis/</link>
+    <link>https://zhiyang.netlify.com/tags/data-analysis/</link>
     <description>Recent content in Data analysis on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 May 2018 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhiyang.netlify.com/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>E-cigarette use among adolescents</title>
-      <link>/project/ecig/</link>
+      <link>https://zhiyang.netlify.com/project/ecig/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>/project/ecig/</guid>
+      <guid>https://zhiyang.netlify.com/project/ecig/</guid>
       <description>This project is focused on studying e-cigarette Product Characteristics and Frequency of Smoking Among Young Adults. Previous research suggests that e-cigarette use is associated with cigarette initiation, including the frequency and heaviness of cigarette smoking. The goal of this research is to examine the impact of specific e-cigarette characteristics on cigarette smoking frequency. What we did is to use advanced counts model to model the association between the e-cigarette exposures and the outcome, the number of cigarette use in the past 30 days.</description>
     </item>
     
     <item>
       <title>Colorectal cancer study</title>
-      <link>/project/hilda/</link>
+      <link>https://zhiyang.netlify.com/project/hilda/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
       
-      <guid>/project/hilda/</guid>
+      <guid>https://zhiyang.netlify.com/project/hilda/</guid>
       <description></description>
     </item>
     

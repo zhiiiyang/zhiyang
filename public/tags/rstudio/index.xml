@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RStudio on Zhi Yang</title>
-    <link>/tags/rstudio/</link>
+    <link>https://zhiyang.netlify.com/tags/rstudio/</link>
     <description>Recent content in RStudio on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Feb 2019 18:30:00 -0700</lastBuildDate>
     
-	<atom:link href="/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhiyang.netlify.com/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What I&#39;ve learned from rstudio::2019</title>
-      <link>/talk/laerug/</link>
+      <link>https://zhiyang.netlify.com/talk/laerug/</link>
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/laerug/</guid>
+      <guid>https://zhiyang.netlify.com/talk/laerug/</guid>
       <description></description>
     </item>
     
