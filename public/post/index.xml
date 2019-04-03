@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to make a header with R stickers for your LinkedIn and Twitter</title>
+      <link>/post/hexwall/hexwall/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hexwall/hexwall/</guid>
+      <description>It is fairly common for peoples to use LinkedIn and Twitter to look for opportunities and network with people in the field. But you would like to stay professional. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional. Here is a good idea to create your own header with all your favorite R packages that is perfect for LinkedIn and Twitter.</description>
+    </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>

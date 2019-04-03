@@ -6,20 +6,18 @@
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Mar 2019 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hierarchical Topic Models in Comparing Differences in Mutational Signatures</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Sun, 31 Mar 2019 21:13:14 -0500</pubDate>
+      <title>How to make a header with R stickers for your LinkedIn and Twitter</title>
+      <link>/post/wall/hexwall/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>Mutational SignaturesR MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+      <guid>/post/wall/hexwall/</guid>
+      <description>It is fairly common for peoples to use LinkedIn and Twitter to look for opportunities and network with people in the field. But you would like to stay professional. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional. Here is a good idea to create your own header with all your favoariate R packages that is perfect for LinkedIn and Twitter.</description>
     </item>
     
   </channel>

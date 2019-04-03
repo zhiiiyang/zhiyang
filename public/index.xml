@@ -19,6 +19,21 @@
     </item>
     
     <item>
+      <title>How to make a header with R stickers for your LinkedIn and Twitter</title>
+      <link>/post/hexwall/hexwall/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hexwall/hexwall/</guid>
+      <description>
+
+
+&lt;p&gt;It is fairly common for peoples to use LinkedIn and Twitter to look for opportunities and network with people in the field. But you would like to stay professional. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional. Here is a good idea to create your own header with all your favorite R packages that is perfect for LinkedIn and Twitter.&lt;/p&gt;
+&lt;p&gt;I came across this post, &lt;a href=&#34;https://blog.mitchelloharawild.com/blog/user-2018-feature-wall/&#34;&gt;USER!2018 Feature Wall&lt;/a&gt;, by Mitchell O’Hara-Wild. He described his experience of creating a feature wall for the useR!2018 and he wrote a package to do it as well.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;conference.jpg&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
       <link>/publication/hilda/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
@@ -580,15 +595,6 @@ git submodule update --init --recursive
       <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
       
       <guid>/publication/biofuel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Selective conversion of bio-oil to light olefins - controlling catalytic cracking for maximum olefins</title>
-      <link>/publication/biooil/</link>
-      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/publication/biooil/</guid>
       <description></description>
     </item>
     
