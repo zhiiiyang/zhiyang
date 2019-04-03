@@ -9,12 +9,6 @@
   
     <url>
     
-      <loc>/post/hexwall/hexwall/</loc>
-      <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-    
       <loc>/publication/hilda/</loc>
       <lastmod>2019-03-15T00:00:00-07:00</lastmod>
     </url>
@@ -89,6 +83,12 @@
     
       <loc>/post/getting-started/</loc>
       <lastmod>2018-01-13T00:00:00-08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/post/hexwall/</loc>
+      <lastmod>2019-04-03T00:00:00-08:00</lastmod>
     </url>
   
     <url>
@@ -262,7 +262,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -315,8 +315,15 @@
   
     <url>
     
+      <loc>/tags/r-rstudio/</loc>
+      <lastmod>2019-04-03T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/tags/rstudio/</loc>
-      <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-11T18:30:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   

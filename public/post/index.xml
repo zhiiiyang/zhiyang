@@ -6,19 +6,10 @@
     <description>Recent content in Posts on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How to make a header with R stickers for your LinkedIn and Twitter</title>
-      <link>/post/hexwall/hexwall/</link>
-      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hexwall/hexwall/</guid>
-      <description>It is fairly common for peoples to use LinkedIn and Twitter to look for opportunities and network with people in the field. But you would like to stay professional. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional. Here is a good idea to create your own header with all your favorite R packages that is perfect for LinkedIn and Twitter.</description>
-    </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
@@ -40,6 +31,15 @@ Create a new blog post as usual Run the following commands in your Terminal, sub
       <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
 Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
  View the documentation Ask a question Request a feature or report a bug Updating?</description>
+    </item>
+    
+    <item>
+      <title>Learn how to make a header with R hex-stickers for LinkedIn and Twitter</title>
+      <link>/post/hexwall/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/post/hexwall/</guid>
+      <description>Background Nowadays, peoples use LinkedIn and Twitter to look for opportunities and network with others. Except for gaining more skills and doing projects to boost your profile, there is another way to make your profile more professional: finding the right header. No one will argue with the fact that the header picture helps with creating the first impression for recruiters and your future employers. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional.</description>
     </item>
     
   </channel>
