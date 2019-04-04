@@ -49,4 +49,4 @@ user_groups:
 - Visitors
 ---
 
-Zhi Yang is a PhD candidate in biostatistics at the University of Southern California. She has been providing statistical support to a wide range of research teams in both academia and industry to answer real-life problems, including e-cigarette policy, Alzheimer's prevention, drug marketing strategy, free-roaming dogs vaccination strategy in Africa, colorectal cancer development, e-cigarette use among adolescents and etc. She has over six years' programming experiences in R, SQL, SAS, and Stata. 
+Zhi Yang is a PhD candidate in biostatistics at the University of Southern California. She has been providing statistical support to a wide range of research teams in both academia and industry to answer real-life problems, including e-cigarette policy, Alzheimer's prevention, drug marketing strategy, free-roaming dogs vaccination strategy in Africa, colorectal cancer development, e-cigarette use among adolescents and etc. She has over six years' programming experiences in R, SQL, SAS, and Stata. She loves working with the heterogeneity of the data and finds it challenging and fun. 
