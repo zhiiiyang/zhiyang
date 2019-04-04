@@ -6,10 +6,19 @@
     <description>Recent content in admin on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I learned from practicing interviews on Pramp.com</title>
+      <link>/post/pramp2/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pramp2/</guid>
+      <description>I came across this website to prepare for people to ace interviews for data scientist jobs in the industry. It was mentioned and recommended in the post written by Daniel Miller, a data scientist at Microsoft. I was a little suspicious at the first beginning because I don&amp;rsquo;t think there will be any free services in helping people with improving their interview skills. Normally, we get help from the school Careers Center.</description>
+    </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
