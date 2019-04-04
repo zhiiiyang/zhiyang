@@ -30,20 +30,20 @@
     </item>
     
     <item>
-      <title>Data visaulization</title>
-      <link>/tags/data-visaulization/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/tags/data-visaulization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Data science</title>
       <link>/tags/data-science/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data visaulization</title>
+      <link>/tags/data-visaulization/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/data-visaulization/</guid>
       <description></description>
     </item>
     
@@ -95,7 +95,7 @@
     <item>
       <title>R, RStudio</title>
       <link>/tags/r-rstudio/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r-rstudio/</guid>
       <description></description>

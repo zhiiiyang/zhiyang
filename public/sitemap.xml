@@ -39,6 +39,12 @@
   
     <url>
     
+      <loc>/post/hexwall/</loc>
+      <lastmod>2019-04-03T00:00:00-08:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/talk/rladies/</loc>
       <lastmod>2019-01-09T18:30:00-07:00</lastmod>
     </url>
@@ -89,12 +95,6 @@
     
       <loc>/post/getting-started/</loc>
       <lastmod>2018-01-13T00:00:00-08:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/post/hexwall/</loc>
-      <lastmod>2019-04-03T00:00:00-08:00</lastmod>
     </url>
   
     <url>
@@ -176,15 +176,15 @@
   
     <url>
     
-      <loc>/tags/data-visaulization/</loc>
-      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+      <loc>/tags/data-science/</loc>
+      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/tags/data-science/</loc>
-      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+      <loc>/tags/data-visaulization/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -328,13 +328,15 @@
   
     <url>
     
-<<<<<<< HEAD
       <loc>/categories/r/</loc>
       <lastmod>2019-04-04T00:00:00+00:00</lastmod>
-=======
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/tags/r-package/</loc>
       <lastmod>2019-03-15T00:00:00-07:00</lastmod>
->>>>>>> ee8d90997a193369783c31a2fa9a81fd42904ff2
       <priority>0</priority>
     </url>
   

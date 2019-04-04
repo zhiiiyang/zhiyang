@@ -125,6 +125,44 @@ rm Untitled.md
     </item>
     
     <item>
+      <title>Learn how to make a header with R hex-stickers for LinkedIn and Twitter</title>
+      <link>/post/hexwall/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hexwall/</guid>
+      <description>
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Nowadays, peoples use LinkedIn and Twitter to look for opportunities and network with others. Except for gaining more skills and doing projects to boost your profile, there is another way to make your profile more professional: finding the right header. No one will argue with the fact that the header picture helps with creating the first impression for recruiters and your future employers. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional. Here is how to create your own unique header showing your professional skills! If you are an R user, here might be a good idea to create your own header with all your favorite R hex-stickers that is perfect and ready for LinkedIn and Twitter.&lt;/p&gt;
+
+&lt;p&gt;Last year, I came across this post, &lt;a href=&#34;https://blog.mitchelloharawild.com/blog/user-2018-feature-wall/&#34; target=&#34;_blank&#34;&gt;USER!2018 Feature Wall&lt;/a&gt;,  by Mitchell O&amp;rsquo;Hara-Wild. I was amazed about the design and aesthetics of this map. In the post, he described his experience of creating a feature wall for the useR!2018 and he wrote a package to do it as well. Today, we will use his codes to make our own header.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://blog.mitchelloharawild.com/blog/2018-07-11-user-2018-feature-wall_files/final.jpg&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;let-s-get-started&#34;&gt;Let&amp;rsquo;s get started&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;First, go to the GitHub repository &lt;a href=&#34;https://github.com/mitchelloharawild/hexwall&#34; target=&#34;_blank&#34;&gt;mitchelloharawild/hexwall&lt;/a&gt; and follow his instructions to set everything up.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Creat your own list of R stickers. Mitchell has recommended downloading from the RStudio hex-stickers from their GitHub repository (&lt;a href=&#34;https://github.com/rstudio/hex-stickers&#34; target=&#34;_blank&#34;&gt;rstudio/hex-stickers&lt;/a&gt;). Mitchell has provided a folder with some sample stickers. Add more your favorite stickers into that folder.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you prefer some stickers at a particular position, i.e., RStudio hex sticker comes as the first one. Then, you should rename those files to make sure they appear in the right order. Here is a quick peek into my stickers list folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;list.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;By run the following two lines of code, you will get a perfect and professional R stickers wall header for your LinkedIn and Twitter profile.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;source(&#39;hexwall.R&#39;)
+hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 200)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Good practices in R</title>
       <link>/talk/rladies/</link>
       <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
@@ -587,44 +625,6 @@ git submodule update --init --recursive
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learn how to make a header with R hex-stickers for LinkedIn and Twitter</title>
-      <link>/post/hexwall/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/post/hexwall/</guid>
-      <description>
-
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-
-&lt;p&gt;Nowadays, peoples use LinkedIn and Twitter to look for opportunities and network with others. Except for gaining more skills and doing projects to boost your profile, there is another way to make your profile more professional: finding the right header. No one will argue with the fact that the header picture helps with creating the first impression for recruiters and your future employers. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional. Here is how to create your own unique header showing your professional skills! If you are an R user, here might be a good idea to create your own header with all your favorite R hex-stickers that is perfect and ready for LinkedIn and Twitter.&lt;/p&gt;
-
-&lt;p&gt;Last year, I came across this post, &lt;a href=&#34;https://blog.mitchelloharawild.com/blog/user-2018-feature-wall/&#34; target=&#34;_blank&#34;&gt;USER!2018 Feature Wall&lt;/a&gt;,  by Mitchell O&amp;rsquo;Hara-Wild. I was amazed about the design and aesthetics of this map. In the post, he described his experience of creating a feature wall for the useR!2018 and he wrote a package to do it as well. Today, we will use his codes to make our own header.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://blog.mitchelloharawild.com/blog/2018-07-11-user-2018-feature-wall_files/final.jpg&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;let-s-get-started&#34;&gt;Let&amp;rsquo;s get started&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;First, go to the GitHub repository &lt;a href=&#34;https://github.com/mitchelloharawild/hexwall&#34; target=&#34;_blank&#34;&gt;mitchelloharawild/hexwall&lt;/a&gt; and follow his instructions to set everything up.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Creat your own list of R stickers. Mitchell has recommended downloading from the RStudio hex-stickers from their GitHub repository (&lt;a href=&#34;https://github.com/rstudio/hex-stickers&#34; target=&#34;_blank&#34;&gt;rstudio/hex-stickers&lt;/a&gt;). Mitchell has provided a folder with some sample stickers. Add more your favorite stickers into that folder.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If you prefer some stickers at a particular position, i.e., RStudio hex sticker comes as the first one. Then, you should rename those files to make sure they appear in the right order. Here is a quick peek into my stickers list folder.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;list.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;By run the following two lines of code, you will get a perfect and professional R stickers wall header for your LinkedIn and Twitter profile.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;source(&#39;hexwall.R&#39;)
-hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 200)
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
