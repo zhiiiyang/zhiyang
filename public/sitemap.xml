@@ -9,7 +9,13 @@
   
     <url>
     
-      <loc>/post/pramp2/</loc>
+      <loc>/post/ecommerce/</loc>
+      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/post/pramp/</loc>
       <lastmod>2019-04-04T00:00:00-08:00</lastmod>
     </url>
   
@@ -268,7 +274,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2019-04-04T00:00:00-08:00</lastmod>
+      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
     </url>
   
     <url>
@@ -329,7 +335,7 @@
     <url>
     
       <loc>/tags/r-data-science/</loc>
-      <lastmod>2019-04-04T00:00:00-08:00</lastmod>
+      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -482,7 +488,7 @@
     <url>
     
       <loc>/authors/admin/</loc>
-      <lastmod>2019-04-04T00:00:00-08:00</lastmod>
+      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
   
