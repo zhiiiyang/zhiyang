@@ -142,7 +142,7 @@
   
     <url>
     
-      <loc>/tags/bayesian-statistics/</loc>
+      <loc>/tags/bayesian-inference/</loc>
       <lastmod>2019-04-08T18:30:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -176,7 +176,7 @@
   
     <url>
     
-      <loc>/tags/data-analysis/</loc>
+      <loc>/tags/data-visaulization/</loc>
       <lastmod>2018-05-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -219,7 +219,7 @@
     <url>
     
       <loc>/tags/github/</loc>
-      <lastmod>2019-02-11T18:30:00-07:00</lastmod>
+      <lastmod>2019-02-26T18:30:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -328,8 +328,13 @@
   
     <url>
     
+<<<<<<< HEAD
       <loc>/categories/r/</loc>
       <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+=======
+      <loc>/tags/r-package/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+>>>>>>> ee8d90997a193369783c31a2fa9a81fd42904ff2
       <priority>0</priority>
     </url>
   
@@ -343,7 +348,7 @@
     <url>
     
       <loc>/tags/rstudio/</loc>
-      <lastmod>2019-02-11T18:30:00-07:00</lastmod>
+      <lastmod>2019-02-26T18:30:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -392,6 +397,13 @@
     
       <loc>/authors/song-bai-qiu/</loc>
       <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/statistical-analysis/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   

@@ -7,8 +7,8 @@ image:
 summary: 
 tags:
 - R
-- Bayesian statistics
-- Data analysis
+- Bayesian inference
+- Statistical analysis
 title: Colorectal cancer study
 url_code: https://github.com/USCbiostats/HiLDA
 url_pdf: ""

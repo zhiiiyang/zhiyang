@@ -15,7 +15,7 @@ location: Los Angeles, California
 draft: false
 math: true
 summary: a gentle introduction on how to fit a simple Bayesian model, visualize and summarize the output using R2jags.
-tags: [R, Bayesian statistics]
+tags: [R, Bayesian inference]
 title: Bayesian modeling with R2jags
 url_code: ""
 url_pdf: ""

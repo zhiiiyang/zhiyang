@@ -6,8 +6,9 @@ image:
   focal_point: Smart
 summary: 
 tags:
-- Data analysis
+- Statistical analysis
 - R
+- Data visaulization
 - SAS
 - SQL
 title: E-cigarette use among adolescents 
