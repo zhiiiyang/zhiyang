@@ -21,27 +21,27 @@
     </item>
     
     <item>
-      <title>Bayesian statistics</title>
-      <link>/tags/bayesian-statistics/</link>
+      <title>Bayesian inference</title>
+      <link>/tags/bayesian-inference/</link>
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
-      <guid>/tags/bayesian-statistics/</guid>
+      <guid>/tags/bayesian-inference/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Data analysis</title>
-      <link>/tags/data-analysis/</link>
+      <title>Data visaulization</title>
+      <link>/tags/data-visaulization/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>/tags/data-analysis/</guid>
+      <guid>/tags/data-visaulization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GitHub</title>
       <link>/tags/github/</link>
-      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/tags/github/</guid>
       <description></description>
@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>R package</title>
+      <link>/tags/r-package/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/r-package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R, RStudio</title>
       <link>/tags/r-rstudio/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
@@ -86,7 +95,7 @@
     <item>
       <title>RStudio</title>
       <link>/tags/rstudio/</link>
-      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/tags/rstudio/</guid>
       <description></description>
@@ -116,6 +125,15 @@
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
       <guid>/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical analysis</title>
+      <link>/tags/statistical-analysis/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/statistical-analysis/</guid>
       <description></description>
     </item>
     

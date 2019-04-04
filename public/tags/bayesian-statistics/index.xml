@@ -6,37 +6,10 @@
     <description>Recent content in Bayesian statistics on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 18:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 01 May 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/bayesian-statistics/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Bayesian modeling with R2jags</title>
-      <link>/talk/jags/</link>
-      <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
-      
-      <guid>/talk/jags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>/publication/hilda/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/publication/hilda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistical approach for investigating change in mutational processes during cancer growth and development</title>
-      <link>/talk/jsmtalk/</link>
-      <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
-      
-      <guid>/talk/jsmtalk/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Colorectal cancer study</title>

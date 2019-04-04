@@ -13,7 +13,7 @@ image:
 location: Orange County, California
 math: true
 summary: A tutorial talk on how to make xaringan slides in R
-tags: [R, xaringan]
+tags: [R, RStudio, GitHub, xaringan]
 title: How to make xaringan slides in R 
 url_code: ""
 url_pdf: ""
