@@ -22,11 +22,11 @@
     
     <item>
       <title>Colorectal cancer study</title>
-      <link>/project/hilda/</link>
+      <link>/project/cancer/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
       
-      <guid>/project/hilda/</guid>
-      <description></description>
+      <guid>/project/cancer/</guid>
+      <description>During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface.</description>
     </item>
     
   </channel>

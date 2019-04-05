@@ -32,19 +32,20 @@
 
 &lt;h2 id=&#34;5-data-science-projects-every-e-commerce-company-should-do-https-towardsdatascience-com-5-data-science-project-every-e-commerce-company-should-do-8746c5ab4604&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/5-data-science-project-every-e-commerce-company-should-do-8746c5ab4604&#34; target=&#34;_blank&#34;&gt;5 Data Science Projects Every E-commerce Company Should Do&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;In this article, the author talked about five important DS projects that should be undergoing at every eCommerce company. I happened to know some of them but didn&amp;rsquo;t realize about the full scope of it. I&amp;rsquo;ll try to elaborate more details about how I&amp;rsquo;ve viewed each topic based on the interview techniques suggested by the Pramp.com (&lt;a href=&#34;https://zhiyang.netlify.com/post/pramp2/&#34; target=&#34;_blank&#34;&gt;see my previous article&lt;/a&gt;). I will start with &lt;strong&gt;dentifying the goal&lt;/strong&gt; of the company, i.e., the rate of sucessful booking, followed by &lt;strong&gt;specifying the most informative variables&lt;/strong&gt; to boost that metric, i.e., information from the client and browsing habits, and browsing history. And I proceed with &lt;strong&gt;selecting several models&lt;/strong&gt; to achieve better prediction of the metric.&lt;/p&gt;
+&lt;p&gt;In this article, the author talked about five important DS projects that should be undergoing at every eCommerce company. I happened to know some of them but didn&amp;rsquo;t realize about the full scope of it. I&amp;rsquo;ll try to elaborate more details about how I&amp;rsquo;ve viewed each topic based on the interview techniques suggested by the Pramp.com (&lt;a href=&#34;https://zhiyang.netlify.com/post/pramp2/&#34; target=&#34;_blank&#34;&gt;see my previous article&lt;/a&gt;). I will start with &lt;strong&gt;identifying the goal&lt;/strong&gt; of the company, i.e., the rate of successful booking, followed by &lt;strong&gt;specifying the most informative variables&lt;/strong&gt; to boost that metric, i.e., information from the client and browsing habits, and browsing history. And I proceed with &lt;strong&gt;selecting several models&lt;/strong&gt; to achieve better prediction of the metric.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Recommendation systems&lt;/em&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Recommendation systems&lt;/em&gt;
+Companies care very much about the success rates of customers clicking links, adding products into carts and complete purchases. Those can be reflected by the rating or the preference from a user. We can look up information from past searches, previous purchases and information of customers (i.e., location, education level, gender, and etc.). It comes much easier to pick the models for this scenario: collaborative filtering, content based filtering, and hybrid filtering.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;Companies care very much about the success rates of customers clicking links, adding products into carts and complete purchases. Those can be reflected by the rating or the preference from a user. We can look up information from past searches, previous purchases and information of customers (i.e., location, education level, gender, and etc.). It comes much easier to pick the models for this scenario: collaborative filtering, content based filtering, and hybrid filtering.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Cusomer lifetime value modeling&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;To be honest, I can conceptually understand its important but fail to concretize this idea or even give a mathematical definition of it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Customer lifetime value modeling&lt;/em&gt;
+To be honest, I can conceptually understand its important but fail to concretize this idea or even give a mathematical definition of it.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;em&gt;Fraud detection&lt;/em&gt;
-This is probably the most familar topic to me because I had some exposure from the machine learning class that I took at USC. It is of course very important and directly impact the efficiency.&lt;/p&gt;&lt;/li&gt;
+This is probably the most familiar topic to me because I had some exposure from the machine learning class that I took at USC. It is of course very important and will directly have severe impact the efficiency. Of course, the outcome, that we care the most, is whether the purchase made this time is fraud or not. Essentially, there are lots of variables available for us to detect this abnormality, i.e., different locations detected while login-in, unusual purchase category, different shipping/billing addresses, unusual large orders of the same item, international orders and etc. The models, that could potentially useful to be adopted, include simple logistic regression, time series analysis, clustering and classification (logistic regression), matching algorithms. In this case, we can provide a safer environment for customers to increase their retention and increase company revenue.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Important reviews&lt;/em&gt;
+This topic comes into two perspectives: 1) we&amp;rsquo;ve already have established system to measure the scale of customers&amp;rsquo; satisfaction. 2) we need to use natural language processing skills to extract those information and quantify them. Then, visualization tools like WordClouds could be potentially helfpul and further be used for sentiment analysis. In a long run, we can maximize usrs&amp;rsquo; satisfaction and increase the retention rate, leading to maximizing the revenue and potential social impact.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -264,11 +265,12 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
     
     <item>
       <title>Colorectal cancer study</title>
-      <link>/project/hilda/</link>
+      <link>/project/cancer/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
       
-      <guid>/project/hilda/</guid>
-      <description></description>
+      <guid>/project/cancer/</guid>
+      <description>&lt;p&gt;During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
