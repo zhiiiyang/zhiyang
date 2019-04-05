@@ -15,6 +15,8 @@ image:
   caption: 'Image credit: [**pixabay**](https://pixabay.com/illustrations/dna-genetic-material-helix-proteins-3539309/)'
   focal_point: ""
 math: true
+projects:
+- cancer
 publication: In  *biorxiv*
 publication_short: In *biorxiv*
 publication_types:

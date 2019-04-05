@@ -12,6 +12,8 @@ image:
   focal_point: Right
 location: Vancouver, Canada
 math: true
+projects:
+- cancer
 summary: An example talk using Academic's Markdown slides feature.
 tags: [Bayesian inference, R]
 title: Statistical approach for investigating change in mutational processes during cancer growth and development

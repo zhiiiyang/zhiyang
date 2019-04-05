@@ -1,6 +1,5 @@
 ---
 date: "2016-05-01T00:00:00-07:00"
-external_link: ""
 image:
   caption: Photo by Shopify Partners on burst
   focal_point: Smart
