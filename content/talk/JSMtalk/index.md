@@ -22,3 +22,5 @@ url_pdf: ""
 url_slides: "https://ww2.amstat.org/cgi-bin/fileviewer.cfm?filename=jsm2018presentations%5C%5CCC%2DWest%2D212%5C20180729%2DSunday%5C1400%2DPDT%5CZhi%2DYang%2D41165%5C215807%2E0%2D73860%2DZhi%2DYang%2Epptx&Outputfile=330022-1&1.06252529443"
 url_video: ""
 ---
+
+![](photo.jpg)

@@ -231,7 +231,8 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
       <guid>/talk/jsmtalk/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;photo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -269,7 +270,9 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
       <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
       
       <guid>/project/cancer/</guid>
-      <description>&lt;p&gt;During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface.&lt;/p&gt;
+      <description>&lt;p&gt;During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface. Thanks to my advisors Kimberly Siegmund, and committe member Paul Marjoram and Darryl Shibata.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;team.jfif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
