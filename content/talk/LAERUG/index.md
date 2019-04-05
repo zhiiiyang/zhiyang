@@ -21,3 +21,4 @@ url_slides: "https://zhiiiyang.github.io/learnfromRstudioconf/"
 url_video: ""
 ---
 
+![](talk.jpg)
