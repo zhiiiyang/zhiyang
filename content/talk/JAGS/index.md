@@ -19,7 +19,7 @@ tags: [R, Bayesian inference]
 title: Bayesian modeling with R2jags
 url_code: ""
 url_pdf: ""
-url_slides: "https://r2jags.netlify.com/#1" 
+url_slides: "https://r2jags.netlify.com" 
 url_video: ""
 ---
 
