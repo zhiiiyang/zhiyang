@@ -6,8 +6,98 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 18:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My experience with using H2O Flow</title>
+      <link>/post/h2o/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/h2o/</guid>
+      <description>
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I came across H&lt;sub&gt;2&lt;/sub&gt;O several times in the past couple of years but I didn&amp;rsquo;t get a chance to try it out by myself. Until very recently, I went to the &lt;a href=&#34;https://losangeles2019.satrdays.org/&#34; target=&#34;_blank&#34;&gt;SatRday Los Angeles conference 2019&lt;/a&gt; at UCLA this year where Erin LeDell (&lt;a href=&#34;https://twitter.com/ledell&#34; target=&#34;_blank&#34;&gt;@ledell&lt;/a&gt;) gave a keynote talk on &lt;a href=&#34;https://youtu.be/A3EmOgpoG60&#34; target=&#34;_blank&#34;&gt;scalable automatic machine learning with H2O&lt;/a&gt;. The elegant way she has navigated the model building process has fascinated me. Most importantly, H&lt;sub&gt;2&lt;/sub&gt;O also has a very nice and friendly interface called H&lt;sub&gt;2&lt;/sub&gt;O flow to users to quickly familiarize themselves with this tool. Here is a more detailed and official &lt;a href=&#34;http://docs.h2o.ai/h2o/latest-stable/h2o-docs/flow.html&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; of how to use H&lt;sub&gt;2&lt;/sub&gt;O flow. But I&amp;rsquo;d like to highlight my favorite features.&lt;/p&gt;
+
+&lt;h2 id=&#34;let-s-get-started&#34;&gt;Let&amp;rsquo;s get started&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;First, go to the H&lt;sub&gt;2&lt;/sub&gt;O website to &lt;a href=&#34;http://h2o-release.s3.amazonaws.com/h2o/rel-yates/2/index.html&#34; target=&#34;_blank&#34;&gt;download the zip file&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;download.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Follow the instruction to unzip the file and run it from your terminal.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Downloads
+unzip h2o-3.24.0.2.zip
+cd h2o-3.24.0.2
+java -jar h2o.jar
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then type &lt;a href=&#34;http://localhost:54321&#34; target=&#34;_blank&#34;&gt;http://localhost:54321&lt;/a&gt; in your browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;interface.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;feature-highlight&#34;&gt;Feature highlight&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Notebook layout&lt;/p&gt;
+
+&lt;p&gt;The feature that I appreciate the most is the similar layout as the Jupyter notebook. By adopting the style of the existing tools, it saves the users time from learning using the new interface to really starting to adopt this new tool.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Examples&lt;/p&gt;
+
+&lt;p&gt;Without too much efforts, new users can directly jump into the pipeline by opening the existing projects, i.e., deep learning, GBM, XGbBoost and etc.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Control Panel&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Examples&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;panel.PNG&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;projects.PNG&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Running time&lt;/p&gt;
+
+&lt;p&gt;Another noticable feature of the flow is that users have a better sense of time cost of each component in the pipeline. The running time of each block is shown by default, which also improves the users engagement from using this new tool.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;time.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Model diagnostics tools&lt;/p&gt;
+
+&lt;p&gt;After the models are implemented and performed, the H&lt;sub&gt;2&lt;/sub&gt;O flow generates a wide range of output for users to select from. Here are some examples from a project using GBM for airline classificaiton.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Scoring history&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;ROC curve&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Variable importances&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;scoring.PNG&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;roc.PNG&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;threshold.PNG&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Bayesian modeling with R2jags</title>
@@ -263,24 +353,6 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
       
       <guid>/publication/dance/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Colorectal cancer study</title>
-      <link>/project/cancer/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/project/cancer/</guid>
-      <description>
-
-&lt;p&gt;During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface. Thanks to my advisors Kimberly Siegmund, and committe member Paul Marjoram and Darryl Shibata.&lt;/p&gt;
-
-&lt;h2 id=&#34;motivations&#34;&gt;Motivations&lt;/h2&gt;
-
-&lt;p&gt;Topic models have been widely applied to extract topics from various range of documents or collections of texts, i.e., online customers reviews, medical records, scientific journals, legal documents, books and etc. Its application facilitates the process for us to quickly understand the most featured and commonly shared information embedded texts without actually reading through the entire collection. In addition, topic models also allow us to access the contribution of each topic and its representations across different documents. Human genomes have been exposed to an assortment of mutational processes by contributing to unique patterns of somatic mutations. What would happen if we apply the same concept to the somatic mutations obtained from the cancer patients and look for “topics” of mutations? What would these “topics” tell us about the most important information for our health, genetic, risk factors for cancer and something more that slip under the radar?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;team.jfif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in admin on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My experience with using H2O Flow</title>
+      <link>/post/h2o/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/h2o/</guid>
+      <description>Background I came across H2O several times in the past couple of years but I didn&amp;rsquo;t get a chance to try it out by myself. Until very recently, I went to the SatRday Los Angeles conference 2019 at UCLA this year where Erin LeDell (@ledell) gave a keynote talk on scalable automatic machine learning with H2O. The elegant way she has navigated the model building process has fascinated me. Most importantly, H2O also has a very nice and friendly interface called H2O flow to users to quickly familiarize themselves with this tool.</description>
+    </item>
     
     <item>
       <title>How to prepare for data scientist interviews with an eCommerce company</title>
