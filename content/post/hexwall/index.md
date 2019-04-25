@@ -6,7 +6,7 @@ draft: false
 gallery_item:
 image:
   caption: ''
-  focal_point: ""
+  focal_point: "smart"
   preview_only: false
 lastmod: "2019-04-03T00:00:00-08:00"
 subtitle: 'Create a beautifully and professional header'

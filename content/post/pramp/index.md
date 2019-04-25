@@ -6,7 +6,7 @@ draft: false
 gallery_item:
 image:
   caption: ''
-  focal_point: ""
+  focal_point: "left"
   preview_only: false
 lastmod: "2019-04-04T00:00:00-08:00"
 subtitle: 'for the first time'

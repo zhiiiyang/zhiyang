@@ -3,16 +3,13 @@ authors:
 - admin
 date: "2019-04-25"
 draft: false
-gallery_item:
 image:
   caption: ''
-  focal_point: ""
+  focal_point: "left"
   preview_only: false
-lastmod: "2019-04-25T00:00:00-08:00"
 subtitle: 'A web-based interactive notebook-like computational environment.'
-summary: My first-time experience with using H2O Flow
-tags:
-- R, RStudio
+summary: A new user's experience with H2O Flow
+tags: []
 title: 'My experience with using H2O Flow'
 ---
 
