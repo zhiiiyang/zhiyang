@@ -63,3 +63,4 @@ I came across H<sub>2</sub>O several times in the past couple of years but I did
     :-------------:|:---------------:|:-------------------:
     ![](scoring.PNG) |  ![](roc.PNG) |  ![](threshold.PNG)
     
+If you would like to know more, here is an article on Medium about democratising machine learning with H<sub>2</sub>O, which also introduces all the available H<sub>2</sub>O products including the driverless ai. You can also find a list of publications using H<sub>2</sub>O [here](https://www.h2o.ai/academic/). 
