@@ -13,6 +13,8 @@ image:
 location: Portland, Oregon
 draft: false
 math: true
+projects:
+- cancer
 summary: An introduction on how to apply topic modeling on somatic mutations
 tags: [R, Topic modeling, Machine learning, Data science]
 title: Extracting topics from cancer patients' mutational profiles
