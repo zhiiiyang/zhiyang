@@ -12,7 +12,8 @@ lastmod: "2019-04-03T00:00:00-08:00"
 subtitle: 'Create a beautifully and professional header'
 summary: Learn how to make a header with R hex-stickers for LinkedIn and Twitter.
 tags:
-- R, RStudio
+- R
+- RStudio
 title: 'Learn how to make a header with R hex-stickers for LinkedIn and Twitter'
 ---
 

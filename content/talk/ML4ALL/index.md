@@ -8,7 +8,7 @@ event: ML4ALL
 event_url: https://www.meetup.com/Los-Angeles-R-Users-Group-Data-Science/events/260240499/
 featured: false
 image:
-  caption: 'Image credit: [**flickr**](https://www.flickr.com/photos/mattbuck007/3676624894)'
+  caption: 'http://ml4all.org/schedule.html#abstract-nicolle-merrill'
   focal_point: Right
 location: Portland, Oregon
 draft: false

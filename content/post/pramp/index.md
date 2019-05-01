@@ -12,7 +12,8 @@ lastmod: "2019-04-04T00:00:00-08:00"
 subtitle: 'for the first time'
 summary: What I've learned from practicing interviews on Pramp for the first time
 tags:
-- R, Data Science
+- R
+- Data Science
 title: 'What I learned from practicing interviews on Pramp.com'
 ---
 I came across this website to prepare for people to ace interviews for data scientist jobs in the industry. It was mentioned and recommended in the [post](https://www.linkedin.com/pulse/so-you-want-job-data-scientist-daniel-miller/) written by Daniel Miller, a data scientist at Microsoft. I was a little suspicious at the first beginning because I don't think there will be any free services in helping people with improving their interview skills. Normally, we get help from the school Careers Center. I do benefit a lot from visiting the Careers Center at the USC but they could only **go this far to help with resume critique and behavioral questions**. Anything technical or related to a specific position are beyond what they can offer. So, I am stuck!
