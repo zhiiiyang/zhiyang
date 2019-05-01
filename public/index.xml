@@ -6,8 +6,17 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 14:30:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Extracting topics from cancer patients&#39; mutational profiles</title>
+      <link>/talk/ml4all/</link>
+      <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
+      
+      <guid>/talk/ml4all/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>My experience with using H2O Flow</title>
@@ -346,15 +355,6 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
       <guid>/project/ecig/</guid>
       <description>&lt;p&gt;This project is focused on studying e-cigarette Product Characteristics and Frequency of Smoking Among Young Adults. Previous research suggests that e-cigarette use is associated with cigarette initiation, including the frequency and heaviness of cigarette smoking. The goal of this research is to examine the impact of specific e-cigarette characteristics on cigarette smoking frequency. What we did is to use advanced counts model to model the association between the e-cigarette exposures and the outcome, the number of cigarette use in the past 30 days.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Regular Latin dancing and health education may improve cognition of late middle-aged and older Latinos</title>
-      <link>/publication/dance/</link>
-      <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
-      
-      <guid>/publication/dance/</guid>
-      <description></description>
     </item>
     
   </channel>
