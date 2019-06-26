@@ -6,8 +6,18 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 14:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2019 18:30:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>E-cigarette product characteristics</title>
+      <link>/talk/cpdd/</link>
+      <pubDate>Mon, 17 Jun 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talk/cpdd/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;poster.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Extracting topics from cancer patients&#39; mutational profiles</title>
@@ -344,16 +354,6 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>E-cigarette use among adolescents</title>
-      <link>/project/ecig/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/project/ecig/</guid>
-      <description>&lt;p&gt;This project is focused on studying e-cigarette Product Characteristics and Frequency of Smoking Among Young Adults. Previous research suggests that e-cigarette use is associated with cigarette initiation, including the frequency and heaviness of cigarette smoking. The goal of this research is to examine the impact of specific e-cigarette characteristics on cigarette smoking frequency. What we did is to use advanced counts model to model the association between the e-cigarette exposures and the outcome, the number of cigarette use in the past 30 days.&lt;/p&gt;
 </description>
     </item>
     
