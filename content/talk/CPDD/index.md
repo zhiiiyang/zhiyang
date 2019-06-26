@@ -14,7 +14,7 @@ math: true
 projects:
 - ecig
 summary: Young adults using mod (vs. pen-like) e-cigarette devices at baseline smoked **more than 6 times** as many cigarettes in the past 30 days at follow-up.
-tags: [R, Statistical Analysis]
+tags: [R, Statistical analysis]
 title: E-cigarette product characteristics
 url_code: "https://github.com/zhiiiyang/CPDD_poster"
 url_pdf: "https://cpdd2019-poster-53.netlify.com/"
