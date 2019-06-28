@@ -10,6 +10,8 @@ image:
   preview_only: false
 lastmod: "2019-06-27T00:00:00-08:00"
 summary: my first-time experience of making a trending new-style poster
+projects:
+- ecig
 tags:
 - R
 - Statistical analysis 
@@ -31,6 +33,9 @@ I ordered my poster online and had it delivered to the hotel. I was one of the f
 
 ![](poster.jpg)
 
-During two-hour time span, I had talked to **~ 30 people**, of which ten of them took a picture of my poster. Five of them were even asking me how I made it. I was 
+During two-hour time span, I had talked to **~ 30 people**, of which ten of them took a picture of my poster. Five of them were even asking me how I made it. At first, I was wondering whether people were interested in my poster is because of the study itself or the new poster style. Then, I realized that the very first question that almost everyone asked is, what is a mod? Obviously, it has to do with them seeing the conclusion printed with large font sizes. Without it, I doubt a third of them will even stop by, not mentioning having a conversation with me. Judging by this point, I think the new poster style is a success. 
+
+## Conclusion
+If you are also interested in trying it out, you can check out the GitHub [repo](https://github.com/zhiiiyang/CPDD_poster) of my poster. I highly recommend trying it out for your next poster!
 
 
