@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Data visualization</title>
+      <link>/project/viz/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/project/viz/</guid>
+      <description>This project contains a list of data visualization generated using R.</description>
+    </item>
+    
+    <item>
       <title>E-cigarette use among adolescents</title>
       <link>/project/ecig/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>

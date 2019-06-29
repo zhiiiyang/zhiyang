@@ -6,8 +6,110 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How difficult it is to get into the top universities in China</title>
+      <link>/post/gaokao/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/gaokao/</guid>
+      <description>
+
+
+&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-visualization&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data visualization&lt;/h2&gt;
+&lt;p&gt;The geo location of provinces in China was downloade from the R pacakge &lt;a href=&#34;https://hafen.github.io/geofacet/&#34;&gt;&lt;code&gt;geofacet&lt;/code&gt;&lt;/a&gt; by Ryan Hafen. My first intention of starting this project was inspired by a talk introducing this package. As you can easily tell from the following plots, the style was gently borrowed from the &lt;code&gt;geofacet&lt;/code&gt;.&lt;/p&gt;
+&lt;div id=&#34;high-admission-rates-in-beijing-tianjin-and-shanghai&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;High admission rates in Beijing, Tianjin, and Shanghai&lt;/h3&gt;
+&lt;p&gt;As you probably notice from the plot below, there are three places with very different color patterns compared to the rest of the country. The gaokao is a province-based exam so that there might be some variations. But it is uncommon to see those highly favored results happened to occur in bigger cities. It is often critized that Beijing/Tsinghua University do admit more students from these three places. Then, you might ask whether there are more students living there because these are bigger cities. The admission rates range from 0.03% to 1.03% in 2017.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(rates, aes(col, row, label = province)) +
+  geom_tile(aes(fill = rate*100), colour = &amp;quot;white&amp;quot;, 
+            width=0.9, height=0.9, size=1.5, linejoin = &amp;quot;round&amp;quot;) +
+  geom_text() +
+  scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+                       name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
+  theme_gray() +
+  labs(title = &amp;quot; Admission rates of Beijing/Tsinghua University in 2017&amp;quot;,
+       x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &amp;quot;#f5f5f5&amp;quot;),
+        plot.title = element_text(size=16, face=&amp;quot;bold&amp;quot;, 
+                                  margin = margin(b = -20, t = 10)))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;unproportional-admission-rates&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Unproportional admission rates&lt;/h3&gt;
+&lt;p&gt;Then, I tried to add one more layer of information into the plot by making the size of the tile proportional to the number of students taking the gaokao. Guess what, you can barely find these three places no more because they all shrink to almost points. The number of students taking the gaokao is substantially lower in these three places compared to the other regions of China but with surprisingly high admission rates. Since, the size of these three plots become so small that I have to use &lt;code&gt;ggrepel&lt;/code&gt; to label them individually.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(rates, aes(col, row)) +
+  geom_tile(aes(fill = rate*100, width = norm + 0.12, height = norm + 0.15), 
+            colour = &amp;quot;white&amp;quot;, 
+            size=0.75, linejoin = &amp;quot;round&amp;quot;) +
+  geom_label_repel(data = subset(rates, rate &amp;gt; 0.2), nudge_y = 0.5, 
+                   nudge_x = 0.8, 
+                   aes(label = paste0(province,&amp;quot;: &amp;quot;, round(rate, 2)*100)), 
+                   size = 3.5, force = 10) +
+  geom_label_repel(data = subset(rates, pop &amp;gt; 60), nudge_y = 0.8, 
+                   nudge_x = -1.1, 
+                   aes(label = paste0(province,&amp;quot;: &amp;quot;, round(rate, 2)*100)), 
+                   size = 3.5, force = 10) +
+  scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+                      name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
+  labs(title = &amp;quot; Admission rates of Beijing/Tsinghua University in 2017&amp;quot;,
+       x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &amp;quot;#f5f5f5&amp;quot;),
+        plot.title = element_text(size=16, face=&amp;quot;bold&amp;quot;, 
+                                  margin = margin(b = -20, t = 10)))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;p2.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The same conclusion can be derived from the following two treemap plots using &lt;code&gt;treemapify&lt;/code&gt;. I was planning to use the traditional scatter plots with different size of points but later became interested in trying this new way of showing the imbalanced proportions within groups. For example, Beijing is one of provinces in which fewest students took the exam but has the most students admitted to the top universities in China.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;p1&amp;lt;- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
+  geom_treemap() +
+  geom_treemap_text(colour = &amp;quot;white&amp;quot;, place = &amp;quot;centre&amp;quot;,
+                    grow = TRUE) +
+  scale_fill_gradient(low = &amp;quot;#deebf7&amp;quot;, high = &amp;quot;#3182bd&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+                      name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
+  labs(title = &amp;quot; Number of students taking the college entrance exam in 2017&amp;quot;,
+       x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &amp;quot;#f5f5f5&amp;quot;),
+        plot.title = element_text(size=16, face=&amp;quot;bold&amp;quot;))
+
+p2 &amp;lt;- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
+  geom_treemap() +
+  geom_treemap_text(colour = &amp;quot;White&amp;quot;, place = &amp;quot;centre&amp;quot;,
+                    grow = TRUE) +
+  scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+                      name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
+  labs(title = &amp;quot; Number of students admitted to Beijing/Tsinghua University in 2017&amp;quot;,
+       x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &amp;quot;#f5f5f5&amp;quot;),
+        plot.title = element_text(size=16, face=&amp;quot;bold&amp;quot;))
+
+cowplot::plot_grid(p1, p2, ncol = 1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;p3.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Yes! I tried the new poster style at a conference</title>
@@ -368,16 +470,6 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
 &lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
 
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Statistical approach for investigating change in mutational processes during cancer growth and development</title>
-      <link>/talk/jsmtalk/</link>
-      <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
-      
-      <guid>/talk/jsmtalk/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;photo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,113 @@
+---
+authors:
+- admin
+date: "2019-06-28"
+draft: false
+gallery_item:
+image:
+  caption: ''
+  focal_point: "left"
+  preview_only: false
+lastmod: "2019-06-28T00:00:00-08:00"
+summary: data visualization of the college entrace exam data in 2017
+projects:
+- viz
+tags:
+- R
+- Statistical analysis 
+- Data viz
+title: 'How difficult it is to get into the top universities in China'
+---
+
+
+
+<div id="background" class="section level2">
+<h2>Background</h2>
+<p>In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</p>
+</div>
+<div id="data-visualization" class="section level2">
+<h2>Data visualization</h2>
+<p>The geo location of provinces in China was downloade from the R pacakge <a href="https://hafen.github.io/geofacet/"><code>geofacet</code></a> by Ryan Hafen. My first intention of starting this project was inspired by a talk introducing this package. As you can easily tell from the following plots, the style was gently borrowed from the <code>geofacet</code>.</p>
+<div id="high-admission-rates-in-beijing-tianjin-and-shanghai" class="section level3">
+<h3>High admission rates in Beijing, Tianjin, and Shanghai</h3>
+<p>As you probably notice from the plot below, there are three places with very different color patterns compared to the rest of the country. The gaokao is a province-based exam so that there might be some variations. But it is uncommon to see those highly favored results happened to occur in bigger cities. It is often critized that Beijing/Tsinghua University do admit more students from these three places. Then, you might ask whether there are more students living there because these are bigger cities. The admission rates range from 0.03% to 1.03% in 2017.</p>
+<pre class="r"><code>ggplot(rates, aes(col, row, label = province)) +
+  geom_tile(aes(fill = rate*100), colour = &quot;white&quot;, 
+            width=0.9, height=0.9, size=1.5, linejoin = &quot;round&quot;) +
+  geom_text() +
+  scale_fill_gradient(low = &quot;#fde0dd&quot;, high = &quot;#c51b8a&quot;, na.value = &quot;#f0f0f0&quot;, 
+                       name = &quot;Admissions\nper 10,000&quot;) +
+  theme_gray() +
+  labs(title = &quot; Admission rates of Beijing/Tsinghua University in 2017&quot;,
+       x = &quot;&quot;, y = &quot;&quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
+        plot.title = element_text(size=16, face=&quot;bold&quot;, 
+                                  margin = margin(b = -20, t = 10)))</code></pre>
+<p><img src="featured.png" /></p>
+</div>
+<div id="unproportional-admission-rates" class="section level3">
+<h3>Unproportional admission rates</h3>
+<p>Then, I tried to add one more layer of information into the plot by making the size of the tile proportional to the number of students taking the gaokao. Guess what, you can barely find these three places no more because they all shrink to almost points. The number of students taking the gaokao is substantially lower in these three places compared to the other regions of China but with surprisingly high admission rates. Since, the size of these three plots become so small that I have to use <code>ggrepel</code> to label them individually.</p>
+<pre class="r"><code>ggplot(rates, aes(col, row)) +
+  geom_tile(aes(fill = rate*100, width = norm + 0.12, height = norm + 0.15), 
+            colour = &quot;white&quot;, 
+            size=0.75, linejoin = &quot;round&quot;) +
+  geom_label_repel(data = subset(rates, rate &gt; 0.2), nudge_y = 0.5, 
+                   nudge_x = 0.8, 
+                   aes(label = paste0(province,&quot;: &quot;, round(rate, 2)*100)), 
+                   size = 3.5, force = 10) +
+  geom_label_repel(data = subset(rates, pop &gt; 60), nudge_y = 0.8, 
+                   nudge_x = -1.1, 
+                   aes(label = paste0(province,&quot;: &quot;, round(rate, 2)*100)), 
+                   size = 3.5, force = 10) +
+  scale_fill_gradient(low = &quot;#fde0dd&quot;, high = &quot;#c51b8a&quot;, na.value = &quot;#f0f0f0&quot;, 
+                      name = &quot;Admissions\nper 10,000&quot;) +
+  labs(title = &quot; Admission rates of Beijing/Tsinghua University in 2017&quot;,
+       x = &quot;&quot;, y = &quot;&quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
+        plot.title = element_text(size=16, face=&quot;bold&quot;, 
+                                  margin = margin(b = -20, t = 10)))</code></pre>
+<p><img src="p2.png" /></p>
+<p>The same conclusion can be derived from the following two treemap plots using <code>treemapify</code>. I was planning to use the traditional scatter plots with different size of points but later became interested in trying this new way of showing the imbalanced proportions within groups. For example, Beijing is one of provinces in which fewest students took the exam but has the most students admitted to the top universities in China.</p>
+<pre class="r"><code>p1&lt;- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
+  geom_treemap() +
+  geom_treemap_text(colour = &quot;white&quot;, place = &quot;centre&quot;,
+                    grow = TRUE) +
+  scale_fill_gradient(low = &quot;#deebf7&quot;, high = &quot;#3182bd&quot;, na.value = &quot;#f0f0f0&quot;, 
+                      name = &quot;Admissions\nper 10,000&quot;) +
+  labs(title = &quot; Number of students taking the college entrance exam in 2017&quot;,
+       x = &quot;&quot;, y = &quot;&quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
+        plot.title = element_text(size=16, face=&quot;bold&quot;))
+
+p2 &lt;- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
+  geom_treemap() +
+  geom_treemap_text(colour = &quot;White&quot;, place = &quot;centre&quot;,
+                    grow = TRUE) +
+  scale_fill_gradient(low = &quot;#fde0dd&quot;, high = &quot;#c51b8a&quot;, na.value = &quot;#f0f0f0&quot;, 
+                      name = &quot;Admissions\nper 10,000&quot;) +
+  labs(title = &quot; Number of students admitted to Beijing/Tsinghua University in 2017&quot;,
+       x = &quot;&quot;, y = &quot;&quot;)+
+  theme(axis.text = element_blank(), 
+        axis.ticks = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
+        plot.title = element_text(size=16, face=&quot;bold&quot;))
+
+cowplot::plot_grid(p1, p2, ncol = 1)</code></pre>
+<p><img src="p3.png" /></p>
+</div>
+</div>

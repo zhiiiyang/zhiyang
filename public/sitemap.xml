@@ -3,6 +3,12 @@
   
     <url>
     
+      <loc>/post/gaokao/</loc>
+      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/post/poster/</loc>
       <lastmod>2019-06-27T00:00:00-08:00</lastmod>
     </url>
@@ -101,6 +107,12 @@
     
       <loc>/privacy/</loc>
       <lastmod>2018-06-28T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/project/viz/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
     </url>
   
     <url>
@@ -227,6 +239,20 @@
   
     <url>
     
+      <loc>/tags/data-visualization/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/data-viz/</loc>
+      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/authors/david-v.-conti/</loc>
       <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
@@ -319,7 +345,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2019-06-27T00:00:00-08:00</lastmod>
+      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
     </url>
   
     <url>
@@ -366,7 +392,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2019-06-27T00:00:00-08:00</lastmod>
+      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -442,7 +468,7 @@
     <url>
     
       <loc>/tags/statistical-analysis/</loc>
-      <lastmod>2019-06-27T00:00:00-08:00</lastmod>
+      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -519,7 +545,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-06-27T00:00:00-08:00</lastmod>
+      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -533,7 +559,7 @@
     <url>
     
       <loc>/authors/admin/</loc>
-      <lastmod>2019-06-27T00:00:00-08:00</lastmod>
+      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
   
