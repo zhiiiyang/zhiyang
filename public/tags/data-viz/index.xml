@@ -20,5 +20,23 @@
       <description>BackgroundIn June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
     </item>
     
+    <item>
+      <title>Data visualization</title>
+      <link>/project/viz/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/project/viz/</guid>
+      <description>This project contains a list of data visualization generated using R.</description>
+    </item>
+    
+    <item>
+      <title>E-cigarette use among adolescents</title>
+      <link>/project/ecig/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/project/ecig/</guid>
+      <description>This project is focused on studying e-cigarette Product Characteristics and Frequency of Smoking Among Young Adults. Previous research suggests that e-cigarette use is associated with cigarette initiation, including the frequency and heaviness of cigarette smoking. The goal of this research is to examine the impact of specific e-cigarette characteristics on cigarette smoking frequency. What we did is to use advanced counts model to model the association between the e-cigarette exposures and the outcome, the number of cigarette use in the past 30 days.</description>
+    </item>
+    
   </channel>
 </rss>
