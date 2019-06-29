@@ -7,7 +7,7 @@ image:
 summary: 
 tags:
 - R
-- Data visualization
+- Data viz
 title: Data visualization
 url_code: ""
 url_pdf: ""

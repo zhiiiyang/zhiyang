@@ -8,7 +8,7 @@ summary:
 tags:
 - Statistical analysis
 - R
-- Data visaulization
+- Data viz
 - SAS
 - SQL
 title: E-cigarette use among adolescents 
