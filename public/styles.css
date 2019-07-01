@@ -1334,7 +1334,7 @@ article .article-metadata {
 
 .project-card {
   position: relative;
-  width: calc(50% - 2*20px); /* Fluid 3 columns (inc. 20px gutter) */
+  width: calc(35% - 2*20px); /* Fluid 3 columns (inc. 20px gutter) */
 }
 @media screen and (max-width: 1199px) {
   .project-card {
@@ -1439,7 +1439,7 @@ article .article-metadata {
 }
 
 .card h4 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
