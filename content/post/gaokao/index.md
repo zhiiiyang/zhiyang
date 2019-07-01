@@ -89,7 +89,7 @@ ggplot(rates, aes(col, row)) +
 The same conclusion can be derived from the following two treemap plots using `treemapify`. I was planning to use the traditional scatter plots with different size of points but later became interested in trying this new way of showing the imbalanced proportions within groups. For example, Beijing is one of provinces in which fewest students took the exam but has the most students admitted to the top universities in China. 
 
 ```
-p1<- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
+p1 <- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
       geom_treemap() +
       geom_treemap_text(colour = "white", place = "centre",
                         grow = TRUE) +
@@ -105,20 +105,20 @@ p1<- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
             plot.title = element_text(size=16, face="bold"))
 
 p2 <- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
-  geom_treemap() +
-  geom_treemap_text(colour = "White", place = "centre",
-                    grow = TRUE) +
-  scale_fill_gradient(low = "#fde0dd", high = "#c51b8a", na.value = "#f0f0f0", 
-                      name = "Admissions\nper 10,000") +
-  labs(title = " Number of students admitted to Beijing/Tsinghua University 
-                in 2017",
-       x = "", y = "")+
-  theme(axis.text = element_blank(), 
-        axis.ticks = element_blank(), 
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank(),
-        panel.background = element_rect(fill = "#f5f5f5"),
-        plot.title = element_text(size=16, face="bold"))
+      geom_treemap() +
+      geom_treemap_text(colour = "White", place = "centre",
+                        grow = TRUE) +
+      scale_fill_gradient(low = "#fde0dd", high = "#c51b8a", na.value = "#f0f0f0", 
+                          name = "Admissions\nper 10,000") +
+      labs(title = " Number of students admitted to Beijing/Tsinghua University 
+                    in 2017",
+           x = "", y = "")+
+      theme(axis.text = element_blank(), 
+            axis.ticks = element_blank(), 
+            panel.grid.major = element_blank(), 
+            panel.grid.minor = element_blank(),
+            panel.background = element_rect(fill = "#f5f5f5"),
+            plot.title = element_text(size=16, face="bold"))
 
 cowplot::plot_grid(p1, p2, ncol = 1)
 

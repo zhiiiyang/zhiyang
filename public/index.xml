@@ -83,7 +83,7 @@
 
 &lt;p&gt;The same conclusion can be derived from the following two treemap plots using &lt;code&gt;treemapify&lt;/code&gt;. I was planning to use the traditional scatter plots with different size of points but later became interested in trying this new way of showing the imbalanced proportions within groups. For example, Beijing is one of provinces in which fewest students took the exam but has the most students admitted to the top universities in China.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;p1&amp;lt;- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
+&lt;pre&gt;&lt;code&gt;p1 &amp;lt;- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
       geom_treemap() +
       geom_treemap_text(colour = &amp;quot;white&amp;quot;, place = &amp;quot;centre&amp;quot;,
                         grow = TRUE) +
@@ -99,20 +99,20 @@
             plot.title = element_text(size=16, face=&amp;quot;bold&amp;quot;))
 
 p2 &amp;lt;- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
-  geom_treemap() +
-  geom_treemap_text(colour = &amp;quot;White&amp;quot;, place = &amp;quot;centre&amp;quot;,
-                    grow = TRUE) +
-  scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
-                      name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
-  labs(title = &amp;quot; Number of students admitted to Beijing/Tsinghua University 
-                in 2017&amp;quot;,
-       x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
-  theme(axis.text = element_blank(), 
-        axis.ticks = element_blank(), 
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank(),
-        panel.background = element_rect(fill = &amp;quot;#f5f5f5&amp;quot;),
-        plot.title = element_text(size=16, face=&amp;quot;bold&amp;quot;))
+      geom_treemap() +
+      geom_treemap_text(colour = &amp;quot;White&amp;quot;, place = &amp;quot;centre&amp;quot;,
+                        grow = TRUE) +
+      scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+                          name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
+      labs(title = &amp;quot; Number of students admitted to Beijing/Tsinghua University 
+                    in 2017&amp;quot;,
+           x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
+      theme(axis.text = element_blank(), 
+            axis.ticks = element_blank(), 
+            panel.grid.major = element_blank(), 
+            panel.grid.minor = element_blank(),
+            panel.background = element_rect(fill = &amp;quot;#f5f5f5&amp;quot;),
+            plot.title = element_text(size=16, face=&amp;quot;bold&amp;quot;))
 
 cowplot::plot_grid(p1, p2, ncol = 1)
 
