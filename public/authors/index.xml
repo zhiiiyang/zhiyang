@@ -6,17 +6,25 @@
     <description>Recent content in Authors on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>admin</title>
-      <link>/authors/admin/</link>
-      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      <title>Charles Spanbauer</title>
+      <link>/authors/charles-spanbauer/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
-      <guid>/authors/admin/</guid>
+      <guid>/authors/charles-spanbauer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chenggui Hong</title>
+      <link>/authors/chenggui-hong/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/chenggui-hong/</guid>
       <description></description>
     </item>
     
@@ -39,56 +47,29 @@
     </item>
     
     <item>
-      <title>Kimberly D. Siegmund</title>
-      <link>/authors/kimberly-d.-siegmund/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/kimberly-d.-siegmund/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paul Marjoram</title>
-      <link>/authors/paul-marjoram/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/paul-marjoram/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Priyatama Pandey</title>
-      <link>/authors/priyatama-pandey/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/priyatama-pandey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zhi Yang</title>
-      <link>/authors/zhi-yang/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/zhi-yang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Charles Spanbauer</title>
-      <link>/authors/charles-spanbauer/</link>
-      <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/charles-spanbauer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>David X. Marquez</title>
       <link>/authors/david-x.-marquez/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
       <guid>/authors/david-x.-marquez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fei-yan Gong</title>
+      <link>/authors/fei-yan-gong/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/fei-yan-gong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feiyan Gong</title>
+      <link>/authors/feiyan-gong/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/feiyan-gong/</guid>
       <description></description>
     </item>
     
@@ -102,11 +83,38 @@
     </item>
     
     <item>
+      <title>Kimberly D. Siegmund</title>
+      <link>/authors/kimberly-d.-siegmund/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/kimberly-d.-siegmund/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Louis Fogg</title>
       <link>/authors/louis-fogg/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
       <guid>/authors/louis-fogg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitsuo Yamamoto</title>
+      <link>/authors/mitsuo-yamamoto/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/mitsuo-yamamoto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paul Marjoram</title>
+      <link>/authors/paul-marjoram/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/paul-marjoram/</guid>
       <description></description>
     </item>
     
@@ -120,11 +128,47 @@
     </item>
     
     <item>
+      <title>Priyatama Pandey</title>
+      <link>/authors/priyatama-pandey/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/priyatama-pandey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quanxin Li</title>
+      <link>/authors/quanxin-li/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/quanxin-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Robert Wilson</title>
       <link>/authors/robert-wilson/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
       
       <guid>/authors/robert-wilson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shen Ning</title>
+      <link>/authors/shen-ning/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/shen-ning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Song-bai Qiu</title>
+      <link>/authors/song-bai-qiu/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/song-bai-qiu/</guid>
       <description></description>
     </item>
     
@@ -147,47 +191,20 @@
     </item>
     
     <item>
-      <title>Fei-yan Gong</title>
-      <link>/authors/fei-yan-gong/</link>
-      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/fei-yan-gong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mitsuo Yamamoto</title>
-      <link>/authors/mitsuo-yamamoto/</link>
-      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/mitsuo-yamamoto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quanxin Li</title>
-      <link>/authors/quanxin-li/</link>
-      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/quanxin-li/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Song-bai Qiu</title>
-      <link>/authors/song-bai-qiu/</link>
-      <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/song-bai-qiu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tong-qi Ye</title>
       <link>/authors/tong-qi-ye/</link>
       <pubDate>Thu, 01 Dec 2011 00:00:00 -0700</pubDate>
       
       <guid>/authors/tong-qi-ye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weiwei Huang</title>
+      <link>/authors/weiwei-huang/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/weiwei-huang/</guid>
       <description></description>
     </item>
     
@@ -210,47 +227,29 @@
     </item>
     
     <item>
-      <title>Chenggui Hong</title>
-      <link>/authors/chenggui-hong/</link>
-      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/chenggui-hong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feiyan Gong</title>
-      <link>/authors/feiyan-gong/</link>
-      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/feiyan-gong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shen Ning</title>
-      <link>/authors/shen-ning/</link>
-      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/shen-ning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Weiwei Huang</title>
-      <link>/authors/weiwei-huang/</link>
-      <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/weiwei-huang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Zhaoxia Zhang</title>
       <link>/authors/zhaoxia-zhang/</link>
       <pubDate>Sat, 01 Oct 2011 00:00:00 -0700</pubDate>
       
       <guid>/authors/zhaoxia-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhi Yang</title>
+      <link>/authors/zhi-yang/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/zhi-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
       <description></description>
     </item>
     

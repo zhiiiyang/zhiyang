@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.1.0">
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.53" />
 
   
 
@@ -733,8 +733,7 @@ MathJax.Hub.Config({
 
 <p>As you probably notice from the plot below, there are three places with very different color patterns compared to the rest of the country. The gaokao is a province-based exam so that there might be some variations. But it is uncommon to see those highly favored results happened to occur in bigger cities. It is often critized that Beijing/Tsinghua University do admit more students from these three places. Then, you might ask whether there are more students living there because these are bigger cities. The admission rates range from 0.03% to 1.03% in 2017.</p>
 
-<pre><code>```
-ggplot(rates, aes(col, row, label = province)) +
+<pre><code>ggplot(rates, aes(col, row, label = province)) +
   geom_tile(aes(fill = rate*100), colour = &quot;white&quot;, 
             width=0.9, height=0.9, size=1.5, linejoin = &quot;round&quot;) +
   geom_text() +
@@ -751,7 +750,6 @@ ggplot(rates, aes(col, row, label = province)) +
         plot.title = element_text(size=16, face=&quot;bold&quot;, 
                                   margin = margin(b = -20, t = 10)))
 
-```
 </code></pre>
 
 <p><img src="featured.png" alt="" /></p>
@@ -760,8 +758,7 @@ ggplot(rates, aes(col, row, label = province)) +
 
 <p>Then, I tried to add one more layer of information into the plot by making the size of the tile proportional to the number of students taking the gaokao. Guess what, you can barely find these three places no more because they all shrink to almost points. The number of students taking the gaokao is substantially lower in these three places compared to the other regions of China but with surprisingly high admission rates. Since, the size of these three plots become so small that I have to use <code>ggrepel</code> to label them individually.</p>
 
-<pre><code>```
-ggplot(rates, aes(col, row)) +
+<pre><code>ggplot(rates, aes(col, row)) +
   geom_tile(aes(fill = rate*100, width = norm + 0.12, height = norm + 0.15), 
             colour = &quot;white&quot;, 
             size=0.75, linejoin = &quot;round&quot;) +
@@ -784,28 +781,26 @@ ggplot(rates, aes(col, row)) +
         panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
         plot.title = element_text(size=16, face=&quot;bold&quot;, 
                                   margin = margin(b = -20, t = 10)))
-```
 </code></pre>
 
 <p><img src="p2.png" alt="" /></p>
 
 <p>The same conclusion can be derived from the following two treemap plots using <code>treemapify</code>. I was planning to use the traditional scatter plots with different size of points but later became interested in trying this new way of showing the imbalanced proportions within groups. For example, Beijing is one of provinces in which fewest students took the exam but has the most students admitted to the top universities in China.</p>
 
-<pre><code>```
-p1&lt;- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
-  geom_treemap() +
-  geom_treemap_text(colour = &quot;white&quot;, place = &quot;centre&quot;,
-                    grow = TRUE) +
-  scale_fill_gradient(low = &quot;#deebf7&quot;, high = &quot;#3182bd&quot;, na.value = &quot;#f0f0f0&quot;, 
-                      name = &quot;Admissions\nper 10,000&quot;) +
-  labs(title = &quot; Number of students taking the college entrance exam in 2017&quot;,
-       x = &quot;&quot;, y = &quot;&quot;)+
-  theme(axis.text = element_blank(), 
-        axis.ticks = element_blank(), 
-        panel.grid.major = element_blank(), 
-        panel.grid.minor = element_blank(),
-        panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
-        plot.title = element_text(size=16, face=&quot;bold&quot;))
+<pre><code>p1&lt;- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
+      geom_treemap() +
+      geom_treemap_text(colour = &quot;white&quot;, place = &quot;centre&quot;,
+                        grow = TRUE) +
+      scale_fill_gradient(low = &quot;#deebf7&quot;, high = &quot;#3182bd&quot;, na.value = &quot;#f0f0f0&quot;, 
+                          name = &quot;Admissions\nper 10,000&quot;) +
+      labs(title = &quot; Number of students taking the college entrance exam in 2017&quot;,
+           x = &quot;&quot;, y = &quot;&quot;)+
+      theme(axis.text = element_blank(), 
+            axis.ticks = element_blank(), 
+            panel.grid.major = element_blank(), 
+            panel.grid.minor = element_blank(),
+            panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
+            plot.title = element_text(size=16, face=&quot;bold&quot;))
 
 p2 &lt;- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
   geom_treemap() +
@@ -825,7 +820,6 @@ p2 &lt;- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
 
 cowplot::plot_grid(p1, p2, ncol = 1)
 
-```
 </code></pre>
 
 <p><img src="p3.png" alt="" /></p>
@@ -839,9 +833,9 @@ cowplot::plot_grid(p1, p2, ncol = 1)
   
   <a class="badge badge-light" href="/tags/r/">R</a>
   
-  <a class="badge badge-light" href="">Statistical analysis</a>
+  <a class="badge badge-light" href="/tags/statistical-analysis/">Statistical analysis</a>
   
-  <a class="badge badge-light" href="">Data viz</a>
+  <a class="badge badge-light" href="/tags/data-viz/">Data viz</a>
   
 </div>
 
