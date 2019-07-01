@@ -55,7 +55,8 @@
 &lt;p&gt;Then, I tried to add one more layer of information into the plot by making the size of the tile proportional to the number of students taking the gaokao. Guess what, you can barely find these three places no more because they all shrink to almost points. The number of students taking the gaokao is substantially lower in these three places compared to the other regions of China but with surprisingly high admission rates. Since, the size of these three plots become so small that I have to use &lt;code&gt;ggrepel&lt;/code&gt; to label them individually.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;ggplot(rates, aes(col, row)) +
-  geom_tile(aes(fill = rate*100, width = norm + 0.12, height = norm + 0.15), 
+  geom_tile(aes(fill = rate*100, width = norm + 0.12, 
+            height = norm + 0.15), 
             colour = &amp;quot;white&amp;quot;, 
             size=0.75, linejoin = &amp;quot;round&amp;quot;) +
   geom_label_repel(data = subset(rates, rate &amp;gt; 0.2), nudge_y = 0.5, 
@@ -66,7 +67,8 @@
                    nudge_x = -1.1, 
                    aes(label = paste0(province,&amp;quot;: &amp;quot;, round(rate, 2)*100)), 
                    size = 3.5, force = 10) +
-  scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+  scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, 
+                      na.value = &amp;quot;#f0f0f0&amp;quot;, 
                       name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
   labs(title = &amp;quot; Admission rates of Beijing/Tsinghua University in 2017&amp;quot;,
        x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
@@ -87,10 +89,11 @@
       geom_treemap() +
       geom_treemap_text(colour = &amp;quot;white&amp;quot;, place = &amp;quot;centre&amp;quot;,
                         grow = TRUE) +
-      scale_fill_gradient(low = &amp;quot;#deebf7&amp;quot;, high = &amp;quot;#3182bd&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+      scale_fill_gradient(low = &amp;quot;#deebf7&amp;quot;, high = &amp;quot;#3182bd&amp;quot;, 
+                          na.value = &amp;quot;#f0f0f0&amp;quot;, 
                           name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
-      labs(title = &amp;quot; Number of students taking the college entrance exam in 2017&amp;quot;,
-           x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
+      labs(title = &amp;quot; Number of students taking the college entrance exam 
+                     in 2017&amp;quot;, x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;)+
       theme(axis.text = element_blank(), 
             axis.ticks = element_blank(), 
             panel.grid.major = element_blank(), 
@@ -102,7 +105,8 @@ p2 &amp;lt;- ggplot(rates, aes(area = total, fill = rate*100, label = province))
       geom_treemap() +
       geom_treemap_text(colour = &amp;quot;White&amp;quot;, place = &amp;quot;centre&amp;quot;,
                         grow = TRUE) +
-      scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, na.value = &amp;quot;#f0f0f0&amp;quot;, 
+      scale_fill_gradient(low = &amp;quot;#fde0dd&amp;quot;, high = &amp;quot;#c51b8a&amp;quot;, 
+                          na.value = &amp;quot;#f0f0f0&amp;quot;, 
                           name = &amp;quot;Admissions\nper 10,000&amp;quot;) +
       labs(title = &amp;quot; Number of students admitted to Beijing/Tsinghua University 
                     in 2017&amp;quot;,

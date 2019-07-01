@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data science on Zhi Yang</title>
+    <title>Data Science on Zhi Yang</title>
     <link>/tags/data-science/</link>
-    <description>Recent content in Data science on Zhi Yang</description>
+    <description>Recent content in Data Science on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 14:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Extracting topics from cancer patients&#39; mutational profiles</title>
-      <link>/talk/ml4all/</link>
-      <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
+      <title>What I learned from practicing interviews on Pramp.com</title>
+      <link>/post/pramp/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/ml4all/</guid>
-      <description></description>
+      <guid>/post/pramp/</guid>
+      <description>I came across this website to prepare for people to ace interviews for data scientist jobs in the industry. It was mentioned and recommended in the post written by Daniel Miller, a data scientist at Microsoft. I was a little suspicious at the first beginning because I don&amp;rsquo;t think there will be any free services in helping people with improving their interview skills. Normally, we get help from the school Careers Center.</description>
     </item>
     
   </channel>

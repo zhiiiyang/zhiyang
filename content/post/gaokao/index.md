@@ -59,7 +59,8 @@ Then, I tried to add one more layer of information into the plot by making the s
 
 ```
 ggplot(rates, aes(col, row)) +
-  geom_tile(aes(fill = rate*100, width = norm + 0.12, height = norm + 0.15), 
+  geom_tile(aes(fill = rate*100, width = norm + 0.12, 
+            height = norm + 0.15), 
             colour = "white", 
             size=0.75, linejoin = "round") +
   geom_label_repel(data = subset(rates, rate > 0.2), nudge_y = 0.5, 
@@ -70,7 +71,8 @@ ggplot(rates, aes(col, row)) +
                    nudge_x = -1.1, 
                    aes(label = paste0(province,": ", round(rate, 2)*100)), 
                    size = 3.5, force = 10) +
-  scale_fill_gradient(low = "#fde0dd", high = "#c51b8a", na.value = "#f0f0f0", 
+  scale_fill_gradient(low = "#fde0dd", high = "#c51b8a", 
+                      na.value = "#f0f0f0", 
                       name = "Admissions\nper 10,000") +
   labs(title = " Admission rates of Beijing/Tsinghua University in 2017",
        x = "", y = "")+
@@ -93,10 +95,11 @@ p1 <- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
       geom_treemap() +
       geom_treemap_text(colour = "white", place = "centre",
                         grow = TRUE) +
-      scale_fill_gradient(low = "#deebf7", high = "#3182bd", na.value = "#f0f0f0", 
+      scale_fill_gradient(low = "#deebf7", high = "#3182bd", 
+                          na.value = "#f0f0f0", 
                           name = "Admissions\nper 10,000") +
-      labs(title = " Number of students taking the college entrance exam in 2017",
-           x = "", y = "")+
+      labs(title = " Number of students taking the college entrance exam 
+                     in 2017", x = "", y = "")+
       theme(axis.text = element_blank(), 
             axis.ticks = element_blank(), 
             panel.grid.major = element_blank(), 
@@ -108,7 +111,8 @@ p2 <- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
       geom_treemap() +
       geom_treemap_text(colour = "White", place = "centre",
                         grow = TRUE) +
-      scale_fill_gradient(low = "#fde0dd", high = "#c51b8a", na.value = "#f0f0f0", 
+      scale_fill_gradient(low = "#fde0dd", high = "#c51b8a", 
+                          na.value = "#f0f0f0", 
                           name = "Admissions\nper 10,000") +
       labs(title = " Number of students admitted to Beijing/Tsinghua University 
                     in 2017",
