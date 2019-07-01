@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview on Academic</title>
+    <title>Recent &amp; Upcoming Talks on Zhi Yang</title>
     <link>/talks/</link>
-    <description>Recent content in Overview on Academic</description>
+    <description>Recent content in Recent &amp; Upcoming Talks on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2019 18:30:00 -0700</lastBuildDate>
     
 	<atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example Page</title>
-      <link>/talks/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
+      <title>E-cigarette product characteristics</title>
+      <link>/talks/cpdd/</link>
+      <pubDate>Mon, 17 Jun 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talks/example/</guid>
-      <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
-Tip 1 &amp;hellip;
-Tip 2 &amp;hellip;</description>
+      <guid>/talks/cpdd/</guid>
+      <description>Young adults using mod (vs. pen-like) e-cigarette devices at baseline smoked &lt;strong&gt;more than 6 times&lt;/strong&gt; as many cigarettes in the past 30 days at follow-up.</description>
+    </item>
+    
+    <item>
+      <title>Extracting topics from cancer patients&#39; mutational profiles</title>
+      <link>/talks/ml4all/</link>
+      <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
+      
+      <guid>/talks/ml4all/</guid>
+      <description>An introduction on how to apply topic modeling on somatic mutations</description>
+    </item>
+    
+    <item>
+      <title>Bayesian modeling with R2jags</title>
+      <link>/talks/jags/</link>
+      <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talks/jags/</guid>
+      <description>a gentle introduction on how to fit a simple Bayesian model, visualize and summarize the output using R2jags.</description>
+    </item>
+    
+    <item>
+      <title>How to make xaringan slides in R</title>
+      <link>/talks/ocrug/</link>
+      <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talks/ocrug/</guid>
+      <description>A tutorial talk on how to make xaringan slides in R</description>
+    </item>
+    
+    <item>
+      <title>What I&#39;ve learned from rstudio::2019</title>
+      <link>/talks/laerug/</link>
+      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talks/laerug/</guid>
+      <description>A talk on what I&amp;rsquo;ve learned from going to the RStudio conference 2019</description>
+    </item>
+    
+    <item>
+      <title>Good practices in R</title>
+      <link>/talks/rladies/</link>
+      <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talks/rladies/</guid>
+      <description>An example talk on developing good pratices in R</description>
+    </item>
+    
+    <item>
+      <title>Statistical approach for investigating change in mutational processes during cancer growth and development</title>
+      <link>/talks/jsmtalk/</link>
+      <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
+      
+      <guid>/talks/jsmtalk/</guid>
+      <description>An example talk using Academic&amp;rsquo;s Markdown slides feature.</description>
     </item>
     
   </channel>
