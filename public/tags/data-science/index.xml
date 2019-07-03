@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data science on Zhi Yang</title>
+    <title>Data Science on Zhi Yang</title>
     <link>/tags/data-science/</link>
-    <description>Recent content in Data science on Zhi Yang</description>
+    <description>Recent content in Data Science on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2019 14:30:00 -0700</lastBuildDate>
@@ -17,7 +17,16 @@
       <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
       
       <guid>/talk/ml4all/</guid>
-      <description></description>
+      <description>An introduction on how to apply topic modeling on somatic mutations</description>
+    </item>
+    
+    <item>
+      <title>What I learned from practicing interviews on Pramp.com</title>
+      <link>/post/pramp/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pramp/</guid>
+      <description>What I&amp;rsquo;ve learned from practicing interviews on Pramp for the first time</description>
     </item>
     
   </channel>

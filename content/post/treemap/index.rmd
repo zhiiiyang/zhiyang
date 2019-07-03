@@ -2,7 +2,7 @@
 authors:
 - admin
 date: "2019-07-03"
-draft: true
+draft: false
 gallery_item:
 image:
   caption: ''
@@ -16,12 +16,13 @@ tags:
 - R
 - Statistical analysis 
 - Data viz
+url_code: "https://github.com/zhiiiyang/treemap_MediaFranchise" 
 title: 'An interactive treemap of media franchise revenue by category'
 ---
 
 
 ## Background
-To practice my data visualization skills, I decided to enter the this week's [#TidyTuesday](https://twitter.com/hashtag/TidyTuesday?src=hash) challege, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-02). 
+To practice my data visualization skills, I decided to enter the this week's [#TidyTuesday](https://twitter.com/hashtag/TidyTuesday?src=hash) challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-02). 
 
 
 ## Data visualization
@@ -32,16 +33,18 @@ library(ggplot2)
 library(d3treeR)
 library(treemap)
 library(RColorBrewer)
+library(stringr)
+
 dat <- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-02/media_franchises.csv")
 
-head(dat)
+head(dat, 3)
 
 dat2 <- dat[!duplicated(dat), ]
 
 dat2 %>% group_by(revenue_category) %>% summarise(n())
 ``` 
 
-By briefly looking at the data, I realized that it has several categorical variables, one of which might have many distinct levels. Therefore, using the traditional barplot might not be a good idea here unless only a subset of the data is shown here. So, it occurred to me that the treemap might be a good idea. So far, [`treemap`](https://cran.r-project.org/web/packages/treemap/index.html) is very handy and straightforward to use compared to other similar R packages. 
+By briefly looking at the data, I realized that it has several categorical variables, one of which might have too many distinct levels. Therefore, using the traditional barplot might not be a good idea here unless only a subset of the data is shown here. So, it occurred to me that the treemap might be a good idea. So far, [`treemap`](https://cran.r-project.org/web/packages/treemap/index.html) is very handy and straightforward to use compared to other similar R packages. 
 
 ```{r}
 treemap(
@@ -50,14 +53,190 @@ treemap(
    vSize="revenue",
    vColor="revenue",
    type="value",
-   fun.aggregate="max"
 )
 ```
 
-Basically, you can get a very pretty treemap with a few codes. However, it doesn't really differentiate different revenue category. Wouldn't it be better that each revenue category gets its own color which changes with revenue decreasing? Intuitively, it doesn't seem a difficult task to implement. But 
+Basically, you can get a very pretty treemap with a few line of codes. However, it doesn't really differentiate each revenue category. Wouldn't it be nice that each revenue category gets its own color that changes along with revenue? Intuitively, it doesn't seem a difficult task to implement. But the answer is not trivial! 
 
+```{r}
+treemap(
+   dat2,
+   index=c("revenue_category", "franchise"),
+   vSize="revenue",
+   vColor="revenue",
+   type="index",
+)
+```
+
+If I changed `type` argument to be `index`, it seems that every category has its own color but the color doesn't coordinate well with the revenue change. I also gained nothing by going through the source codes of `treemap` packages. If someone knows how the color changes with this setting, PLEASE LET ME KNOW! So, I am going to show you a chunk of not that elegant event a little bit daunting codes. 
+
+```{r}
+dat3 <- dat2 %>% arrange(revenue_category, revenue)  %>%
+  group_by(revenue_category) %>%
+  mutate(bin = cut(revenue, 
+                   breaks = c(-Inf, 
+                              quantile(revenue, 
+                                       probs = seq(0.25, 0.75, 0.25)), 
+                              Inf), 
+                   labels = c(1, 2, 3, 4)))
+
+dat3$newbin <- with(dat3, interaction(revenue_category,  bin)) 
+
+dat3$newbin <- factor(dat3$newbin, as.character(unique(dat3$newbin)))
+
+dat3 %>% group_by(revenue_category, bin) %>% select(newbin)
+
+counts <- dat3 %>% group_by(revenue_category) %>% 
+   summarise(n = n_distinct(bin)) %>% pull(n)
+
+
+palette <- sapply(1:n_distinct(dat3$revenue_category), 
+                  function(i) 
+                     brewer.pal(counts[i], 
+                                c("Greys", "Reds", "Oranges", "RdYlBu", 
+                                  "Blues", "Purples", "PuRd", "Greens")[i])) %>% 
+           unlist()
+
+```
+
+
+Basically, we have to manually create a factor variable, `bin`,  that categorizes the revenue by each category. Then, we combine `bin` and `revenue_category` to be a new factor variable, `newbin`, which is assigned with different color accordingly. 
+
+```{r}
+treemap(
+   dat3,
+   index=c("revenue_category", "franchise"),
+   vSize="revenue",
+   vColor="newbin",
+   type="categorical",
+   position.legend	="none",
+   palette = palette
+)
+```
+
+Looks exactly what we wanted! You think it is one step away from making it into an interactive map? Nooooooo!
 
 ### Interactive treemap
 
+Apparently, `d3tree` function from the `d3treeR` package doesn't take in any unusual characters like `&` or `ō`. Please don't ask me how I found out. Therefore, we need to replace this two characters with something compatible with `d3tree`.
 
-  
+
+```{r}
+dat3$franchise <- str_replace_all(dat3$franchise, "[&]", "and")
+dat3 <- dat3 %>% 
+   mutate(franchise = ifelse(is.na(str_match(franchise, "Jump Comics"))==FALSE, 
+          "ohonen Jump / Jump Comics", franchise))
+
+dat3$revenue_category <- factor(dat3$revenue_category)
+
+dat3$revenue_category <- recode(dat3$revenue_category, 
+      `Merchandise, Licensing & Retail` = "Merchandise, Licensing and Retail")
+```
+
+Now, we are finally ready for making the interactive map. Simply copying the code from `treemap` into `d3tree`.
+
+```{r}
+d3tree(
+   treemap(
+      dat3,
+      index=c("revenue_category", "franchise"),
+      vSize="revenue",
+      vColor="newbin",
+      type="categorical",
+      position.legend	="none",
+      palette = palette
+   ), 
+   rootname = "Revenue by category"
+)
+```
+
+
+If you'd like to change the font size or style, please source this function `style_widget` from [link](https://github.com/d3treeR/d3treeR/issues/10#issuecomment-248098578). 
+
+
+```{r}
+style_widget <- function(hw=NULL, style="", addl_selector="") {
+  stopifnot(!is.null(hw), inherits(hw, "htmlwidget"))
+
+  # use current id of htmlwidget if already specified
+  elementId <- hw$elementId
+  if(is.null(elementId)) {
+    # borrow htmlwidgets unique id creator
+    elementId <- sprintf(
+      'htmlwidget-%s',
+      htmlwidgets:::createWidgetId()
+    )
+    hw$elementId <- elementId
+  }
+
+  htmlwidgets::prependContent(
+    hw,
+    htmltools::tags$style(
+      sprintf(
+        "#%s %s {%s}",
+        elementId,
+        addl_selector,
+        style
+      )
+    )
+  )
+}
+```
+
+Currently, you can choose from three kinds of styles from `d3tree`, `d3tree2`, `d3tree3`. 
+
+```{r}
+style_widget(
+  d3tree(
+   treemap(
+      dat3,
+      index=c("revenue_category", "franchise"),
+      vSize="revenue",
+      vColor="newbin",
+      type="categorical",
+      position.legend	="none",
+      palette = palette
+   )
+   , rootname = "Revenue by category"
+),
+  addl_selector="text",
+  style="font-family:cursive; font-size:10px;"
+)
+```
+```{r}
+style_widget(
+  d3tree2(
+   treemap(
+      dat3[1:100,],
+      index=c("revenue_category", "franchise"),
+      vSize="revenue",
+      vColor="newbin",
+      type="categorical",
+      position.legend	="none",
+      palette = palette
+   )
+   , rootname = "Revenue by category"
+),
+  addl_selector="text",
+  style="font-family:cursive; font-size:10px;"
+)
+```
+
+```{r}
+style_widget(
+  d3tree3(
+   treemap(
+      dat3[1:100,],
+      index=c("revenue_category", "franchise"),
+      vSize="revenue",
+      vColor="newbin",
+      type="categorical",
+      position.legend	="none",
+      palette = palette
+   )
+   , rootname = "Revenue by category"
+),
+  addl_selector="text",
+  style="font-family:cursive; font-size:10px;"
+)
+```

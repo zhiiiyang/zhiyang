@@ -17,8 +17,7 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/treemap/</guid>
-      <description>BackgroundTo practice my data visualization skills, I decided to enter the this week’s #TidyTuesday challege, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset here.
-Data visualizationlibrary(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(d3treeR)library(treemap)library(RColorBrewer)dat &amp;lt;- read.</description>
+      <description>An interactive treemap using treemap and d3treeR</description>
     </item>
     
     <item>
@@ -27,7 +26,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/gaokao/</guid>
-      <description>Background In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
+      <description>data visualization of the college entrace exam data in 2017</description>
     </item>
     
     <item>

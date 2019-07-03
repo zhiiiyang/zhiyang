@@ -17,8 +17,7 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/treemap/</guid>
-      <description>BackgroundTo practice my data visualization skills, I decided to enter the this week’s #TidyTuesday challege, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset here.
-Data visualizationlibrary(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionlibrary(ggplot2)library(d3treeR)library(treemap)library(RColorBrewer)dat &amp;lt;- read.</description>
+      <description>An interactive treemap using treemap and d3treeR</description>
     </item>
     
     <item>
@@ -27,7 +26,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/gaokao/</guid>
-      <description>Background In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
+      <description>data visualization of the college entrace exam data in 2017</description>
     </item>
     
     <item>
@@ -36,7 +35,7 @@
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/poster/</guid>
-      <description>Background I worked for Jessica Barrington-Trimis (@Doctor_BT) on a project to look into the effect of e-cigarette use on cigarette use among adolescents. After we submitted the manuscript, Jessica suggested me presenting the results at the upcoming 2019 Meeting – College on Problems of Drug Dependence, San Antonio, TX. Meanwhile, she sent me a video link about transforming the current poster style. After watching it, I was totally down to get the new poster rolling.</description>
+      <description>my first-time experience of making a trending new-style poster</description>
     </item>
     
     <item>
@@ -45,7 +44,7 @@
       <pubDate>Mon, 17 Jun 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/cpdd/</guid>
-      <description></description>
+      <description>Young adults using mod (vs. pen-like) e-cigarette devices at baseline smoked &lt;strong&gt;more than 6 times&lt;/strong&gt; as many cigarettes in the past 30 days at follow-up.</description>
     </item>
     
     <item>
@@ -54,7 +53,7 @@
       <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
       
       <guid>/talk/ml4all/</guid>
-      <description></description>
+      <description>An introduction on how to apply topic modeling on somatic mutations</description>
     </item>
     
     <item>
@@ -63,7 +62,7 @@
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/jags/</guid>
-      <description></description>
+      <description>a gentle introduction on how to fit a simple Bayesian model, visualize and summarize the output using R2jags.</description>
     </item>
     
     <item>
@@ -72,7 +71,7 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/pramp/</guid>
-      <description>I came across this website to prepare for people to ace interviews for data scientist jobs in the industry. It was mentioned and recommended in the post written by Daniel Miller, a data scientist at Microsoft. I was a little suspicious at the first beginning because I don&amp;rsquo;t think there will be any free services in helping people with improving their interview skills. Normally, we get help from the school Careers Center.</description>
+      <description>What I&amp;rsquo;ve learned from practicing interviews on Pramp for the first time</description>
     </item>
     
     <item>
@@ -81,7 +80,7 @@
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
       <guid>/publication/hilda/</guid>
-      <description></description>
+      <description>We propose a hierarchical latent Dirichlet allocation model (HiLDA) for characterizing somatic mutation data in cancer. The method allows us to infer mutational patterns and their relative frequencies in a set of tumor mutational catalogs and to compare the estimated frequencies between tumor sets.</description>
     </item>
     
     <item>
@@ -90,7 +89,7 @@
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/ocrug/</guid>
-      <description></description>
+      <description>A tutorial talk on how to make xaringan slides in R</description>
     </item>
     
     <item>
@@ -99,7 +98,7 @@
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/laerug/</guid>
-      <description></description>
+      <description>A talk on what I&amp;rsquo;ve learned from going to the RStudio conference 2019</description>
     </item>
     
     <item>
@@ -108,7 +107,7 @@
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/hexwall/</guid>
-      <description>Background Nowadays, peoples use LinkedIn and Twitter to look for opportunities and network with others. Except for gaining more skills and doing projects to boost your profile, there is another way to make your profile more professional: finding the right header. No one will argue with the fact that the header picture helps with creating the first impression for recruiters and your future employers. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional.</description>
+      <description>Learn how to make a header with R hex-stickers for LinkedIn and Twitter.</description>
     </item>
     
     <item>
@@ -117,7 +116,7 @@
       <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/rladies/</guid>
-      <description></description>
+      <description>An example talk on developing good pratices in R</description>
     </item>
     
     <item>
@@ -126,7 +125,7 @@
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
       <guid>/talk/jsmtalk/</guid>
-      <description></description>
+      <description>An example talk using Academic&amp;rsquo;s Markdown slides feature.</description>
     </item>
     
     <item>
