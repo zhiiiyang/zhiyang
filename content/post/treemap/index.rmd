@@ -207,7 +207,7 @@ style_widget(
 style_widget(
   d3tree2(
    treemap(
-      dat3[1:100,],
+      dat3,
       index=c("revenue_category", "franchise"),
       vSize="revenue",
       vColor="newbin",
@@ -226,7 +226,7 @@ style_widget(
 style_widget(
   d3tree3(
    treemap(
-      dat3[1:100,],
+      dat3,
       index=c("revenue_category", "franchise"),
       vSize="revenue",
       vColor="newbin",
