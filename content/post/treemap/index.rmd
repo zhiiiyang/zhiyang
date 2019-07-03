@@ -135,7 +135,17 @@ dat3$revenue_category <- recode(dat3$revenue_category,
 Now, we are finally ready for making the interactive map. Simply copying the code from `treemap` into `d3tree`.
 
 ```{r}
-d3tree(tree, rootname = "Revenue by category")
+treenew <- treemap(
+   dat3,
+   index=c("revenue_category", "franchise"),
+   vSize="revenue",
+   vColor="newbin",
+   type="categorical",
+   position.legend	="none",
+   palette = palette
+)
+
+d3tree(treenew, rootname = "Revenue by category")
 ```
 
 
@@ -176,7 +186,7 @@ Currently, you can choose from three kinds of styles from `d3tree`, `d3tree2`, `
 
 ```{r}
 style_widget(
-  d3tree(tree, rootname = "Revenue by category"),
+  d3tree(treenew, rootname = "Revenue by category"),
   addl_selector="text",
   style="font-family:cursive; font-size:10px;"
 )
@@ -185,7 +195,7 @@ style_widget(
 
 ```{r}
 style_widget(
-  d3tree2(tree, rootname = "Revenue by category"),
+  d3tree2(treenew, rootname = "Revenue by category"),
   addl_selector="text",
   style="font-family:cursive; font-size:10px;"
 )
@@ -194,7 +204,7 @@ style_widget(
 
 ```{r}
 style_widget(
-  d3tree3(tree, rootname = "Revenue by category"),
+  d3tree3(treenew, rootname = "Revenue by category"),
   addl_selector="text",
   style="font-family:cursive; font-size:10px;"
 )
