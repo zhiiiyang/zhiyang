@@ -27,7 +27,7 @@ To practice my data visualization skills, I decided to enter the this week's [#T
 
 ## Data visualization
 
-```{r warning=FALSE}
+```{r message=FALSE}
 library(dplyr)
 library(ggplot2)
 library(d3treeR)
@@ -91,10 +91,8 @@ counts <- dat3 %>% group_by(revenue_category) %>%
 
 
 palette <- sapply(1:n_distinct(dat3$revenue_category), 
-                  function(i) 
-                     brewer.pal(counts[i], 
-                                c("Greys", "Reds", "Oranges", "RdYlBu", 
-                                  "Blues", "Purples", "PuRd", "Greens")[i])) %>% 
+        function(i) brewer.pal(counts[i], c("Greys", "Reds", "Oranges", 
+                    "RdYlBu", "Blues", "Purples", "PuRd", "Greens")[i])) %>% 
            unlist()
 
 ```
@@ -124,8 +122,9 @@ Apparently, `d3tree` function from the `d3treeR` package doesn't take in any unu
 ```{r}
 dat3$franchise <- str_replace_all(dat3$franchise, "[&]", "and")
 dat3 <- dat3 %>% 
-   mutate(franchise = ifelse(is.na(str_match(franchise, "Jump Comics"))==FALSE, 
-          "ohonen Jump / Jump Comics", franchise))
+   mutate(franchise = 
+            ifelse(is.na(str_match(franchise, "Jump Comics"))==FALSE, 
+                   "ohonen Jump / Jump Comics", franchise))
 
 dat3$revenue_category <- factor(dat3$revenue_category)
 
