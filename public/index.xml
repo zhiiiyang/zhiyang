@@ -6,8 +6,92 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An interactive treemap of media franchise revenue by category</title>
+      <link>/post/treemap/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/treemap/</guid>
+      <description>
+
+
+&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;To practice my data visualization skills, I decided to enter the this week’s &lt;a href=&#34;https://twitter.com/hashtag/TidyTuesday?src=hash&#34;&gt;#TidyTuesday&lt;/a&gt; challege, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-02&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-visualization&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data visualization&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dplyr)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;dplyr&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:stats&amp;#39;:
+## 
+##     filter, lag&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:base&amp;#39;:
+## 
+##     intersect, setdiff, setequal, union&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(d3treeR)
+library(treemap)
+library(RColorBrewer)
+dat &amp;lt;- read.csv(&amp;quot;https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-02/media_franchises.csv&amp;quot;)
+
+head(dat)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                                   franchise         revenue_category
+## 1 A Song of Ice and Fire /  Game of Thrones               Book sales
+## 2 A Song of Ice and Fire /  Game of Thrones               Box Office
+## 3 A Song of Ice and Fire /  Game of Thrones Home Video/Entertainment
+## 4 A Song of Ice and Fire /  Game of Thrones                       TV
+## 5 A Song of Ice and Fire /  Game of Thrones        Video Games/Games
+## 6                                   Aladdin               Box Office
+##   revenue year_created original_media                          creators
+## 1   0.900         1996          Novel               George R. R. Martin
+## 2   0.001         1996          Novel               George R. R. Martin
+## 3   0.280         1996          Novel               George R. R. Martin
+## 4   4.000         1996          Novel               George R. R. Martin
+## 5   0.132         1996          Novel               George R. R. Martin
+## 6   0.760         1992  Animated film Walt Disney Animation Hanna Diyab
+##                                                                      owners
+## 1                                           Random House WarnerMedia (AT&amp;amp;T)
+## 2                                           Random House WarnerMedia (AT&amp;amp;T)
+## 3                                           Random House WarnerMedia (AT&amp;amp;T)
+## 4                                           Random House WarnerMedia (AT&amp;amp;T)
+## 5                                           Random House WarnerMedia (AT&amp;amp;T)
+## 6 The Walt Disney Company (franchise)  Sega Sammy Holdings (games/pachinko)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dat2 &amp;lt;- dat[!duplicated(dat), ]
+
+dat2 %&amp;gt;% group_by(revenue_category) %&amp;gt;% summarise(n())&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 8 x 2
+##   revenue_category                `n()`
+##   &amp;lt;fct&amp;gt;                           &amp;lt;int&amp;gt;
+## 1 Book sales                          7
+## 2 Box Office                         76
+## 3 Comic or Manga                     27
+## 4 Home Video/Entertainment           64
+## 5 Merchandise, Licensing &amp;amp; Retail    73
+## 6 Music                              12
+## 7 TV                                 11
+## 8 Video Games/Games                  51&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By briefly looking at the data, I realized that it has several categorical variables, one of which might have many distinct levels. Therefore, using the traditional barplot might not be a good idea here unless only a subset of the data is shown here. So, it occurred to me that the treemap might be a good idea. So far, &lt;a href=&#34;https://cran.r-project.org/web/packages/treemap/index.html&#34;&gt;&lt;code&gt;treemap&lt;/code&gt;&lt;/a&gt; is very handy and straightforward to use compared to other similar R packages.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;treemap(
+   dat2,
+   index=c(&amp;quot;revenue_category&amp;quot;, &amp;quot;franchise&amp;quot;),
+   vSize=&amp;quot;revenue&amp;quot;,
+   vColor=&amp;quot;revenue&amp;quot;,
+   type=&amp;quot;value&amp;quot;,
+   fun.aggregate=&amp;quot;max&amp;quot;
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/treemap/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Basically, you can get a very pretty treemap with a few codes. However, it doesn’t really differentiate different revenue category. Wouldn’t it be better that each revenue category gets its own color which changes with revenue decreasing? Intuitively, it doesn’t seem a difficult task to implement. But&lt;/p&gt;
+&lt;div id=&#34;interactive-treemap&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Interactive treemap&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>How difficult it is to get into the top universities in China</title>
@@ -466,26 +550,6 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
       
       <guid>/talk/rladies/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Example Page</title>
-      <link>/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/tutorial/example/</guid>
-      <description>
-
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

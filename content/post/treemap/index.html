@@ -1,0 +1,95 @@
+---
+authors:
+- admin
+date: "2019-07-03"
+draft: true
+gallery_item:
+image:
+  caption: ''
+  focal_point: "left"
+  preview_only: false
+lastmod: "2019-07-03T00:00:00-08:00"
+summary: An interactive treemap using treemap and d3treeR
+projects:
+- viz
+tags:
+- R
+- Statistical analysis 
+- Data viz
+title: 'An interactive treemap of media franchise revenue by category'
+---
+
+
+
+<div id="background" class="section level2">
+<h2>Background</h2>
+<p>To practice my data visualization skills, I decided to enter the this week’s <a href="https://twitter.com/hashtag/TidyTuesday?src=hash">#TidyTuesday</a> challege, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-02">here</a>.</p>
+</div>
+<div id="data-visualization" class="section level2">
+<h2>Data visualization</h2>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>library(ggplot2)
+library(d3treeR)
+library(treemap)
+library(RColorBrewer)
+dat &lt;- read.csv(&quot;https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-02/media_franchises.csv&quot;)
+
+head(dat)</code></pre>
+<pre><code>##                                   franchise         revenue_category
+## 1 A Song of Ice and Fire /  Game of Thrones               Book sales
+## 2 A Song of Ice and Fire /  Game of Thrones               Box Office
+## 3 A Song of Ice and Fire /  Game of Thrones Home Video/Entertainment
+## 4 A Song of Ice and Fire /  Game of Thrones                       TV
+## 5 A Song of Ice and Fire /  Game of Thrones        Video Games/Games
+## 6                                   Aladdin               Box Office
+##   revenue year_created original_media                          creators
+## 1   0.900         1996          Novel               George R. R. Martin
+## 2   0.001         1996          Novel               George R. R. Martin
+## 3   0.280         1996          Novel               George R. R. Martin
+## 4   4.000         1996          Novel               George R. R. Martin
+## 5   0.132         1996          Novel               George R. R. Martin
+## 6   0.760         1992  Animated film Walt Disney Animation Hanna Diyab
+##                                                                      owners
+## 1                                           Random House WarnerMedia (AT&amp;T)
+## 2                                           Random House WarnerMedia (AT&amp;T)
+## 3                                           Random House WarnerMedia (AT&amp;T)
+## 4                                           Random House WarnerMedia (AT&amp;T)
+## 5                                           Random House WarnerMedia (AT&amp;T)
+## 6 The Walt Disney Company (franchise)  Sega Sammy Holdings (games/pachinko)</code></pre>
+<pre class="r"><code>dat2 &lt;- dat[!duplicated(dat), ]
+
+dat2 %&gt;% group_by(revenue_category) %&gt;% summarise(n())</code></pre>
+<pre><code>## # A tibble: 8 x 2
+##   revenue_category                `n()`
+##   &lt;fct&gt;                           &lt;int&gt;
+## 1 Book sales                          7
+## 2 Box Office                         76
+## 3 Comic or Manga                     27
+## 4 Home Video/Entertainment           64
+## 5 Merchandise, Licensing &amp; Retail    73
+## 6 Music                              12
+## 7 TV                                 11
+## 8 Video Games/Games                  51</code></pre>
+<p>By briefly looking at the data, I realized that it has several categorical variables, one of which might have many distinct levels. Therefore, using the traditional barplot might not be a good idea here unless only a subset of the data is shown here. So, it occurred to me that the treemap might be a good idea. So far, <a href="https://cran.r-project.org/web/packages/treemap/index.html"><code>treemap</code></a> is very handy and straightforward to use compared to other similar R packages.</p>
+<pre class="r"><code>treemap(
+   dat2,
+   index=c(&quot;revenue_category&quot;, &quot;franchise&quot;),
+   vSize=&quot;revenue&quot;,
+   vColor=&quot;revenue&quot;,
+   type=&quot;value&quot;,
+   fun.aggregate=&quot;max&quot;
+)</code></pre>
+<p><img src="/post/treemap/index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>Basically, you can get a very pretty treemap with a few codes. However, it doesn’t really differentiate different revenue category. Wouldn’t it be better that each revenue category gets its own color which changes with revenue decreasing? Intuitively, it doesn’t seem a difficult task to implement. But</p>
+<div id="interactive-treemap" class="section level3">
+<h3>Interactive treemap</h3>
+</div>
+</div>
