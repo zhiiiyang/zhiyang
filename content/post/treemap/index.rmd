@@ -101,7 +101,7 @@ palette <- sapply(1:n_distinct(dat3$revenue_category),
 Basically, we have to manually create a factor variable, `bin`,  that categorizes the revenue by each category. Then, we combine `bin` and `revenue_category` to be a new factor variable, `newbin`, which is assigned with different color accordingly. 
 
 ```{r}
-treemap(
+tree <- treemap(
    dat3,
    index=c("revenue_category", "franchise"),
    vSize="revenue",
@@ -135,18 +135,7 @@ dat3$revenue_category <- recode(dat3$revenue_category,
 Now, we are finally ready for making the interactive map. Simply copying the code from `treemap` into `d3tree`.
 
 ```{r}
-d3tree(
-   treemap(
-      dat3,
-      index=c("revenue_category", "franchise"),
-      vSize="revenue",
-      vColor="newbin",
-      type="categorical",
-      position.legend	="none",
-      palette = palette
-   ), 
-   rootname = "Revenue by category"
-)
+d3tree(tree, rootname = "Revenue by category")
 ```
 
 
@@ -184,57 +173,28 @@ style_widget <- function(hw=NULL, style="", addl_selector="") {
 
 Currently, you can choose from three kinds of styles from `d3tree`, `d3tree2`, `d3tree3`. 
 
+
 ```{r}
 style_widget(
-  d3tree(
-   treemap(
-      dat3,
-      index=c("revenue_category", "franchise"),
-      vSize="revenue",
-      vColor="newbin",
-      type="categorical",
-      position.legend	="none",
-      palette = palette
-   )
-   , rootname = "Revenue by category"
-),
-  addl_selector="text",
-  style="font-family:cursive; font-size:10px;"
-)
-```
-```{r}
-style_widget(
-  d3tree2(
-   treemap(
-      dat3,
-      index=c("revenue_category", "franchise"),
-      vSize="revenue",
-      vColor="newbin",
-      type="categorical",
-      position.legend	="none",
-      palette = palette
-   )
-   , rootname = "Revenue by category"
-),
+  d3tree(tree, rootname = "Revenue by category"),
   addl_selector="text",
   style="font-family:cursive; font-size:10px;"
 )
 ```
 
+
 ```{r}
 style_widget(
-  d3tree3(
-   treemap(
-      dat3,
-      index=c("revenue_category", "franchise"),
-      vSize="revenue",
-      vColor="newbin",
-      type="categorical",
-      position.legend	="none",
-      palette = palette
-   )
-   , rootname = "Revenue by category"
-),
+  d3tree2(tree, rootname = "Revenue by category"),
+  addl_selector="text",
+  style="font-family:cursive; font-size:10px;"
+)
+```
+
+
+```{r}
+style_widget(
+  d3tree3(tree, rootname = "Revenue by category"),
   addl_selector="text",
   style="font-family:cursive; font-size:10px;"
 )
