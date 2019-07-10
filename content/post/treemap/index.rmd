@@ -22,7 +22,10 @@ title: 'An interactive treemap of media franchise revenue by category'
 
 
 ## Background
-To practice my data visualization skills, I decided to enter the this week's [#TidyTuesday](https://twitter.com/hashtag/TidyTuesday?src=hash) challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-02). 
+Hi, you are probably directed here because of my recent tweet. To practice my data visualization skills, I decided to enter the this week's [#TidyTuesday](https://twitter.com/hashtag/TidyTuesday?src=hash) challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-02). 
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> I made an interactive treemap for revenue by category using treemap and d3treeR. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/plRYgXSNs2">pic.twitter.com/plRYgXSNs2</a></p>&mdash; Zhi Yang (@zhiiiyang) <a href="https://twitter.com/zhiiiyang/status/1146310918973751296?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## Data visualization

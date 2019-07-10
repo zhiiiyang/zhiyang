@@ -24,6 +24,9 @@ title: 'How difficult it is to get into the top universities in China'
 
 In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017. 
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The gaokao is the national college entrance exam taken by Chinese students in June. In 2019, over 10M students took the exam. I hope this viz could help you understand how difficult to get into the top universities (Beijing and Tsinghua University) in China. <a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/G425fyGGDD">pic.twitter.com/G425fyGGDD</a></p>&mdash; Zhi Yang (@zhiiiyang) <a href="https://twitter.com/zhiiiyang/status/1144839270143676416?ref_src=twsrc%5Etfw">June 29, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Data visualization
 The geo location of provinces in China was downloade from the R pacakge [`geofacet`](https://hafen.github.io/geofacet/) by Ryan Hafen. My first intention of starting this project was inspired by a talk introducing this package. As you can easily tell from the following plots, the style was gently borrowed from the `geofacet`. 
