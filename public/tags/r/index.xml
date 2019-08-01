@@ -6,10 +6,19 @@
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2019 18:30:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Extracting topics from cancer patients&#39; mutational profiles</title>
+      <link>/talk/lda_mutations/</link>
+      <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talk/lda_mutations/</guid>
+      <description>An application of topic modeling in genomic data</description>
+    </item>
     
     <item>
       <title>An interactive treemap of media franchise revenue by category</title>
@@ -85,10 +94,10 @@
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>/talk/ocrug/</link>
+      <link>/talk/xaringan/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/ocrug/</guid>
+      <guid>/talk/xaringan/</guid>
       <description>A tutorial talk on how to make xaringan slides in R</description>
     </item>
     

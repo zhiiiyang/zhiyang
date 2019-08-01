@@ -5,8 +5,17 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2019 18:30:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Extracting topics from cancer patients&#39; mutational profiles</title>
+      <link>/talk/lda_mutations/</link>
+      <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/talk/lda_mutations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An interactive treemap of media franchise revenue by category</title>
@@ -565,10 +574,10 @@ This topic comes into two perspectives: 1) we&amp;rsquo;ve already have establis
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>/talk/ocrug/</link>
+      <link>/talk/xaringan/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/ocrug/</guid>
+      <guid>/talk/xaringan/</guid>
       <description></description>
     </item>
     
@@ -681,15 +690,6 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
 
 &lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Good practices in R</title>
-      <link>/talk/rladies/</link>
-      <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
-      
-      <guid>/talk/rladies/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -2,6 +2,67 @@
   
     <url>
     
+      <loc>/tags/bayesian-inference/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/talk/lda_mutations/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/github/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/rstudio/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/talk/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/topic-modeling/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/post/treemap/</loc>
       <lastmod>2019-07-03T00:00:00-08:00</lastmod>
     </url>
@@ -28,28 +89,7 @@
   
     <url>
     
-      <loc>/tags/r/</loc>
-      <lastmod>2019-07-03T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/tags/statistical-analysis/</loc>
-      <lastmod>2019-07-03T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2019-07-03T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/</loc>
       <lastmod>2019-07-03T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
@@ -81,12 +121,6 @@
   
     <url>
     
-      <loc>/talk/</loc>
-      <lastmod>2019-06-17T18:30:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
       <loc>/tags/data-science/</loc>
       <lastmod>2019-04-30T14:30:00-07:00</lastmod>
       <priority>0</priority>
@@ -107,22 +141,8 @@
   
     <url>
     
-      <loc>/tags/topic-modeling/</loc>
-      <lastmod>2019-04-30T14:30:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/post/h2o/</loc>
       <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/bayesian-inference/</loc>
-      <lastmod>2019-04-08T18:30:00-07:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -234,22 +254,8 @@
   
     <url>
     
-      <loc>/tags/github/</loc>
+      <loc>/talk/xaringan/</loc>
       <lastmod>2019-02-26T18:30:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/talk/ocrug/</loc>
-      <lastmod>2019-02-26T18:30:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/rstudio/</loc>
-      <lastmod>2019-04-03T00:00:00-08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
