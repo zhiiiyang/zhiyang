@@ -15,7 +15,7 @@ math: true
 projects:
 - cancer
 summary: An application of topic modeling in genomic data
-tags: [R, RStudio, GitHub, Topic-modeling, Bayesian-inference]
+tags: [R, Topic modeling, Machine learning, Data science]
 title: Extracting topics from cancer patients' mutational profiles
 url_code: ""
 url_pdf: ""
