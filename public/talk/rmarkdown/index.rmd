@@ -27,3 +27,4 @@ url_video: ""
 knitr::include_url('https://awesome-rmarkdown-2019.netlify.com#1')
 ```
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nice turnout for the kickstart of the <a href="https://twitter.com/hashtag/uscrbootcamp?src=hash&amp;ref_src=twsrc%5Etfw">#uscrbootcamp</a> with <a href="https://twitter.com/malco_barrett?ref_src=twsrc%5Etfw">@malco_barrett</a>, <a href="https://twitter.com/brookemariebell?ref_src=twsrc%5Etfw">@brookemariebell</a>, and <a href="https://twitter.com/zhiiiyang?ref_src=twsrc%5Etfw">@zhiiiyang</a> spearheading day 1 of track 1! <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/4qPcsKzxW6">pic.twitter.com/4qPcsKzxW6</a></p>&mdash; George G. Vega Yon (@gvegayon) <a href="https://twitter.com/gvegayon/status/1163502712668872704?ref_src=twsrc%5Etfw">August 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
