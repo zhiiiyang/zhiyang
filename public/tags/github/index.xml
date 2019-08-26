@@ -13,11 +13,11 @@
     
     <item>
       <title>How to make xaringan slides in R</title>
-      <link>/talk/ocrug/</link>
+      <link>/talk/xaringan/</link>
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/talk/ocrug/</guid>
-      <description></description>
+      <guid>/talk/xaringan/</guid>
+      <description>A tutorial talk on how to make xaringan slides in R</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/laerug/</guid>
-      <description></description>
+      <description>A talk on what I&amp;rsquo;ve learned from going to the RStudio conference 2019</description>
     </item>
     
   </channel>
