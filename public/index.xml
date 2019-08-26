@@ -424,8 +424,6 @@ cowplot::plot_grid(p1, p2, ncol = 1)
       <description>
 
 
-&lt;iframe src=&#34;https://cpdd2019-poster-53.netlify.com&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
-&lt;/iframe&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;
 &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
 Excited to present the research work with &lt;a href=&#34;https://twitter.com/Doctor_BT?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@Doctor_BT&lt;/span&gt;&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/hashtag/CPDD19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CPDD19&lt;/a&gt; on the effect of e-cigarette use on past 30-day cigarette use among adolescents. Thank you all for dropping by and asking amazing questions. Also, I’d to share my experience of adopting &lt;a href=&#34;https://twitter.com/hashtag/betterposter?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#betterposter&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mikemorrison?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@mikemorrison&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://t.co/N4zt7y6Kh9&#34;&gt;pic.twitter.com/N4zt7y6Kh9&lt;/a&gt;
@@ -611,7 +609,9 @@ This topic comes into two perspectives: 1) we&amp;rsquo;ve already have establis
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/xaringan/</guid>
-      <description></description>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_url(&amp;quot;https://zhiiiyang.github.io/XaringanTutorial/#1)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
