@@ -3,8 +3,8 @@ abstract: E-cigarette product characteristics and subsequent frequency of cigare
 all_day: false
 authors: []
 publishDate: "2019-06-17T18:30:00-07:00"
-date: "2019-06-17T18:30:00-07:00"
-date_end: "2019-06-17T20:30:00-07:00"
+date: "2019-06-17T10:00:00-07:00"
+date_end: "2019-06-17T12:00:00-07:00"
 event: The College on Problems of Drug Dependence
 event_url: https://cpdd.org/meeting-information-2/
 featured: true
