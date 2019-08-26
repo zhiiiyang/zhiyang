@@ -3,6 +3,12 @@
   
     <url>
     
+      <loc>/talk/rmarkdown/</loc>
+      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/post/gaokao/</loc>
       <lastmod>2019-06-28T00:00:00-08:00</lastmod>
     </url>
@@ -378,7 +384,14 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
+      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/r-markdown/</loc>
+      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -406,7 +419,7 @@
     <url>
     
       <loc>/talk/</loc>
-      <lastmod>2019-06-17T18:30:00-07:00</lastmod>
+      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
     </url>
   
     <url>
@@ -531,7 +544,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-06-28T00:00:00-08:00</lastmod>
+      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -546,6 +559,13 @@
     
       <loc>/authors/admin/</loc>
       <lastmod>2019-06-28T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/blogdown/</loc>
+      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   

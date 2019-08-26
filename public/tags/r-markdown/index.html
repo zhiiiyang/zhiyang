@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.1.0">
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.53" />
 
   
 
@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="PhD Candidate in Biostatistics">
+  <meta name="description" content="Zhi Yang&#39;s personal website">
 
   
   <link rel="alternate" hreflang="en-us" href="/tags/r-markdown/">
@@ -53,7 +53,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#33b2db">
   
 
   
@@ -84,12 +84,15 @@
     
 
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.9.0/instantsearch.min.css" integrity="sha256-ZtmLe16p4jS4/2wPwwH6NzJt460SJzgLmhKrYo5yn7g=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch-theme-algolia.min.css" integrity="sha256-uL8LUd3zkI/lXvc/Hv/oOu8ld6RJcOZiUY/8c+I+3/o=" crossorigin="anonymous">
+    
 
   
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,400italic,700|Lato+Mono">
   
 
   <link rel="stylesheet" href="/styles.css">
@@ -115,22 +118,33 @@
   
   
     
-    
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@zhiiiyang">
+  <meta property="twitter:creator" content="@zhiiiyang">
   
   <meta property="og:site_name" content="Zhi Yang">
   <meta property="og:url" content="/tags/r-markdown/">
   <meta property="og:title" content="R Markdown | Zhi Yang">
-  <meta property="og:description" content="PhD Candidate in Biostatistics"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:description" content="Zhi Yang&#39;s personal website"><meta property="og:image" content="/img/share.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2015-07-23T21:13:14-05:00">
+  <meta property="og:updated_time" content="2019-08-23T14:00:00-07:00">
   
 
   
 
-  
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<script async type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
   <title>R Markdown | Zhi Yang</title>
 
@@ -151,8 +165,7 @@
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
         
       </div>
 
@@ -172,7 +185,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Zhi Yang</a>
+      <a class="navbar-brand" href="/"><img src="/img/zhi.png" alt="Zhi Yang"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -235,6 +248,25 @@
         
 
         <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link" href="/#posts">
             
             <span>Posts</span>
@@ -254,9 +286,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#featured">
+          <a class="nav-link" href="/#talks">
             
-            <span>Publications</span>
+            <span>Talks</span>
             
           </a>
         </li>
@@ -347,12 +379,10 @@
   
   
   <div>
-    <h2><a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></h2>
+    <h2><a href="/talk/rmarkdown/">R you ready to see awesome R Markdown?</a></h2>
     <div class="article-style">
       
-      R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
+      A introduction to the family of R Markdown packages.
       
     </div>
   </div>
@@ -420,6 +450,9 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
     
     
+    
+    <script src="/js/mathjax-config.js"></script>
+    
 
     
     
@@ -437,6 +470,8 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
 
       
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
     
 
@@ -475,26 +510,35 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
     
     
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
+    <script id="search-hit-algolia-template" type="text/html">
+      <div class="search-hit">
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a>
+          </div>
           <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+          <p class="search-hit-description">{{{_highlightResult.summary.value}}}</p>
         </div>
-      </div>
       </div>
     </script>
     
 
     
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
 
     
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch.min.js" integrity="sha256-gFCtPk/sonctyfwYOgjrPoWApQ0rqB6ezBBZ7p32yGc=" crossorigin="anonymous"></script>
+    
+    <script>
+      const algoliaConfig = {
+        appId: "",
+        apiKey: "",
+        indexName: "",
+        poweredBy:  false 
+      };
+    </script>
     
 
     
@@ -509,7 +553,7 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     
     
-    <script src="/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>
+    <script src="/js/academic.min.96c5273c350467d35a3c0a325d73ea22.js"></script>
 
   </body>
 </html>

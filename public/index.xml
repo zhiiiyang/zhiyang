@@ -6,8 +6,17 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2019 14:00:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>R you ready to see awesome R Markdown?</title>
+      <link>/talk/rmarkdown/</link>
+      <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
+      
+      <guid>/talk/rmarkdown/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How difficult it is to get into the top universities in China</title>
@@ -466,26 +475,6 @@ hexwall(&amp;quot;samplelist&amp;quot;, sticker_row_size = 7, sticker_width = 20
       
       <guid>/talk/rladies/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Example Page</title>
-      <link>/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/tutorial/example/</guid>
-      <description>
-
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

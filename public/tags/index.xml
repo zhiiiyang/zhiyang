@@ -95,9 +95,18 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
     
@@ -179,6 +188,15 @@
       <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
       
       <guid>/tags/topic-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>/tags/blogdown/</link>
+      <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
+      
+      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
