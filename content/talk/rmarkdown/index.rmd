@@ -23,3 +23,7 @@ url_slides: "https://awesome-rmarkdown-2019.netlify.com"
 url_video: ""
 ---
 
+```{r echo=FALSE}
+knitr::include_url('https://awesome-rmarkdown-2019.netlify.com#1')
+```
+

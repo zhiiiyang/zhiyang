@@ -1,0 +1,29 @@
+---
+abstract: R Markdown enables users to generate reproducible documents by combining narrative text and code without getting overwhelmed by formatting output. In addition to reports, R Markdown also supports a wide range of output including HTML, PDF, MS Word, HTML5 slides, books, dashboards, scientific articles, websites and more. 
+
+all_day: false
+authors: []
+publishDate: "2019-08-23T18:30:00-07:00"
+date: "2019-08-23T14:00:00-07:00"
+date_end: "2019-08-23T14:40:00-07:00"
+event: USC R Bootcamp
+event_url: https://github.com/USCbiostats/rbootcamp
+featured: false
+image:
+  focal_point: Right
+location: Los Angeles, California
+draft: false
+math: true
+summary: A introduction to the family of R Markdown packages.
+tags: [R, R Markdown, blogdown]
+title: R you ready to see awesome R Markdown?
+url_code: ""
+url_pdf: ""
+url_slides: "https://awesome-rmarkdown-2019.netlify.com" 
+url_video: ""
+---
+
+```{r echo=FALSE}
+knitr::include_url('https://awesome-rmarkdown-2019.netlify.com#1')
+```
+
