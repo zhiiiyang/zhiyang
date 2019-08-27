@@ -541,7 +541,12 @@ java -jar h2o.jar
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/jags/</guid>
-      <description></description>
+      <description>
+
+
+&lt;iframe src=&#34;https://r2jags.netlify.com&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -609,8 +614,11 @@ This topic comes into two perspectives: 1) we&amp;rsquo;ve already have establis
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/xaringan/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;knitr::include_url(&amp;quot;https://zhiiiyang.github.io/XaringanTutorial/#1)
-&lt;/code&gt;&lt;/pre&gt;
+      <description>
+
+
+&lt;iframe src=&#34;https://zhiiiyang.github.io/XaringanTutorial/#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
 </description>
     </item>
     
