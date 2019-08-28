@@ -17,7 +17,7 @@
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/jags/</guid>
-      <description>  </description>
+      <description>a gentle introduction on how to fit a simple Bayesian model, visualize and summarize the output using R2jags.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
       <guid>/publication/hilda/</guid>
-      <description></description>
+      <description>We propose a hierarchical latent Dirichlet allocation model (HiLDA) for characterizing somatic mutation data in cancer. The method allows us to infer mutational patterns and their relative frequencies in a set of tumor mutational catalogs and to compare the estimated frequencies between tumor sets.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
       <guid>/talk/jsmtalk/</guid>
-      <description></description>
+      <description>An example talk using Academic&amp;rsquo;s Markdown slides feature.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       
       <guid>/project/cancer/</guid>
       <description>During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface. Thanks to my advisors Kimberly Siegmund, and committe member Paul Marjoram and Darryl Shibata.
-Motivations Topic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
+MotivationsTopic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
     </item>
     
   </channel>

@@ -24,9 +24,9 @@ publication_types:
 summary: We propose a hierarchical latent Dirichlet allocation model (HiLDA) for characterizing somatic mutation data in cancer. The method allows us to infer mutational patterns and their relative frequencies in a set of tumor mutational catalogs and to compare the estimated frequencies between tumor sets. 
 tags: [R, JAGS, Bayesian inference, R package]
 title: HiLDA - a statistical approach to investigate differences in mutational signatures
-url_code: https://github.com/USCbiostats/HiLDA
-url_dataset: ""
-url_pdf: https://www.biorxiv.org/content/biorxiv/early/2019/03/15/577452.full-text.pdf
+url_code: "https://github.com/USCbiostats/HiLDA"
+url_dataset: "https://osf.io/a8dzx/"
+url_pdf: "https://peerj.com/articles/7557/"
 url_poster: ""
 url_preprint: ""
 url_project: ""
