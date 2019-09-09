@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google AIY Voice Kit</title>
+      <link>/project/aiy/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/project/aiy/</guid>
+      <description>MotivationsI am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.</description>
+    </item>
     
     <item>
       <title>Data visualization</title>

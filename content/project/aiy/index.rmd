@@ -1,0 +1,25 @@
+---
+date: "2019-09-09T00:00:00-07:00"
+image:
+  caption: Photo by Google AIY
+  focal_point: Smart
+summary: 
+tags:
+- Python
+- Artificial Intelligence
+title: Google AIY Voice Kit
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+## Motivations
+I am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.e. YouTube, Twitter, Weibo, and others) and beat procrastination. So, I made something to save myself from too much freedom at home. 
+
+## Product
+I built myself a procrastination detector that sends out voice reminders. The tool is made of a Raspberry Pi 3 and an insanely cheap Google AIY Voice kit which only costs me $3 from the micro center. The trigger is based on my browser history which can be pulled out by using Sqlite3 and processed by Python. Once it detects me browsing other entertainment websites like YouTube, Twitter, Weibo, Douban and others, it will start calling me by my Chinese name followed by a randomly picked inspirational quotes. 
+
+## Demo
+`r htmltools::HTML("{{< tweet 1171094577614245889 >}}")`
+

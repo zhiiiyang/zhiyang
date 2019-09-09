@@ -23,6 +23,32 @@
     </item>
     
     <item>
+      <title>Google AIY Voice Kit</title>
+      <link>/project/aiy/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/project/aiy/</guid>
+      <description>
+
+
+&lt;div id=&#34;motivations&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Motivations&lt;/h2&gt;
+&lt;p&gt;I am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.e. YouTube, Twitter, Weibo, and others) and beat procrastination. So, I made something to save myself from too much freedom at home.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;product&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Product&lt;/h2&gt;
+&lt;p&gt;I built myself a procrastination detector that sends out voice reminders. The tool is made of a Raspberry Pi 3 and an insanely cheap Google AIY Voice kit which only costs me $3 from the micro center. The trigger is based on my browser history which can be pulled out by using Sqlite3 and processed by Python. Once it detects me browsing other entertainment websites like YouTube, Twitter, Weibo, Douban and others, it will start calling me by my Chinese name followed by a randomly picked inspirational quotes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;demo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Demo&lt;/h2&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I turned a &lt;a href=&#34;https://twitter.com/Google?ref_src=twsrc%5Etfw&#34;&gt;@Google&lt;/a&gt; AIY voice kit into a detector to beat procrastination. Once it detects any distracting behaviors from my browser history, it will start calling me by my Chinese name and asking me to go back to study followed by random inspirational contents.👩‍🎓✍️🛠️ &lt;a href=&#34;https://t.co/hnTIGDPZg9&#34;&gt;pic.twitter.com/hnTIGDPZg9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Zhi Yang (@zhiiiyang) &lt;a href=&#34;https://twitter.com/zhiiiyang/status/1171094577614245889?ref_src=twsrc%5Etfw&#34;&gt;September 9, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R you ready to see awesome R Markdown?</title>
       <link>/talk/rmarkdown/</link>
       <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
@@ -632,16 +658,6 @@ This topic comes into two perspectives: 1) we&amp;rsquo;ve already have establis
 
 &lt;iframe src=&#34;https://zhiiiyang.github.io/XaringanTutorial/#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
 &lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What I&#39;ve learned from rstudio::2019</title>
-      <link>/talk/laerug/</link>
-      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
-      
-      <guid>/talk/laerug/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;talk.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

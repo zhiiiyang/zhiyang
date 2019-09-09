@@ -30,6 +30,24 @@
     </item>
     
     <item>
+      <title>Artificial Intelligence</title>
+      <link>/tags/artificial-intelligence/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
@@ -48,7 +66,7 @@
     </item>
     
     <item>
-      <title>Data science</title>
+      <title>Data Science</title>
       <link>/tags/data-science/</link>
       <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
       
