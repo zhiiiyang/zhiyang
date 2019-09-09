@@ -6,10 +6,19 @@
     <description>Recent content in RStudio on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Feb 2019 18:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 17:30:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How R Markdown family automates the last mile of analytics</title>
+      <link>/talk/sbrug/</link>
+      <pubDate>Wed, 18 Sep 2019 17:30:00 -0700</pubDate>
+      
+      <guid>/talk/sbrug/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How to make xaringan slides in R</title>

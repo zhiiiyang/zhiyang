@@ -2,8 +2,41 @@
   
     <url>
     
+      <loc>/talk/sbrug/</loc>
+      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
       <loc>/tags/r/</loc>
-      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
+      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/rstudio/</loc>
+      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/talk/</loc>
+      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -18,26 +51,6 @@
     
       <loc>/talk/rmarkdown/</loc>
       <lastmod>2019-08-23T14:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-08-23T14:00:00-07:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -269,13 +282,6 @@
     
       <loc>/talk/xaringan/</loc>
       <lastmod>2019-02-26T18:30:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/rstudio/</loc>
-      <lastmod>2019-04-03T00:00:00-08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>

@@ -6,10 +6,19 @@
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Aug 2019 14:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 17:30:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How R Markdown family automates the last mile of analytics</title>
+      <link>/talk/sbrug/</link>
+      <pubDate>Wed, 18 Sep 2019 17:30:00 -0700</pubDate>
+      
+      <guid>/talk/sbrug/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R you ready to see awesome R Markdown?</title>
