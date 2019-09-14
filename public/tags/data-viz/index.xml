@@ -6,10 +6,19 @@
     <description>Recent content in Data viz on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/data-viz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mutational signature app</title>
+      <link>/project/shiny/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/project/shiny/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An interactive treemap of media franchise revenue by category</title>
@@ -17,7 +26,8 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/treemap/</guid>
-      <description>An interactive treemap using treemap and d3treeR</description>
+      <description>BackgroundHi, you are probably directed here because of my recent tweet. To practice my data visualization skills, I decided to enter the this week’s #TidyTuesday challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset here.
+#TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.twitter.com/plRYgXSNs2— Zhi Yang (@zhiiiyang) July 3, 2019Data visualizationlibrary(dplyr)library(ggplot2)library(d3treeR)library(treemap)library(RColorBrewer)library(stringr)dat &amp;lt;- read.</description>
     </item>
     
     <item>
@@ -26,7 +36,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/gaokao/</guid>
-      <description>data visualization of the college entrace exam data in 2017</description>
+      <description>Background In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
     </item>
     
     <item>
