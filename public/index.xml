@@ -24,6 +24,15 @@
     </item>
     
     <item>
+      <title>Bioconductor R package</title>
+      <link>/project/hilda/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/project/hilda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mutational signature app</title>
       <link>/project/shiny/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
@@ -646,15 +655,6 @@ This topic comes into two perspectives: 1) we&amp;rsquo;ve already have establis
 
 &lt;p&gt;If you will be interested in trying out this awesome website to enhance your interview skills, please check out here, &lt;a href=&#34;https://www.pramp.com/invt/9XKJnyqA6vSm4Wnbpyqz&#34; target=&#34;_blank&#34;&gt;Pramp&lt;/a&gt;. They’ve provided six tracks including applied data science, project manager, behavioral questions, and etc.. You can also read more about them on &lt;a href=&#34;https://blog.pramp.com/&#34; target=&#34;_blank&#34;&gt;Medium&lt;/a&gt;. Hope this will help you to land your dream job soon!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>HiLDA - a statistical approach to investigate differences in mutational signatures</title>
-      <link>/publication/hilda/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/publication/hilda/</guid>
-      <description></description>
     </item>
     
   </channel>
