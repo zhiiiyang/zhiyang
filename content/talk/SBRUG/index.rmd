@@ -9,7 +9,6 @@ event: Santa Barbara R Users Group
 event_url: https://www.meetup.com/Santa-Barbara-R-Users-Group/events/264543716/
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: Right
 location: Santa Barbara, California
 math: true
@@ -18,10 +17,12 @@ tags: [R, RStudio]
 title: How R Markdown family automates the last mile of analytics
 url_code: ""
 url_pdf: ""
-url_slides: "https://awesome-rmarkdown-2019.netlify.com/#1"
+url_slides: "https://sbrug2019.netlify.com/"
 url_video: ""
 ---
 
 ```{r echo=FALSE}
-knitr::include_url("https://awesome-rmarkdown-2019.netlify.com/#1")
+knitr::include_url("https://sbrug2019.netlify.com/")
 ```
+
+`r htmltools::HTML("{{< tweet 1174489551303110657 >}}")`
