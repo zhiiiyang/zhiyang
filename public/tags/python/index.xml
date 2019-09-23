@@ -6,10 +6,19 @@
     <description>Recent content in Python on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nomination Prediction</title>
+      <link>/project/imbd/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/project/imbd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Google AIY Voice Kit</title>

@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nomination Prediction</title>
+      <link>/project/imbd/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/project/imbd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bioconductor R package</title>
