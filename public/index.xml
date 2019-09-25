@@ -6,8 +6,45 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Yes! I tried the new poster style at a conference</title>
+      <link>/post/poster/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/poster/</guid>
+      <description>
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;I worked for Jessica Barrington-Trimis (&lt;a href=&#34;https://twitter.com/Doctor_BT&#34; target=&#34;_blank&#34;&gt;@Doctor_BT&lt;/a&gt;) on a project to look into the effect of e-cigarette use on cigarette use among adolescents. After we submitted the manuscript, Jessica suggested me presenting the results at the upcoming 2019 Meeting – College on Problems of Drug Dependence, San Antonio, TX. Meanwhile, she sent me a video &lt;a href=&#34;https://youtu.be/1RwJbhkCA58&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; about transforming the current poster style. After watching it, I was totally down to get the new poster rolling. If you haven&amp;rsquo;t heard about it, you can read through the &lt;a href=&#34;https://www.npr.org/sections/health-shots/2019/06/11/729314248/to-save-the-science-poster-researchers-want-to-kill-it-and-start-over&#34; target=&#34;_blank&#34;&gt;story&lt;/a&gt; written by NPR. And, you can also follow the updates by using the hashtag &lt;a href=&#34;https://twitter.com/hashtag/betterposter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag&#34; target=&#34;_blank&#34;&gt;#betterposter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Excited to present the research work with &lt;a href=&#34;https://twitter.com/Doctor_BT?ref_src=twsrc%5Etfw&#34;&gt;@Doctor_BT&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/hashtag/CPDD19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CPDD19&lt;/a&gt; on the effect of e-cigarette use on past 30-day cigarette use among adolescents. Thank you all for dropping by and asking amazing questions. Also, I’d to share my experience of adopting &lt;a href=&#34;https://twitter.com/hashtag/betterposter?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#betterposter&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mikemorrison?ref_src=twsrc%5Etfw&#34;&gt;@mikemorrison&lt;/a&gt; &lt;a href=&#34;https://t.co/N4zt7y6Kh9&#34;&gt;pic.twitter.com/N4zt7y6Kh9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Zhi Yang (@zhiiiyang) &lt;a href=&#34;https://twitter.com/zhiiiyang/status/1140733758519357440?ref_src=twsrc%5Etfw&#34;&gt;June 17, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;new-poster&#34;&gt;New poster&lt;/h2&gt;
+
+&lt;p&gt;So, basically, my takeaway from this new trending way of making poster is that you just print one or two sentences at the top or in the middle with super large font size. What&amp;rsquo;s even better is that some genius already created an R package, &lt;a href=&#34;https://github.com/brentthorne/posterdown&#34; target=&#34;_blank&#34;&gt;posterdown&lt;/a&gt;, that allow R users to come up with a poster using R Markdown.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;posterdown.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Is that amazing? You don&amp;rsquo;t have to spend hours adjusting the alignments and sizes of texts and pictures. Everything can be just controlled by changing a number or argument in R Markdown. From now on, you can focus on the contents rather than tedious PPT work.&lt;/p&gt;
+
+&lt;h2 id=&#34;at-the-conference&#34;&gt;At the conference&lt;/h2&gt;
+
+&lt;p&gt;I ordered my poster online and had it delivered to the hotel. I was one of the few people who had the poster set up at the conference room at the day before. Apparently, I was a little bit worried about how the second day was going to turn out to be. My concerns were gone at the second day because I was too busy talking to peoples who stopped by to ask me questions about my poster. Here is what it looks like with me standing by it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;poster.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During two-hour time span, I had talked to &lt;strong&gt;~ 30 people&lt;/strong&gt;, of which ten of them took a picture of my poster. Five of them were even asking me how I made it. At first, I was wondering whether people were interested in my poster is because of the study itself or the new poster style. Then, I realized that the very first question that almost everyone asked is, what is a mod? Obviously, it has to do with them seeing the conclusion printed with large font sizes. Without it, I doubt a third of them will even stop by, not mentioning having a conversation with me. Judging by this point, I think the new poster style is a success.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;If you are also interested in trying it out, you can check out the GitHub &lt;a href=&#34;https://github.com/zhiiiyang/CPDD_poster&#34; target=&#34;_blank&#34;&gt;repo&lt;/a&gt; of my poster. I highly recommend trying it out for your next poster!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Nomination Prediction</title>
@@ -445,43 +482,6 @@ cowplot::plot_grid(p1, p2, ncol = 1)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;p3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Yes! I tried the new poster style at a conference</title>
-      <link>/post/poster/</link>
-      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/poster/</guid>
-      <description>
-
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-
-&lt;p&gt;I worked for Jessica Barrington-Trimis (&lt;a href=&#34;https://twitter.com/Doctor_BT&#34; target=&#34;_blank&#34;&gt;@Doctor_BT&lt;/a&gt;) on a project to look into the effect of e-cigarette use on cigarette use among adolescents. After we submitted the manuscript, Jessica suggested me presenting the results at the upcoming 2019 Meeting – College on Problems of Drug Dependence, San Antonio, TX. Meanwhile, she sent me a video &lt;a href=&#34;https://youtu.be/1RwJbhkCA58&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; about transforming the current poster style. After watching it, I was totally down to get the new poster rolling. If you haven&amp;rsquo;t heard about it, you can read through the &lt;a href=&#34;https://www.npr.org/sections/health-shots/2019/06/11/729314248/to-save-the-science-poster-researchers-want-to-kill-it-and-start-over&#34; target=&#34;_blank&#34;&gt;story&lt;/a&gt; written by NPR. And, you can also follow the updates by using the hashtag &lt;a href=&#34;https://twitter.com/hashtag/betterposter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag&#34; target=&#34;_blank&#34;&gt;#betterposter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Excited to present the research work with &lt;a href=&#34;https://twitter.com/Doctor_BT?ref_src=twsrc%5Etfw&#34;&gt;@Doctor_BT&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/hashtag/CPDD19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CPDD19&lt;/a&gt; on the effect of e-cigarette use on past 30-day cigarette use among adolescents. Thank you all for dropping by and asking amazing questions. Also, I’d to share my experience of adopting &lt;a href=&#34;https://twitter.com/hashtag/betterposter?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#betterposter&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mikemorrison?ref_src=twsrc%5Etfw&#34;&gt;@mikemorrison&lt;/a&gt; &lt;a href=&#34;https://t.co/N4zt7y6Kh9&#34;&gt;pic.twitter.com/N4zt7y6Kh9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Zhi Yang (@zhiiiyang) &lt;a href=&#34;https://twitter.com/zhiiiyang/status/1140733758519357440?ref_src=twsrc%5Etfw&#34;&gt;June 17, 2019&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;new-poster&#34;&gt;New poster&lt;/h2&gt;
-
-&lt;p&gt;So, basically, my takeaway from this new trending way of making poster is that you just print one or two sentences at the top or in the middle with super large font size. What&amp;rsquo;s even better is that some genius already created an R package, &lt;a href=&#34;https://github.com/brentthorne/posterdown&#34; target=&#34;_blank&#34;&gt;posterdown&lt;/a&gt;, that allow R users to come up with a poster using R Markdown.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;posterdown.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Is that amazing? You don&amp;rsquo;t have to spend hours adjusting the alignments and sizes of texts and pictures. Everything can be just controlled by changing a number or argument in R Markdown. From now on, you can focus on the contents rather than tedious PPT work.&lt;/p&gt;
-
-&lt;h2 id=&#34;at-the-conference&#34;&gt;At the conference&lt;/h2&gt;
-
-&lt;p&gt;I ordered my poster online and had it delivered to the hotel. I was one of the few people who had the poster set up at the conference room at the day before. Apparently, I was a little bit worried about how the second day was going to turn out to be. My concerns were gone at the second day because I was too busy talking to peoples who stopped by to ask me questions about my poster. Here is what it looks like with me standing by it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;poster.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;During two-hour time span, I had talked to &lt;strong&gt;~ 30 people&lt;/strong&gt;, of which ten of them took a picture of my poster. Five of them were even asking me how I made it. At first, I was wondering whether people were interested in my poster is because of the study itself or the new poster style. Then, I realized that the very first question that almost everyone asked is, what is a mod? Obviously, it has to do with them seeing the conclusion printed with large font sizes. Without it, I doubt a third of them will even stop by, not mentioning having a conversation with me. Judging by this point, I think the new poster style is a success.&lt;/p&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;If you are also interested in trying it out, you can check out the GitHub &lt;a href=&#34;https://github.com/zhiiiyang/CPDD_poster&#34; target=&#34;_blank&#34;&gt;repo&lt;/a&gt; of my poster. I highly recommend trying it out for your next poster!&lt;/p&gt;
 </description>
     </item>
     
