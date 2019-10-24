@@ -6,10 +6,19 @@
     <description>Recent content in R Markdown on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Aug 2019 14:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2019 12:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How R Markdown helped me thrive in scientific research and advance my career development?</title>
+      <link>/talk/uscbiostat/</link>
+      <pubDate>Thu, 17 Oct 2019 12:00:00 -0700</pubDate>
+      
+      <guid>/talk/uscbiostat/</guid>
+      <description>Happy Scientist Seminar for the Department of Preventive Medicine at USC</description>
+    </item>
     
     <item>
       <title>R you ready to see awesome R Markdown?</title>
@@ -17,7 +26,7 @@
       <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
       
       <guid>/talk/rmarkdown/</guid>
-      <description>Nice turnout for the kickstart of the #uscrbootcamp with @malco_barrett, @brookemariebell, and @zhiiiyang spearheading day 1 of track 1! #rstats pic.twitter.com/4qPcsKzxW6— George G. Vega Yon (@gvegayon) August 19, 2019</description>
+      <description>A introduction to the family of R Markdown packages.</description>
     </item>
     
   </channel>

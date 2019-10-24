@@ -26,8 +26,7 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/treemap/</guid>
-      <description>BackgroundHi, you are probably directed here because of my recent tweet. To practice my data visualization skills, I decided to enter the this week’s #TidyTuesday challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset here.
-#TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.twitter.com/plRYgXSNs2— Zhi Yang (@zhiiiyang) July 3, 2019Data visualizationlibrary(dplyr)library(ggplot2)library(d3treeR)library(treemap)library(RColorBrewer)library(stringr)dat &amp;lt;- read.</description>
+      <description>An interactive treemap using treemap and d3treeR</description>
     </item>
     
     <item>
@@ -36,7 +35,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/gaokao/</guid>
-      <description>Background In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
+      <description>data visualization of the college entrace exam data in 2017</description>
     </item>
     
     <item>
@@ -47,7 +46,7 @@
       <guid>/project/viz/</guid>
       <description>This project contains a list of data visualization generated using R.
 Tweets#TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.twitter.com/plRYgXSNs2
-&amp;mdash; Zhi Yang (@zhiiiyang) July 3, 2019  The gaokao is the national college entrance exam taken by Chinese students in June. In 2019, over 10M students took the exam. I hope this viz could help you understand how difficult to get into the top universities (Beijing and Tsinghua University) in China.</description>
+&amp;mdash; \abs{Z-score} \gt 1.96 Yang (@zhiiiyang) July 3, 2019  The gaokao is the national college entrance exam taken by Chinese students in June. In 2019, over 10M students took the exam. I hope this viz could help you understand how difficult to get into the top universities (Beijing and Tsinghua University) in China.</description>
     </item>
     
     <item>

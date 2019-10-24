@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhi Yang on Zhi Yang</title>
@@ -6,8 +5,22 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2019 12:00:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How R Markdown helped me thrive in scientific research and advance my career development?</title>
+      <link>/talk/uscbiostat/</link>
+      <pubDate>Thu, 17 Oct 2019 12:00:00 -0700</pubDate>
+      
+      <guid>/talk/uscbiostat/</guid>
+      <description>
+
+
+&lt;iframe src=&#34;https://uscbiostats-rmarkdown.netlify.com/#1&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Yes! I tried the new poster style at a conference</title>
@@ -109,7 +122,7 @@
 &lt;/div&gt;
 &lt;div id=&#34;demo&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Demo&lt;/h2&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I turned a &lt;a href=&#34;https://twitter.com/Google?ref_src=twsrc%5Etfw&#34;&gt;@Google&lt;/a&gt; AIY voice kit into a detector to beat procrastination. Once it detects any distracting behaviors from my browser history, it will start calling me by my Chinese name and asking me to go back to study followed by random inspirational contents.👩‍🎓✍️🛠️ &lt;a href=&#34;https://t.co/hnTIGDPZg9&#34;&gt;pic.twitter.com/hnTIGDPZg9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Zhi Yang (@zhiiiyang) &lt;a href=&#34;https://twitter.com/zhiiiyang/status/1171094577614245889?ref_src=twsrc%5Etfw&#34;&gt;September 9, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I turned a &lt;a href=&#34;https://twitter.com/Google?ref_src=twsrc%5Etfw&#34;&gt;@Google&lt;/a&gt; AIY voice kit into a detector to beat procrastination. Once it detects any distracting behaviors from my browser history, it will start calling me by my Chinese name and asking me to go back to study followed by random inspirational contents.👩‍🎓✍️🛠️ &lt;a href=&#34;https://t.co/hnTIGDPZg9&#34;&gt;pic.twitter.com/hnTIGDPZg9&lt;/a&gt;&lt;/p&gt;&amp;mdash; \abs{Z-score} \gt 1.96 Yang (@zhiiiyang) &lt;a href=&#34;https://twitter.com/zhiiiyang/status/1171094577614245889?ref_src=twsrc%5Etfw&#34;&gt;September 9, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 &lt;/div&gt;
@@ -616,38 +629,6 @@ java -jar h2o.jar
 
 &lt;iframe src=&#34;https://r2jags.netlify.com&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
 &lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to prepare for data scientist interviews with an eCommerce company</title>
-      <link>/post/ecommerce/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/ecommerce/</guid>
-      <description>
-
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-
-&lt;p&gt;I didn&amp;rsquo;t come up with any of those original contents. Here is just a summary of what I&amp;rsquo;ve summarized by learning from reading others&amp;rsquo; insights in how data science contribute to the growth of eCommerce companies and what challenges we are faced with while working as a data scientist at the company.&lt;/p&gt;
-
-&lt;h2 id=&#34;5-data-science-projects-every-e-commerce-company-should-do-https-towardsdatascience-com-5-data-science-project-every-e-commerce-company-should-do-8746c5ab4604&#34;&gt;&lt;a href=&#34;https://towardsdatascience.com/5-data-science-project-every-e-commerce-company-should-do-8746c5ab4604&#34; target=&#34;_blank&#34;&gt;5 Data Science Projects Every E-commerce Company Should Do&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;In this article, the author talked about five important DS projects that should be undergoing at every eCommerce company. I happened to know some of them but didn&amp;rsquo;t realize about the full scope of it. I&amp;rsquo;ll try to elaborate more details about how I&amp;rsquo;ve viewed each topic based on the interview techniques suggested by the Pramp.com (&lt;a href=&#34;https://zhiyang.netlify.com/post/pramp2/&#34; target=&#34;_blank&#34;&gt;see my previous article&lt;/a&gt;). I will start with &lt;strong&gt;identifying the goal&lt;/strong&gt; of the company, i.e., the rate of successful booking, followed by &lt;strong&gt;specifying the most informative variables&lt;/strong&gt; to boost that metric, i.e., information from the client and browsing habits, and browsing history. And I proceed with &lt;strong&gt;selecting several models&lt;/strong&gt; to achieve better prediction of the metric.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Recommendation systems&lt;/em&gt;
-Companies care very much about the success rates of customers clicking links, adding products into carts and complete purchases. Those can be reflected by the rating or the preference from a user. We can look up information from past searches, previous purchases and information of customers (i.e., location, education level, gender, and etc.). It comes much easier to pick the models for this scenario: collaborative filtering, content based filtering, and hybrid filtering.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Customer lifetime value modeling&lt;/em&gt;
-To be honest, I can conceptually understand its important but fail to concretize this idea or even give a mathematical definition of it.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Fraud detection&lt;/em&gt;
-This is probably the most familiar topic to me because I had some exposure from the machine learning class that I took at USC. It is of course very important and will directly have severe impact the efficiency. Of course, the outcome, that we care the most, is whether the purchase made this time is fraud or not. Essentially, there are lots of variables available for us to detect this abnormality, i.e., different locations detected while login-in, unusual purchase category, different shipping/billing addresses, unusual large orders of the same item, international orders and etc. The models, that could potentially useful to be adopted, include simple logistic regression, time series analysis, clustering and classification (logistic regression), matching algorithms. In this case, we can provide a safer environment for customers to increase their retention and increase company revenue.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Important reviews&lt;/em&gt;
-This topic comes into two perspectives: 1) we&amp;rsquo;ve already have established system to measure the scale of customers&amp;rsquo; satisfaction. 2) we need to use natural language processing skills to extract those information and quantify them. Then, visualization tools like WordClouds could be potentially helfpul and further be used for sentiment analysis. In a long run, we can maximize usrs&amp;rsquo; satisfaction and increase the retention rate, leading to maximizing the revenue and potential social impact.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
