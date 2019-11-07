@@ -45,6 +45,10 @@ date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 
+# Display emojis 
+enableEmoji = true
+
+
 ############################
 ## Contact Widget setup   ##
 ############################
