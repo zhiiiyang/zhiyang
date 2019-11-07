@@ -214,3 +214,10 @@ style_widget(
   style="font-family:cursive; font-size:10px;"
 )
 ```
+
+
+I also have some news to share with you. Someone saw my last tweet of treemaps and reached out to me for a position at a healthcare consulting company. And I evetually got to the point that they would like to consider me for that position. 
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1185328020745117698')
+```
