@@ -44,7 +44,7 @@
       <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>/project/aiy/</guid>
-      <description>MotivationsI am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.</description>
+      <description>Motivations I am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.</description>
     </item>
     
     <item>
@@ -54,8 +54,8 @@
       
       <guid>/project/viz/</guid>
       <description>This project contains a list of data visualization generated using R.
-Tweets#TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.twitter.com/plRYgXSNs2
-&amp;mdash; \abs{Z-score} \gt 1.96 Yang (@zhiiiyang) July 3, 2019  The gaokao is the national college entrance exam taken by Chinese students in June. In 2019, over 10M students took the exam. I hope this viz could help you understand how difficult to get into the top universities (Beijing and Tsinghua University) in China.</description>
+Tweets #TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.twitter.com/plRYgXSNs2
+&amp;mdash; Zhi Yang | DM me abt @USCBiostat &amp;amp; DS interviews (@zhiiiyang) July 3, 2019  The gaokao is the national college entrance exam taken by Chinese students in June. In 2019, over 10M students took the exam. I hope this viz could help you understand how difficult to get into the top universities (Beijing and Tsinghua University) in China.</description>
     </item>
     
     <item>
@@ -74,7 +74,7 @@ Tweets#TidyTuesday I made an interactive treemap for revenue by category using 
       
       <guid>/project/cancer/</guid>
       <description>During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface. Thanks to my advisors Kimberly Siegmund, and committe member Paul Marjoram and Darryl Shibata.
-MotivationsTopic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
+Motivations Topic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
     </item>
     
   </channel>

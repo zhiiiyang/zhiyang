@@ -16,7 +16,7 @@ baseurl = "https://zhiyang.netlify.com/"
 copyright = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "zhiiiyang"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""

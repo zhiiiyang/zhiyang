@@ -17,7 +17,7 @@
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/poster/</guid>
-      <description>my first-time experience of making a trending new-style poster</description>
+      <description>Background I worked for Jessica Barrington-Trimis (@Doctor_BT) on a project to look into the effect of e-cigarette use on cigarette use among adolescents. After we submitted the manuscript, Jessica suggested me presenting the results at the upcoming 2019 Meeting – College on Problems of Drug Dependence, San Antonio, TX. Meanwhile, she sent me a video link about transforming the current poster style. After watching it, I was totally down to get the new poster rolling.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/treemap/</guid>
-      <description>An interactive treemap using treemap and d3treeR</description>
+      <description>Background Hi, you are probably directed here because of my recent tweet. To practice my data visualization skills, I decided to enter the this week’s #TidyTuesday challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset here.
+#TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.twitter.com/plRYgXSNs2 — Zhi Yang (@zhiiiyang) July 3, 2019    Data visualization library(dplyr) library(ggplot2) library(d3treeR) library(treemap) library(RColorBrewer) library(stringr) dat &amp;lt;- read.</description>
     </item>
     
     <item>
@@ -35,7 +36,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/gaokao/</guid>
-      <description>data visualization of the college entrace exam data in 2017</description>
+      <description>Background In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
     </item>
     
     <item>
@@ -44,7 +45,7 @@
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/h2o/</guid>
-      <description>A new user&amp;rsquo;s experience with H2O Flow</description>
+      <description>Background I came across H2O several times in the past couple of years but I didn&amp;rsquo;t get a chance to try it out by myself. Until very recently, I went to the SatRday Los Angeles conference 2019 at UCLA this year where Erin LeDell (@ledell) gave a keynote talk on scalable automatic machine learning with H2O. The elegant way she has navigated the model building process has fascinated me. Most importantly, H2O also has a very nice and friendly interface called H2O flow to users to quickly familiarize themselves with this tool.</description>
     </item>
     
     <item>
@@ -53,7 +54,8 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/ecommerce/</guid>
-      <description>A short summary of what I&amp;rsquo;ve learned from preparing an interview with an eCommerce company</description>
+      <description>Background I didn&amp;rsquo;t come up with any of those original contents. Here is just a summary of what I&amp;rsquo;ve summarized by learning from reading others&amp;rsquo; insights in how data science contribute to the growth of eCommerce companies and what challenges we are faced with while working as a data scientist at the company.
+5 Data Science Projects Every E-commerce Company Should Do In this article, the author talked about five important DS projects that should be undergoing at every eCommerce company.</description>
     </item>
     
     <item>
@@ -62,7 +64,7 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/pramp/</guid>
-      <description>What I&amp;rsquo;ve learned from practicing interviews on Pramp for the first time</description>
+      <description>I came across this website to prepare for people to ace interviews for data scientist jobs in the industry. It was mentioned and recommended in the post written by Daniel Miller, a data scientist at Microsoft. I was a little suspicious at the first beginning because I don&amp;rsquo;t think there will be any free services in helping people with improving their interview skills. Normally, we get help from the school Careers Center.</description>
     </item>
     
     <item>
@@ -71,7 +73,9 @@
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/jupyter/</guid>
-      <description>Learn how to blog in Academic using Jupyter notebooks</description>
+      <description>from IPython.core.display import Image Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)  print(&amp;quot;Welcome to Academic!&amp;quot;)  Welcome to Academic!  Install Python and Jupyter Install Anaconda which includes Python 3 and Jupyter notebook.
+Otherwise, for advanced users, install Jupyter notebook with pip3 install jupyter.
+Create a new blog post as usual Run the following commands in your Terminal, substituting &amp;lt;MY_WEBSITE_FOLDER&amp;gt; and my-post with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:</description>
     </item>
     
     <item>
@@ -80,7 +84,7 @@
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/hexwall/</guid>
-      <description>Learn how to make a header with R hex-stickers for LinkedIn and Twitter.</description>
+      <description>Background Nowadays, peoples use LinkedIn and Twitter to look for opportunities and network with others. Except for gaining more skills and doing projects to boost your profile, there is another way to make your profile more professional: finding the right header. No one will argue with the fact that the header picture helps with creating the first impression for recruiters and your future employers. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional.</description>
     </item>
     
     <item>
@@ -89,7 +93,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/post/getting-started/</guid>
-      <description>Create a beautifully simple website or blog in under 10 minutes.</description>
+      <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
+Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
+ View the documentation Ask a question Request a feature or report a bug Updating?</description>
     </item>
     
     <item>
