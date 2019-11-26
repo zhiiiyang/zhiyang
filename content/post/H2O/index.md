@@ -5,7 +5,7 @@ date: "2019-04-25"
 draft: false
 image:
   caption: ''
-  focal_point: "left"
+  focal_point: "center"
   preview_only: false
 subtitle: 'A web-based interactive notebook-like computational environment.'
 summary: A new user's experience with H2O Flow
