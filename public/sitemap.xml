@@ -1,24 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    <url>
-    
-      <loc>/authors/</loc>
-      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
   
     <url>
     
@@ -28,56 +9,8 @@
   
     <url>
     
-      <loc>/tags/</loc>
-      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/admin/</loc>
-      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/talk/uscbiostat/</loc>
       <lastmod>2019-10-17T12:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2019-10-17T12:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2019-10-17T12:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/blogdown/</loc>
-      <lastmod>2019-10-17T12:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/statistical-analysis/</loc>
-      <lastmod>2019-07-03T00:00:00-08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -94,29 +27,8 @@
   
     <url>
     
-      <loc>/project/</loc>
-      <lastmod>2019-09-22T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/python/</loc>
-      <lastmod>2019-09-22T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/talk/sbrug/</loc>
       <lastmod>2019-09-18T17:30:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/rstudio/</loc>
-      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -127,29 +39,8 @@
   
     <url>
     
-      <loc>/tags/data-viz/</loc>
-      <lastmod>2019-09-14T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/project/shiny/</loc>
       <lastmod>2019-09-14T00:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/shiny/</loc>
-      <lastmod>2019-09-14T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/artificial-intelligence/</loc>
-      <lastmod>2019-09-09T00:00:00-07:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -166,29 +57,8 @@
   
     <url>
     
-      <loc>/tags/data-science/</loc>
-      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/talk/lda_mutations/</loc>
       <lastmod>2019-07-30T18:30:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/machine-learning/</loc>
-      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/topic-modeling/</loc>
-      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -223,13 +93,6 @@
   
     <url>
     
-      <loc>/tags/bayesian-inference/</loc>
-      <lastmod>2019-04-08T18:30:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/talk/jags/</loc>
       <lastmod>2019-04-08T18:30:00-07:00</lastmod>
     </url>
@@ -242,36 +105,8 @@
   
     <url>
     
-      <loc>/tags/r-data-science/</loc>
-      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/post/pramp/</loc>
       <lastmod>2019-04-04T00:00:00-08:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/darryl-shibata/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/david-v.-conti/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -282,84 +117,8 @@
   
     <url>
     
-      <loc>/tags/jags/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/kimberly-d.-siegmund/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/paul-marjoram/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/priyatama-pandey/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/r-package/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/zhi-yang/</loc>
-      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/github/</loc>
-      <lastmod>2019-02-26T18:30:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/talk/xaringan/</loc>
       <lastmod>2019-02-26T18:30:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/xaringan/</loc>
-      <lastmod>2019-02-26T18:30:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/open-source/</loc>
-      <lastmod>2019-02-11T18:30:00-07:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -424,15 +183,82 @@
   
     <url>
     
-      <loc>/tags/sas/</loc>
-      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+      <loc>/publication/dance/</loc>
+      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/project/cancer/</loc>
+      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/post/getting-started/</loc>
+      <lastmod>2018-01-13T00:00:00-08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/publication/biofuel/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/publication/biooil/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/author/admin/</loc>
+    </url>
+  
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/tags/sql/</loc>
-      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+      <loc>/tags/academic/</loc>
+      <lastmod>2018-01-13T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/artificial-intelligence/</loc>
+      <lastmod>2019-09-09T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/author/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/bayesian-inference/</loc>
+      <lastmod>2019-04-08T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
   
@@ -445,8 +271,78 @@
   
     <url>
     
+      <loc>/authors/chenggui-hong/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/darryl-shibata/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/data-science/</loc>
+      <lastmod>2019-04-04T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/data-science/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/data-viz/</loc>
+      <lastmod>2019-09-14T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/david-v.-conti/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/authors/david-x.-marquez/</loc>
       <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/fei-yan-gong/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/feiyan-gong/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/github/</loc>
+      <lastmod>2019-02-26T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/jags/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -459,9 +355,50 @@
   
     <url>
     
+      <loc>/authors/kimberly-d.-siegmund/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/authors/louis-fogg/</loc>
       <lastmod>2017-07-03T00:00:00-07:00</lastmod>
       <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/mitsuo-yamamoto/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/open-source/</loc>
+      <lastmod>2019-02-11T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/paul-marjoram/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
     </url>
   
     <url>
@@ -473,8 +410,84 @@
   
     <url>
     
-      <loc>/publication/dance/</loc>
-      <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <loc>/authors/priyatama-pandey/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2019-09-22T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/publication/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/python/</loc>
+      <lastmod>2019-09-22T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/quanxin-li/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/r-markdown/</loc>
+      <lastmod>2019-10-17T12:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/r-package/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/r-data-science/</loc>
+      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/rstudio/</loc>
+      <lastmod>2019-09-18T17:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/talk/</loc>
+      <lastmod>2019-10-17T12:00:00-07:00</lastmod>
     </url>
   
     <url>
@@ -486,8 +499,50 @@
   
     <url>
     
+      <loc>/tags/sas/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/tags/spss/</loc>
       <lastmod>2017-07-03T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/sql/</loc>
+      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/shen-ning/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/shiny/</loc>
+      <lastmod>2019-09-14T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/song-bai-qiu/</loc>
+      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/statistical-analysis/</loc>
+      <lastmod>2019-06-27T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -514,54 +569,8 @@
   
     <url>
     
-      <loc>/project/cancer/</loc>
-      <lastmod>2016-05-01T00:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/tags/academic/</loc>
+      <loc>/tags/</loc>
       <lastmod>2018-01-13T00:00:00-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00-08:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/fei-yan-gong/</loc>
-      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/publication/biofuel/</loc>
-      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/mitsuo-yamamoto/</loc>
-      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/quanxin-li/</loc>
-      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/song-bai-qiu/</loc>
-      <lastmod>2011-12-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -569,6 +578,20 @@
     
       <loc>/authors/tong-qi-ye/</loc>
       <lastmod>2011-12-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/topic-modeling/</loc>
+      <lastmod>2019-07-30T18:30:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/weiwei-huang/</loc>
+      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -588,40 +611,6 @@
   
     <url>
     
-      <loc>/authors/chenggui-hong/</loc>
-      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/feiyan-gong/</loc>
-      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/publication/biooil/</loc>
-      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/shen-ning/</loc>
-      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/weiwei-huang/</loc>
-      <lastmod>2011-10-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>/authors/zhaoxia-zhang/</loc>
       <lastmod>2011-10-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
@@ -629,18 +618,36 @@
   
     <url>
     
-      <loc>/author/admin/</loc>
-    </url>
-  
-    <url>
-    
-      <loc>/author/</loc>
+      <loc>/</loc>
+      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/categories/</loc>
+      <loc>/authors/zhi-yang/</loc>
+      <lastmod>2019-03-15T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/admin/</loc>
+      <lastmod>2019-11-23T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/blogdown/</loc>
+      <lastmod>2019-10-17T12:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/xaringan/</loc>
+      <lastmod>2019-02-26T18:30:00-07:00</lastmod>
       <priority>0</priority>
     </url>
   

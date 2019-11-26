@@ -21,6 +21,7 @@ title: 'SoCal All Hands useR Meeting Twitter Blog'
 
 ##### Workshops by [Malcolm Barrett](https://twitter.com/malco_barrett) and [Emil Hvitfeldt](https://twitter.com/Emil_Hvitfeldt)
 
+<center>
 ```{r echo=FALSE}
 blogdown::shortcodes('tweet', c('1198327578685100032',
                                 '1198444110081736704',
@@ -30,6 +31,7 @@ blogdown::shortcodes('tweet', c('1198327578685100032',
 ```
 
 ##### "Software Engineering with Shiny" by [Alan Dipert](https://twitter.com/alandipert)
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198377866578120704')
 blogdown::shortcode('tweet', '1198333013571989504')
@@ -37,18 +39,20 @@ blogdown::shortcode('tweet', '1198333013571989504')
 ```
 
 ##### "Artificial Intelligence & Analytical Innovation" by [Qinghua Song](https://www.linkedin.com/in/song-qinghua-40352b12/)
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198381621059018752')
 ```
 
 ##### "Staying clean and DRY - best practices for code reuse and collaboration" by [Peter Foley](https://www.linkedin.com/in/peter-foley-6600482/)	
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198378572039122944')
 ```
 
 
 ##### "Exploring communities with ‘vegan’ - an introduction to community analysis" by [An Bui](https://twitter.com/_anbui)
-
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198386439190241282')
 blogdown::shortcode('tweet', '1198371505295331328')
@@ -56,42 +60,44 @@ blogdown::shortcode('tweet', '1198371505295331328')
 
 
 ##### "The Linear Algebra Behind Machine Learning: Under the Hood with Regression Analysis" by [Steven Slezak](https://www.linkedin.com/in/steven-slezak-a3243914/)
-
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198373995600433153')
 ```
 
 ##### "Macgyvering with R: Creating a Work Schedule" by [Wendy Christensen](https://twitter.com/wchristensen)	
-
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198376779431342080')
 ```
 
 ##### "Condition System in R" by [John Peach](https://www.linkedin.com/in/jpeach/)
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198378164080132096')
 ```
 
 
 ##### "R for better science in less time" by [Julia Stewart Lowndes](https://twitter.com/juliesquid)
-
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198395159701901312')
 blogdown::shortcode('tweet', '1198385565160202240')
 blogdown::shortcode('tweet', '1198384157983793152')
 blogdown::shortcode('tweet', '1198393837913198592')
 blogdown::shortcode('tweet', '1198466004822548481')
-
 ```
 
 
-##### Future events 
+##### Future events by [the Orange County R Users Group](https://ocrug.org/)
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198390865166618631')
 ```
 
 
-##### Happy hours
+##### Happy memories posted by RLadies SoCal
+<center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198395337867575296')
 blogdown::shortcode('tweet', '1198448792825036800')
