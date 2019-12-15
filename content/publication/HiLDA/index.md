@@ -9,7 +9,7 @@ authors:
 - Kimberly D. Siegmund
 
 date: "2019-03-15T00:00:00-07:00"
-doi: ""
+doi: "10.7717/peerj.7557"
 featured: true
 image:
   caption: 'Image credit: [**pixabay**](https://pixabay.com/illustrations/dna-genetic-material-helix-proteins-3539309/)'
