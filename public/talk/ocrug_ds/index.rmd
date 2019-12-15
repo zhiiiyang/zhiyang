@@ -1,0 +1,30 @@
+---
+abstract: This talk is dedicated to show people how to use LinkedIn, GitHub, Twitter and personal website to achieve self-promotation in order to prepare themselves for today's data science job market. I will take the data hackathon as an example and provide a hands-on instruction on how to create posts for acknowledging your work at the data hackathon. 
+
+all_day: false
+authors: []
+publishDate: "2019-11-12T18:30:00-07:00"
+date: "2019-11-09T09:00:00-07:00"
+date_end: "2019-11-10T17:40:00-07:00"
+event: OCRUG Hackathon 
+event_url: https://github.com/ocrug/hackathon-2019-11
+featured: false
+image:
+  focal_point: Right
+location: Irvine, California
+draft: false
+math: true
+summary: A introduction to the family of R Markdown packages.
+tags: [R, R Markdown, blogdown]
+title: How to Promote Yourself in Today’s Data Science Job Market
+url_code: ""
+url_pdf: ""
+url_slides: "http://bit.ly/ocrug112019" 
+url_video: ""
+---
+
+```{r echo=FALSE}
+knitr::include_url('https://ocrug-hackathon-promote.netlify.com/#1')
+blogdown::shortcode('tweet', '1193057191588007937')
+```
+
