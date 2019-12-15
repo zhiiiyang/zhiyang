@@ -6,10 +6,19 @@
     <description>Recent content in admin on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Heatmap for My Twitter Activity Tracking</title>
+      <link>/post/tweet_activity/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tweet_activity/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SoCal All Hands useR Meeting Twitter Blog</title>
@@ -17,17 +26,6 @@
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/socalr2019/</guid>
-      <description>Please check out all the slides here.Workshops by Malcolm Barrett and Emil Hvitfeldt@malco_barrett recommends these three books for you to continue on your #dataviz #ggplot2 learning journey. 📕Fundamentals of Data Visualization by @ClausWilke 📘Storytelling with Data by @storywithdata
-📗Better Presentations by @jschwabish pic.twitter.com/10Cdy779SB
-&amp;mdash; Los Angeles R Users (@la_Rusers) November 23, 2019  We had a great day at the SoCal #rstats meetup! My workshop from this morning on designing ggplots is freely available.</description>
-    </item>
-    
-    <item>
-      <title>SoCal All Hands useR Meeting Twitter Blog</title>
-      <link>/post/tweet_activity/</link>
-      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/tweet_activity/</guid>
       <description>Please check out all the slides here.Workshops by Malcolm Barrett and Emil Hvitfeldt@malco_barrett recommends these three books for you to continue on your #dataviz #ggplot2 learning journey. 📕Fundamentals of Data Visualization by @ClausWilke 📘Storytelling with Data by @storywithdata
 📗Better Presentations by @jschwabish pic.twitter.com/10Cdy779SB
 &amp;mdash; Los Angeles R Users (@la_Rusers) November 23, 2019  We had a great day at the SoCal #rstats meetup! My workshop from this morning on designing ggplots is freely available.</description>
