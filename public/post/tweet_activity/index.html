@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="library(rtweet)library(lubridate)## ## Attaching package: &#39;lubridate&#39;## The following object is masked from &#39;package:base&#39;:## ## datelibrary(tidyverse)## -- Attaching packages ---------------------------------------------------------- tidyverse 1.2.1 --## v ggplot2 3.2.1 v purrr 0.3.3## v tibble 2.1.3 v dplyr 0.8.3## v tidyr 1.0.0 v stringr 1.4.0## v readr 1.3.1 v forcats 0.4.0## -- Conflicts ------------------------------------------------------------- tidyverse_conflicts() --## x lubridate::as.difftime() masks base::as.difftime()## x lubridate::date() masks base::date()## x dplyr::filter() masks stats::filter()## x purrr::flatten() masks rtweet::flatten()## x lubridate::intersect() masks base::intersect()## x dplyr::lag() masks stats::lag()## x lubridate::setdiff() masks base::setdiff()## x lubridate::union() masks base::union()source(&quot;https://raw.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/tweet_activity/">
@@ -139,7 +139,7 @@
   <meta property="og:site_name" content="Zhi Yang">
   <meta property="og:url" content="/post/tweet_activity/">
   <meta property="og:title" content="Heatmap for My Twitter Activity Tracking | Zhi Yang">
-  <meta property="og:description" content=""><meta property="og:image" content="/img/share.png">
+  <meta property="og:description" content="library(rtweet)library(lubridate)## ## Attaching package: &#39;lubridate&#39;## The following object is masked from &#39;package:base&#39;:## ## datelibrary(tidyverse)## -- Attaching packages ---------------------------------------------------------- tidyverse 1.2.1 --## v ggplot2 3.2.1 v purrr 0.3.3## v tibble 2.1.3 v dplyr 0.8.3## v tidyr 1.0.0 v stringr 1.4.0## v readr 1.3.1 v forcats 0.4.0## -- Conflicts ------------------------------------------------------------- tidyverse_conflicts() --## x lubridate::as.difftime() masks base::as.difftime()## x lubridate::date() masks base::date()## x dplyr::filter() masks stats::filter()## x purrr::flatten() masks rtweet::flatten()## x lubridate::intersect() masks base::intersect()## x dplyr::lag() masks stats::lag()## x lubridate::setdiff() masks base::setdiff()## x lubridate::union() masks base::union()source(&quot;https://raw."><meta property="og:image" content="/img/share.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-12-15T00:00:00&#43;00:00">
@@ -434,7 +434,7 @@ MathJax.Hub.Config({
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    0 min read
+    3 min read
   </span>
   
 
@@ -521,7 +521,105 @@ MathJax.Hub.Config({
       
 
 
-
+<pre class="r"><code>library(rtweet)
+library(lubridate)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;lubridate&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:base&#39;:
+## 
+##     date</code></pre>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages ---------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
+<pre><code>## v ggplot2 3.2.1     v purrr   0.3.3
+## v tibble  2.1.3     v dplyr   0.8.3
+## v tidyr   1.0.0     v stringr 1.4.0
+## v readr   1.3.1     v forcats 0.4.0</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------------------------- tidyverse_conflicts() --
+## x lubridate::as.difftime() masks base::as.difftime()
+## x lubridate::date()        masks base::date()
+## x dplyr::filter()          masks stats::filter()
+## x purrr::flatten()         masks rtweet::flatten()
+## x lubridate::intersect()   masks base::intersect()
+## x dplyr::lag()             masks stats::lag()
+## x lubridate::setdiff()     masks base::setdiff()
+## x lubridate::union()       masks base::union()</code></pre>
+<pre class="r"><code>source(&quot;https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHeat.R&quot;)</code></pre>
+<pre class="r"><code>token &lt;- create_token(
+  app = &quot;xxx&quot;,
+  consumer_key = &quot;xxx&quot;,
+  consumer_secret = &quot;xxx&quot;)</code></pre>
+<div id="get-my-timeline" class="section level2">
+<h2>Get my timeline</h2>
+<pre class="r"><code>targeted_user &lt;- &quot;zhiiiyang&quot;
+tweet_list &lt;- get_timeline(targeted_user,n = 3000)</code></pre>
+</div>
+<div id="explore-the-tweets-list" class="section level2">
+<h2>Explore the tweets list</h2>
+<pre class="r"><code>head(tweet_list)</code></pre>
+<pre><code>## # A tibble: 6 x 90
+##   user_id status_id created_at          screen_name text  source
+##   &lt;chr&gt;   &lt;chr&gt;     &lt;dttm&gt;              &lt;chr&gt;       &lt;chr&gt; &lt;chr&gt; 
+## 1 345609~ 12070622~ 2019-12-17 22:17:18 zhiiiyang   @ika~ Twitt~
+## 2 345609~ 12068434~ 2019-12-17 07:47:56 zhiiiyang   &quot;&lt;U+2753&gt;Wh~ Twitt~
+## 3 345609~ 12067877~ 2019-12-17 04:06:43 zhiiiyang   @gua~ Twitt~
+## 4 345609~ 12067668~ 2019-12-17 02:43:22 zhiiiyang   &quot;@CM~ Twitt~
+## 5 345609~ 12064631~ 2019-12-16 06:36:38 zhiiiyang   &quot;@R_~ Twitt~
+## 6 345609~ 12064595~ 2019-12-16 06:22:36 zhiiiyang   &quot;I&#39;v~ Twitt~
+## # ... with 84 more variables: display_text_width &lt;dbl&gt;,
+## #   reply_to_status_id &lt;chr&gt;, reply_to_user_id &lt;chr&gt;,
+## #   reply_to_screen_name &lt;chr&gt;, is_quote &lt;lgl&gt;, is_retweet &lt;lgl&gt;,
+## #   favorite_count &lt;int&gt;, retweet_count &lt;int&gt;, quote_count &lt;int&gt;,
+## #   reply_count &lt;int&gt;, hashtags &lt;list&gt;, symbols &lt;list&gt;, urls_url &lt;list&gt;,
+## #   urls_t.co &lt;list&gt;, urls_expanded_url &lt;list&gt;, media_url &lt;list&gt;,
+## #   media_t.co &lt;list&gt;, media_expanded_url &lt;list&gt;, media_type &lt;list&gt;,
+## #   ext_media_url &lt;list&gt;, ext_media_t.co &lt;list&gt;,
+## #   ext_media_expanded_url &lt;list&gt;, ext_media_type &lt;chr&gt;,
+## #   mentions_user_id &lt;list&gt;, mentions_screen_name &lt;list&gt;, lang &lt;chr&gt;,
+## #   quoted_status_id &lt;chr&gt;, quoted_text &lt;chr&gt;, quoted_created_at &lt;dttm&gt;,
+## #   quoted_source &lt;chr&gt;, quoted_favorite_count &lt;int&gt;,
+## #   quoted_retweet_count &lt;int&gt;, quoted_user_id &lt;chr&gt;,
+## #   quoted_screen_name &lt;chr&gt;, quoted_name &lt;chr&gt;,
+## #   quoted_followers_count &lt;int&gt;, quoted_friends_count &lt;int&gt;,
+## #   quoted_statuses_count &lt;int&gt;, quoted_location &lt;chr&gt;,
+## #   quoted_description &lt;chr&gt;, quoted_verified &lt;lgl&gt;,
+## #   retweet_status_id &lt;chr&gt;, retweet_text &lt;chr&gt;,
+## #   retweet_created_at &lt;dttm&gt;, retweet_source &lt;chr&gt;,
+## #   retweet_favorite_count &lt;int&gt;, retweet_retweet_count &lt;int&gt;,
+## #   retweet_user_id &lt;chr&gt;, retweet_screen_name &lt;chr&gt;, retweet_name &lt;chr&gt;,
+## #   retweet_followers_count &lt;int&gt;, retweet_friends_count &lt;int&gt;,
+## #   retweet_statuses_count &lt;int&gt;, retweet_location &lt;chr&gt;,
+## #   retweet_description &lt;chr&gt;, retweet_verified &lt;lgl&gt;, place_url &lt;chr&gt;,
+## #   place_name &lt;chr&gt;, place_full_name &lt;chr&gt;, place_type &lt;chr&gt;,
+## #   country &lt;chr&gt;, country_code &lt;chr&gt;, geo_coords &lt;list&gt;,
+## #   coords_coords &lt;list&gt;, bbox_coords &lt;list&gt;, status_url &lt;chr&gt;,
+## #   name &lt;chr&gt;, location &lt;chr&gt;, description &lt;chr&gt;, url &lt;chr&gt;,
+## #   protected &lt;lgl&gt;, followers_count &lt;int&gt;, friends_count &lt;int&gt;,
+## #   listed_count &lt;int&gt;, statuses_count &lt;int&gt;, favourites_count &lt;int&gt;,
+## #   account_created_at &lt;dttm&gt;, verified &lt;lgl&gt;, profile_url &lt;chr&gt;,
+## #   profile_expanded_url &lt;chr&gt;, account_lang &lt;lgl&gt;,
+## #   profile_banner_url &lt;chr&gt;, profile_background_url &lt;chr&gt;,
+## #   profile_image_url &lt;chr&gt;</code></pre>
+<div id="retweet-lists" class="section level4">
+<h4>retweet lists</h4>
+<pre class="r"><code>tweet_list &lt;- tweet_list %&gt;% 
+  mutate(week = week(created_at),
+         weekday = wday(created_at, label = TRUE),
+         year = year(created_at), 
+         month = month(created_at, label = TRUE),
+         date = date(created_at)) %&gt;% 
+  group_by(year, month) %&gt;% 
+  mutate(monthweek = week - min(week) + 1) %&gt;% 
+  group_by(date) %&gt;% 
+  mutate(activity = n(),
+         original = if_else(is.na(reply_to_status_id)==TRUE &amp;
+                               is_retweet==FALSE, TRUE, FALSE),
+         likes = sum(favorite_count[original==TRUE]),
+         retweets = sum(retweet_count[original==TRUE]))</code></pre>
+<pre class="r"><code>calendarHeat(tweet_list$date, tweet_list$activity, 
+             ncolors = 99, color = &quot;g2r&quot;, varname=&quot;My Tweets &amp; Replies Activitiy&quot;)</code></pre>
+<p><img src="/post/tweet_activity/index_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+</div>
+</div>
 
     </div>
 

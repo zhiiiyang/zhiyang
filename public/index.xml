@@ -6,21 +6,8 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Heatmap for My Twitter Activity Tracking</title>
-      <link>/post/tweet_activity/</link>
-      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/tweet_activity/</guid>
-      <description>
-
-
-
-</description>
-    </item>
     
     <item>
       <title>Mutational signatures in colon cancer</title>
@@ -657,6 +644,25 @@ cowplot::plot_grid(p1, p2, ncol = 1)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;p3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>E-cigarette product characteristics</title>
+      <link>/talk/cpdd/</link>
+      <pubDate>Mon, 17 Jun 2019 10:00:00 -0700</pubDate>
+      
+      <guid>/talk/cpdd/</guid>
+      <description>
+
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Excited to present the research work with &lt;a href=&#34;https://twitter.com/Doctor_BT?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@Doctor_BT&lt;/span&gt;&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/hashtag/CPDD19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CPDD19&lt;/a&gt; on the effect of e-cigarette use on past 30-day cigarette use among adolescents. Thank you all for dropping by and asking amazing questions. Also, I’d to share my experience of adopting &lt;a href=&#34;https://twitter.com/hashtag/betterposter?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#betterposter&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mikemorrison?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@mikemorrison&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://t.co/N4zt7y6Kh9&#34;&gt;pic.twitter.com/N4zt7y6Kh9&lt;/a&gt;
+&lt;/p&gt;
+— Zhi Yang (&lt;span class=&#34;citation&#34;&gt;@zhiiiyang&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/zhiiiyang/status/1140733758519357440?ref_src=twsrc%5Etfw&#34;&gt;June 17, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     

@@ -6,19 +6,10 @@
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Heatmap for My Twitter Activity Tracking</title>
-      <link>/post/tweet_activity/</link>
-      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/tweet_activity/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>SoCal All Hands useR Meeting Twitter Blog</title>
