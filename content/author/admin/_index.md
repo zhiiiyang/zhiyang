@@ -19,6 +19,7 @@ education:
 email: ""
 interests:
 - Data Science
+- Data Visualization
 - Machine learning
 - Bayesian statistiscs 
 - Genomics
@@ -50,4 +51,4 @@ user_groups:
 - Visitors
 ---
 
-Zhi Yang is a PhD in Biostatistics at the University of Southern California. She has been providing statistical support to a wide range of research teams in both academia and industry to answer real-life problems, including e-cigarette policy, Alzheimer's prevention, drug marketing strategy, free-roaming dogs vaccination strategy in Africa, colorectal cancer development, e-cigarette use among adolescents and etc. She has over six years' programming experiences in R, Python, SQL, SAS, and Stata. She loves working with the heterogeneity of the data and finds it challenging and fun. 
+Zhi Yang received her Ph.D. in Biostatistics from the University of Southern California. She currently works as a Biostatistician II at NanoString Technologies, Seattle. She has been providing statistical support to a wide range of research teams in both academia and industry to answer real-life problems, including e-cigarette policy, Alzheimer's prevention, drug marketing strategy, free-roaming dogs vaccination strategy in Africa, colorectal cancer development, e-cigarette use among adolescents and etc. She has over six years' programming experience in R, Python, SQL, SAS, and Stata. She loves working with the heterogeneity of the data and finds it challenging and fun. 

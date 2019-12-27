@@ -17,7 +17,14 @@ url_video: ""
 
 This project contains a list of data visualization generated using R. 
 
+## GitHub `tidytuesday` repo
+
+[Click here](https://github.com/zhiiiyang/tidytuesday)
+
 ## Tweets
+
+`r htmltools::HTML("{{< tweet 1209566848183783424 >}}")`
+`r htmltools::HTML("{{< tweet 1210327943362170881 >}}")`
 `r htmltools::HTML("{{< tweet 1146310918973751296 >}}")`
 `r htmltools::HTML("{{< tweet 1144839270143676416 >}}")`
 `r htmltools::HTML("{{< tweet 1206843455801974784 >}}")`
