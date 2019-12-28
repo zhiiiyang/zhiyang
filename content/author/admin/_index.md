@@ -32,18 +32,23 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/zhiiiyang
+
 - icon: github
   icon_pack: fab
   link: https://github.com/zhiiiyang
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/zhiiiyang/
+- icon: reddit
+  icon_pack: fab
+  link: https://www.reddit.com/user/zhiiiyang/posts/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/zhiiiyang
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=w9iE6jQAAAAJ&hl=en&authuser=1
+
   
 superuser: true
 user_groups:
