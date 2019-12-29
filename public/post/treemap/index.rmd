@@ -9,7 +9,7 @@ image:
   focal_point: "left"
   preview_only: false
 lastmod: "2019-07-03T00:00:00-08:00"
-summary: An interactive treemap using treemap and d3treeR
+summary: an interactive treemap using treemap and d3treeR
 projects:
 - viz
 tags:

@@ -9,13 +9,12 @@ image:
   focal_point: "center"
   preview_only: false
 lastmod: "2019-11-23T00:00:00-08:00"
-summary:  
 projects:
 tags:
 - R
 url_slides: "https://github.com/laRusers/socalr2019"
 title: 'SoCal All Hands useR Meeting Twitter Blog'
-summary: An entire day of R fun with R Users Groups and R-Ladies
+summary: an entire day of R fun with R Users Groups and R-Ladies
 ---
 
 
