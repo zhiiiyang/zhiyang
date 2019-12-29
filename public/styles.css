@@ -24,13 +24,13 @@
 
 html {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 23px;
+    font-size: 21px;
   }
 }
 
@@ -1759,7 +1759,7 @@ a.badge:hover {
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link,
