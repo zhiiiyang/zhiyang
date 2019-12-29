@@ -15,7 +15,9 @@ tags:
 - R
 url_slides: "https://github.com/laRusers/socalr2019"
 title: 'SoCal All Hands useR Meeting Twitter Blog'
+subtitle: "An entire day of R fun with R Users Groups and R-Ladies"
 ---
+
 
 ## Please check out all the slides [here](https://github.com/laRusers/socalr2019).
 
