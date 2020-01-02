@@ -15,7 +15,11 @@ math: true
 projects:
 - cancer
 summary: An application of topic modeling in genomic data
-tags: [R, Topic modeling, Machine learning, Data science]
+tags: 
+- R
+- Topic modeling
+- Machine learning
+- Data science
 title: Extracting topics from cancer patients' mutational profiles
 url_code: ""
 url_pdf: ""

@@ -6,8 +6,217 @@
     <description>Recent content in Zhi Yang on Zhi Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Auto-generating GitHub commit messages using textgenrnn</title>
+      <link>/post/github-commit/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/github-commit/</guid>
+      <description>
+
+&lt;h2 id=&#34;introducing-textgenrnn&#34;&gt;Introducing textgenrnn&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;textgenrnn&lt;/code&gt; allows easy and straightforward process of training a text-generating neural network with a few lines of code using Keras/TensorFlow.
+&lt;img src=&#34;https://github.com/minimaxir/textgenrnn/raw/master/docs/textgenrnn_console.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;install-pygithub-and-textgenrnn&#34;&gt;Install PyGithub and textgenrnn&lt;/h3&gt;
+
+&lt;p&gt;In this post, we will be introducing two Python libraries called &lt;a href=&#34;https://github.com/PyGithub/PyGithub&#34; target=&#34;_blank&#34;&gt;PyGitHub&lt;/a&gt; and (textgenrnn)[(&lt;a href=&#34;https://github.com/minimaxir/textgenrnn)&#34; target=&#34;_blank&#34;&gt;https://github.com/minimaxir/textgenrnn)&lt;/a&gt;]. You can type the commands in the Windows shell to install these two libraries.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install PyGitHub
+pip install textgenrnn
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;store-your-github-token&#34;&gt;Store your GitHub token&lt;/h3&gt;
+
+&lt;p&gt;Go to GitHub &lt;a href=&#34;https://github.com/settings/tokens&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; to generate your personal access tokens. Then type the following command in your Windows Shell to store it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;set GITHUB_KEY = xxxxxxxxxxxxxxxxxxxxxx
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;we-re-ready-to-auto-generate-commit-messages&#34;&gt;We&amp;rsquo;re ready to auto-generate commit messages&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+from github import Github
+from textgenrnn import textgenrnn
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;GitHub_api = os.environ.get(&amp;quot;GITHUB_KEY&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;download-commit-messages-from-my-personal-website-zhiiiyang-zhiyang-on-github-https-github-com-zhiiiyang-zhiyang&#34;&gt;Download commit messages from my personal website &lt;code&gt;zhiiiyang/zhiyang&lt;/code&gt; on &lt;a href=&#34;https://github.com/zhiiiyang/zhiyang&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;g = Github(GitHub_api)
+repo = g.get_repo(&amp;quot;zhiiiyang/zhiyang&amp;quot;)
+commits = repo.get_commits()
+messages = []
+for i in commits:
+    messages.append(i.commit.message)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;save-it-to-a-text-file&#34;&gt;Save it to a text file&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;with open(&#39;commits.txt&#39;, &#39;w&#39;) as f:
+    for message in messages:
+        f.write(&amp;quot;%s\n&amp;quot; % message)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;read-it-into-textgenrnn&#34;&gt;Read it into &lt;code&gt;textgenrnn&lt;/code&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;textgen = textgenrnn()
+textgen.generate()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;All of the story of relationships who says &amp;quot;New All Trump Control Complete Man Works
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;train-a-model&#34;&gt;Train a model&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;textgen.train_from_file(&amp;quot;commits.txt&amp;quot;, num_epochs=3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;135 texts collected.
+Training on 2,248 character sequences.
+Epoch 1/3
+17/17 [==============================] - ETA: 18s - loss: 2.18 - ETA: 9s - loss: 2.3687 - ETA: 6s - loss: 2.428 - ETA: 5s - loss: 2.378 - ETA: 4s - loss: 2.279 - ETA: 3s - loss: 2.251 - ETA: 2s - loss: 2.198 - ETA: 2s - loss: 2.149 - ETA: 2s - loss: 2.151 - ETA: 1s - loss: 2.135 - ETA: 1s - loss: 2.091 - ETA: 1s - loss: 2.029 - ETA: 0s - loss: 2.000 - ETA: 0s - loss: 1.979 - ETA: 0s - loss: 1.949 - ETA: 0s - loss: 1.922 - 3s 200ms/step - loss: 1.8895
+####################
+Temperature: 0.2
+####################
+add the  in the image
+
+add the  in the sizes
+
+add the  in the site to the size
+
+####################
+Temperature: 0.5
+####################
+change the site of the sizes
+
+add the  in sizes
+
+add hail
+
+####################
+Temperature: 1.0
+####################
+change the sites
+
+fil a talk
+
+tag doo ssight
+
+Epoch 2/3
+17/17 [==============================] - ETA: 1s - loss: 1.077 - ETA: 1s - loss: 1.079 - ETA: 1s - loss: 1.152 - ETA: 1s - loss: 1.151 - ETA: 1s - loss: 1.096 - ETA: 1s - loss: 1.120 - ETA: 1s - loss: 1.095 - ETA: 1s - loss: 1.087 - ETA: 1s - loss: 1.102 - ETA: 0s - loss: 1.098 - ETA: 0s - loss: 1.080 - ETA: 0s - loss: 1.071 - ETA: 0s - loss: 1.069 - ETA: 0s - loss: 1.058 - ETA: 0s - loss: 1.065 - ETA: 0s - loss: 1.074 - 2s 129ms/step - loss: 1.0706
+####################
+Temperature: 0.2
+####################
+add a new post
+
+add a new post
+
+add a new post
+
+####################
+Temperature: 0.5
+####################
+post talks
+
+add my fix analy
+
+change the talk
+
+####################
+Temperature: 1.0
+####################
+change the finish
+
+add Sepost
+
+adjust salilogy
+
+Epoch 3/3
+17/17 [==============================] - ETA: 1s - loss: 0.730 - ETA: 1s - loss: 0.844 - ETA: 1s - loss: 0.762 - ETA: 1s - loss: 0.749 - ETA: 1s - loss: 0.745 - ETA: 1s - loss: 0.781 - ETA: 1s - loss: 0.773 - ETA: 1s - loss: 0.790 - ETA: 1s - loss: 0.776 - ETA: 0s - loss: 0.800 - ETA: 0s - loss: 0.809 - ETA: 0s - loss: 0.804 - ETA: 0s - loss: 0.797 - ETA: 0s - loss: 0.795 - ETA: 0s - loss: 0.806 - ETA: 0s - loss: 0.813 - 2s 129ms/step - loss: 0.8175
+####################
+Temperature: 0.2
+####################
+add a talk
+
+add a new post
+
+add a new post
+
+####################
+Temperature: 0.5
+####################
+change the talk
+
+add a new post
+
+add a new post
+
+####################
+Temperature: 1.0
+####################
+drag
+
+Mika font now slides finish shang haim
+
+change the laymor post
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;predict-the-safest-commit-message&#34;&gt;Predict the safest commit message&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Temperature&lt;/code&gt; parameter controls how conservative or risky the model&amp;rsquo;s guess is going to be. The higher the value is, the riskier the prediction is.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;textgen.generate(10, return_as_list=True, temperature=0)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;100%|██████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00&amp;lt;00:00, 11.02it/s]
+
+
+
+
+
+[&#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;,
+ &#39;add a new post&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;predict-the-riskies-commit-message&#34;&gt;Predict the riskies commit message&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;textgen.generate(10, return_as_list=True, temperature=1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;100%|██████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00&amp;lt;00:00,  8.84it/s]
+
+
+
+
+
+[&#39;change the change the deniik for color&#39;,
+ &#39;a smooj of tags&#39;,
+ &#39;change the post&#39;,
+ &#39;adjust cast&#39;,
+ &#39;add slides&#39;,
+ &#39;adidal strouther&#39;,
+ &#39;add a talk&#39;,
+ &#39;adjust playe font&#39;,
+ &#39;add the gobour&#39;,
+ &#39;delete the iam&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Mutational signatures in colon cancer</title>
@@ -644,25 +853,6 @@ cowplot::plot_grid(p1, p2, ncol = 1)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;p3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>E-cigarette product characteristics</title>
-      <link>/talk/cpdd/</link>
-      <pubDate>Mon, 17 Jun 2019 10:00:00 -0700</pubDate>
-      
-      <guid>/talk/cpdd/</guid>
-      <description>
-
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
-Excited to present the research work with &lt;a href=&#34;https://twitter.com/Doctor_BT?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@Doctor_BT&lt;/span&gt;&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/hashtag/CPDD19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#CPDD19&lt;/a&gt; on the effect of e-cigarette use on past 30-day cigarette use among adolescents. Thank you all for dropping by and asking amazing questions. Also, I’d to share my experience of adopting &lt;a href=&#34;https://twitter.com/hashtag/betterposter?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#betterposter&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mikemorrison?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@mikemorrison&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://t.co/N4zt7y6Kh9&#34;&gt;pic.twitter.com/N4zt7y6Kh9&lt;/a&gt;
-&lt;/p&gt;
-— Zhi Yang (&lt;span class=&#34;citation&#34;&gt;@zhiiiyang&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/zhiiiyang/status/1140733758519357440?ref_src=twsrc%5Etfw&#34;&gt;June 17, 2019&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     

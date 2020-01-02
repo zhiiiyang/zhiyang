@@ -12,7 +12,8 @@ title: 'How to prepare for data scientist interviews with an eCommerce company'
 subtitle: 'by reading helpful articles online'
 summary: A short summary of what I've learned from preparing an interview with an eCommerce company
 tags:
-- R, Data Science
+- R
+- Data science
 ---
 
 ## Background

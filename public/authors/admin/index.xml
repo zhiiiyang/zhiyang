@@ -6,10 +6,20 @@
     <description>Recent content in admin on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Auto-generating GitHub commit messages using textgenrnn</title>
+      <link>/post/github-commit/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/github-commit/</guid>
+      <description>Introducing textgenrnn textgenrnn allows easy and straightforward process of training a text-generating neural network with a few lines of code using Keras/TensorFlow. Install PyGithub and textgenrnn In this post, we will be introducing two Python libraries called PyGitHub and (textgenrnn)[(https://github.com/minimaxir/textgenrnn)]. You can type the commands in the Windows shell to install these two libraries.
+pip install PyGitHub pip install textgenrnn  Store your GitHub token Go to GitHub website to generate your personal access tokens.</description>
+    </item>
     
     <item>
       <title>SoCal All Hands useR Meeting Twitter Blog</title>
