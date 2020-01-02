@@ -17,7 +17,7 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/github-commit/</guid>
-      <description>Introducing textgenrnn textgenrnn allows easy and straightforward process of training a text-generating neural network with a few lines of code using Keras/TensorFlow. Install PyGithub and textgenrnn In this post, we will be introducing two Python libraries called PyGitHub and (textgenrnn)[(https://github.com/minimaxir/textgenrnn)]. You can type the commands in the Windows shell to install these two libraries.
+      <description>Introducing textgenrnn textgenrnn allows easy and straightforward process of training a text-generating neural network with a few lines of code using Keras/TensorFlow. Install PyGithub and textgenrnn In this post, we will be introducing two Python libraries called PyGitHub and textgenrnn. You can type the commands in the Windows shell to install these two libraries.
 pip install PyGitHub pip install textgenrnn  Store your GitHub token Go to GitHub website to generate your personal access tokens.</description>
     </item>
     

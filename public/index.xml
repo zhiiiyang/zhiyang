@@ -24,7 +24,7 @@
 
 &lt;h3 id=&#34;install-pygithub-and-textgenrnn&#34;&gt;Install PyGithub and textgenrnn&lt;/h3&gt;
 
-&lt;p&gt;In this post, we will be introducing two Python libraries called &lt;a href=&#34;https://github.com/PyGithub/PyGithub&#34; target=&#34;_blank&#34;&gt;PyGitHub&lt;/a&gt; and (textgenrnn)[(&lt;a href=&#34;https://github.com/minimaxir/textgenrnn)&#34; target=&#34;_blank&#34;&gt;https://github.com/minimaxir/textgenrnn)&lt;/a&gt;]. You can type the commands in the Windows shell to install these two libraries.&lt;/p&gt;
+&lt;p&gt;In this post, we will be introducing two Python libraries called &lt;a href=&#34;https://github.com/PyGithub/PyGithub&#34; target=&#34;_blank&#34;&gt;PyGitHub&lt;/a&gt; and &lt;a href=&#34;https://github.com/minimaxir/textgenrnn&#34; target=&#34;_blank&#34;&gt;textgenrnn&lt;/a&gt;. You can type the commands in the Windows shell to install these two libraries.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install PyGitHub
 pip install textgenrnn

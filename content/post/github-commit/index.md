@@ -23,7 +23,7 @@ summary: a quick tutorial of using `PyGitHub` and `textgenrnn` in Jupyter notebo
 
 
 ### Install PyGithub and textgenrnn
-In this post, we will be introducing two Python libraries called [PyGitHub](https://github.com/PyGithub/PyGithub) and (textgenrnn)[(https://github.com/minimaxir/textgenrnn)]. You can type the commands in the Windows shell to install these two libraries.
+In this post, we will be introducing two Python libraries called [PyGitHub](https://github.com/PyGithub/PyGithub) and [textgenrnn](https://github.com/minimaxir/textgenrnn). You can type the commands in the Windows shell to install these two libraries.
 
 ```bash
 pip install PyGitHub
