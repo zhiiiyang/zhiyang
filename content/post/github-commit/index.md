@@ -11,6 +11,7 @@ image:
 projects:
 tags:
 - Python
+- Machine learning
 title: 'Auto-generating GitHub commit messages using textgenrnn'
 summary: a quick tutorial of using `PyGitHub` and `textgenrnn` in Jupyter notebook
 ---
