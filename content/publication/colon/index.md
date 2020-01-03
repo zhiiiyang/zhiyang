@@ -21,7 +21,11 @@ publication_short: In *BMC Research Notes*
 publication_types:
 - "2"
 summary: 
-tags: []
+tags: 
+- R
+- JAGS
+- Bayesian inference
+- R package
 title: Mutational signatures in colon cancer
 url_code: ""
 url_dataset: ""
