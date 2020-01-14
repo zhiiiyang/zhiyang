@@ -32,13 +32,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-
-- icon: github
-  icon_pack: fab
-  link: https://github.com/zhiiiyang
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/zhiiiyang/
+- icon: github
+  icon_pack: fab
+  link: https://github.com/zhiiiyang
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-6577-8943
 - icon: reddit
   icon_pack: fab
   link: https://www.reddit.com/user/zhiiiyang/posts/
