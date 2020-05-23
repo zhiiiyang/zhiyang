@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistical analysis on Zhi Yang</title>
@@ -17,7 +17,7 @@
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/poster/</guid>
-      <description>Background I worked for Jessica Barrington-Trimis (@Doctor_BT) on a project to look into the effect of e-cigarette use on cigarette use among adolescents. After we submitted the manuscript, Jessica suggested me presenting the results at the upcoming 2019 Meeting – College on Problems of Drug Dependence, San Antonio, TX. Meanwhile, she sent me a video link about transforming the current poster style. After watching it, I was totally down to get the new poster rolling.</description>
+      <description>my first-time experience of making a trending new-style poster</description>
     </item>
     
     <item>
@@ -26,8 +26,7 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/treemap/</guid>
-      <description>Background😄Hi, you are probably directed here because of my recent tweet. To practice my data visualization skills, I decided to enter the this week’s #TidyTuesday challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset here.
-#TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.</description>
+      <description>an interactive treemap using treemap and d3treeR</description>
     </item>
     
     <item>
@@ -36,7 +35,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/gaokao/</guid>
-      <description>Background In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
+      <description>data visualization of the college entrace exam data in 2017</description>
     </item>
     
     <item>
@@ -45,7 +44,7 @@
       <pubDate>Mon, 17 Jun 2019 10:00:00 -0700</pubDate>
       
       <guid>/talk/cpdd/</guid>
-      <description>Excited to present the research work with @Doctor_BT at #CPDD19 on the effect of e-cigarette use on past 30-day cigarette use among adolescents. Thank you all for dropping by and asking amazing questions. Also, I’d to share my experience of adopting #betterposter by @mikemorrison pic.twitter.com/N4zt7y6Kh9— Zhi Yang (@zhiiiyang) June 17, 2019</description>
+      <description>Young adults using mod (vs. pen-like) e-cigarette devices at baseline smoked &lt;strong&gt;more than 6 times&lt;/strong&gt; as many cigarettes in the past 30 days at follow-up.</description>
     </item>
     
     <item>
@@ -73,7 +72,7 @@
       
       <guid>/project/cancer/</guid>
       <description>During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface. Thanks to my advisors Kimberly Siegmund, and committe member Paul Marjoram and Darryl Shibata.
-MotivationsTopic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
+Motivations Topic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zhi Yang</title>
@@ -6,80 +6,26 @@
     <description>Recent content in Tags on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Academic</title>
-      <link>/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Artificial Intelligence</title>
-      <link>/tags/artificial-intelligence/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
+      <title>Smoking</title>
+      <link>/tags/smoking/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
       
-      <guid>/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian inference</title>
-      <link>/tags/bayesian-inference/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bayesian-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>/tags/data-science/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data science</title>
-      <link>/tags/data-science/</link>
-      <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
-      
-      <guid>/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data viz</title>
-      <link>/tags/data-viz/</link>
-      <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/tags/data-viz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub</title>
-      <link>/tags/github/</link>
-      <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
-      
-      <guid>/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JAGS</title>
-      <link>/tags/jags/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/jags/</guid>
+      <guid>/tags/smoking/</guid>
       <description></description>
     </item>
     
@@ -93,15 +39,6 @@
     </item>
     
     <item>
-      <title>Open source</title>
-      <link>/tags/open-source/</link>
-      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
-      
-      <guid>/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>/tags/python/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -111,20 +48,20 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>/tags/r/</link>
+      <title>Bayesian inference</title>
+      <link>/tags/bayesian-inference/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>/tags/bayesian-inference/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Sat, 09 Nov 2019 09:00:00 -0700</pubDate>
+      <title>JAGS</title>
+      <link>/tags/jags/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/tags/jags/</guid>
       <description></description>
     </item>
     
@@ -138,47 +75,20 @@
     </item>
     
     <item>
-      <title>RStudio</title>
-      <link>/tags/rstudio/</link>
-      <pubDate>Wed, 18 Sep 2019 17:30:00 -0700</pubDate>
+      <title>blogdown</title>
+      <link>/tags/blogdown/</link>
+      <pubDate>Sat, 09 Nov 2019 09:00:00 -0700</pubDate>
       
-      <guid>/tags/rstudio/</guid>
+      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SAS</title>
-      <link>/tags/sas/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Sat, 09 Nov 2019 09:00:00 -0700</pubDate>
       
-      <guid>/tags/sas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SPSS</title>
-      <link>/tags/spss/</link>
-      <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
-      
-      <guid>/tags/spss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SQL</title>
-      <link>/tags/sql/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny</title>
-      <link>/tags/shiny/</link>
-      <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/tags/shiny/</guid>
+      <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
     
@@ -192,6 +102,51 @@
     </item>
     
     <item>
+      <title>RStudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Wed, 18 Sep 2019 17:30:00 -0700</pubDate>
+      
+      <guid>/tags/rstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data viz</title>
+      <link>/tags/data-viz/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/data-viz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>/tags/artificial-intelligence/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Topic modeling</title>
       <link>/tags/topic-modeling/</link>
       <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
@@ -201,11 +156,11 @@
     </item>
     
     <item>
-      <title>blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Sat, 09 Nov 2019 09:00:00 -0700</pubDate>
+      <title>GitHub</title>
+      <link>/tags/github/</link>
+      <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
-      <guid>/tags/blogdown/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
@@ -215,6 +170,51 @@
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/tags/xaringan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SAS</title>
+      <link>/tags/sas/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/sas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>/tags/sql/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPSS</title>
+      <link>/tags/spss/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/spss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/academic/</guid>
       <description></description>
     </item>
     

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Zhi Yang</title>
@@ -6,10 +6,19 @@
     <description>Recent content in 2 on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking</title>
+      <link>/publication/ecig/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/ecig/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mutational signatures in colon cancer</title>
@@ -26,7 +35,7 @@
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
       <guid>/publication/hilda/</guid>
-      <description></description>
+      <description>We propose a hierarchical latent Dirichlet allocation model (HiLDA) for characterizing somatic mutation data in cancer. The method allows us to infer mutational patterns and their relative frequencies in a set of tumor mutational catalogs and to compare the estimated frequencies between tumor sets.</description>
     </item>
     
     <item>

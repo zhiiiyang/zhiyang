@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sara Schiff on Zhi Yang</title>
+    <link>/authors/sara-schiff/</link>
+    <description>Recent content in Sara Schiff on Zhi Yang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/authors/sara-schiff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking</title>
+      <link>/publication/ecig/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/ecig/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

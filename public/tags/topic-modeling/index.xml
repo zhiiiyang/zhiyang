@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topic modeling on Zhi Yang</title>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/lda_mutations/</guid>
-      <description></description>
+      <description>An application of topic modeling in genomic data</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
       
       <guid>/talk/ml4all/</guid>
-      <description></description>
+      <description>An introduction on how to apply topic modeling on somatic mutations</description>
     </item>
     
   </channel>

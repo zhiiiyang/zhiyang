@@ -17,8 +17,8 @@ image:
 math: true
 projects:
 - cancer
-publication: In  *biorxiv*
-publication_short: In *biorxiv*
+publication: In  *PeerJ*
+publication_short: In *PeerJ*
 publication_types:
 - "2"
 summary: We propose a hierarchical latent Dirichlet allocation model (HiLDA) for characterizing somatic mutation data in cancer. The method allows us to infer mutational patterns and their relative frequencies in a set of tumor mutational catalogs and to compare the estimated frequencies between tumor sets. 

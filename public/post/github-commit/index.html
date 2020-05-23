@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.1.0">
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.71.0" />
 
   
 
@@ -665,70 +665,40 @@ MathJax.Hub.Config({
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<h2 id="introducing-textgenrnn">Introducing textgenrnn</h2>
-
+      <h2 id="introducing-textgenrnn">Introducing textgenrnn</h2>
 <p><code>textgenrnn</code> allows easy and straightforward process of training a text-generating neural network with a few lines of code using Keras/TensorFlow.
-<img src="https://github.com/minimaxir/textgenrnn/raw/master/docs/textgenrnn_console.gif" alt="" /></p>
-
+<img src="https://github.com/minimaxir/textgenrnn/raw/master/docs/textgenrnn_console.gif" alt=""></p>
 <h3 id="install-pygithub-and-textgenrnn">Install PyGithub and textgenrnn</h3>
-
-<p>In this post, we will be introducing two Python libraries called <a href="https://github.com/PyGithub/PyGithub" target="_blank">PyGitHub</a> and <a href="https://github.com/minimaxir/textgenrnn" target="_blank">textgenrnn</a>. You can type the commands in the Windows shell to install these two libraries.</p>
-
-<pre><code class="language-bash">pip install PyGitHub
+<p>In this post, we will be introducing two Python libraries called <a href="https://github.com/PyGithub/PyGithub">PyGitHub</a> and <a href="https://github.com/minimaxir/textgenrnn">textgenrnn</a>. You can type the commands in the Windows shell to install these two libraries.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install PyGitHub
 pip install textgenrnn
+</code></pre></div><h3 id="store-your-github-token">Store your GitHub token</h3>
+<p>Go to GitHub <a href="https://github.com/settings/tokens">website</a> to generate your personal access tokens. Then type the following command in your Windows Shell to store it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">set GITHUB_KEY <span style="color:#f92672">=</span> xxxxxxxxxxxxxxxxxxxxxx
+</code></pre></div><h3 id="were-ready-to-auto-generate-commit-messages">We&rsquo;re ready to auto-generate commit messages</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> os
+<span style="color:#f92672">from</span> github <span style="color:#f92672">import</span> Github
+<span style="color:#f92672">from</span> textgenrnn <span style="color:#f92672">import</span> textgenrnn
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">GitHub_api <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;GITHUB_KEY&#34;</span>)
+</code></pre></div><h3 id="download-commit-messages-from-my-personal-website-zhiiiyangzhiyang-on-githubhttpsgithubcomzhiiiyangzhiyang">Download commit messages from my personal website <code>zhiiiyang/zhiyang</code> on <a href="https://github.com/zhiiiyang/zhiyang">GitHub</a></h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">g <span style="color:#f92672">=</span> Github(GitHub_api)
+repo <span style="color:#f92672">=</span> g<span style="color:#f92672">.</span>get_repo(<span style="color:#e6db74">&#34;zhiiiyang/zhiyang&#34;</span>)
+commits <span style="color:#f92672">=</span> repo<span style="color:#f92672">.</span>get_commits()
+messages <span style="color:#f92672">=</span> []
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> commits:
+    messages<span style="color:#f92672">.</span>append(i<span style="color:#f92672">.</span>commit<span style="color:#f92672">.</span>message)
+</code></pre></div><h2 id="save-it-to-a-text-file">Save it to a text file</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#39;commits.txt&#39;</span>, <span style="color:#e6db74">&#39;w&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    <span style="color:#66d9ef">for</span> message <span style="color:#f92672">in</span> messages:
+        f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%s</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> message)
+</code></pre></div><h2 id="read-it-into-textgenrnn">Read it into <code>textgenrnn</code></h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">textgen <span style="color:#f92672">=</span> textgenrnn()
+textgen<span style="color:#f92672">.</span>generate()
+</code></pre></div><pre><code>All of the story of relationships who says &quot;New All Trump Control Complete Man Works
 </code></pre>
-
-<h3 id="store-your-github-token">Store your GitHub token</h3>
-
-<p>Go to GitHub <a href="https://github.com/settings/tokens" target="_blank">website</a> to generate your personal access tokens. Then type the following command in your Windows Shell to store it.</p>
-
-<pre><code class="language-bash">set GITHUB_KEY = xxxxxxxxxxxxxxxxxxxxxx
-</code></pre>
-
-<h3 id="we-re-ready-to-auto-generate-commit-messages">We&rsquo;re ready to auto-generate commit messages</h3>
-
-<pre><code class="language-python">import os
-from github import Github
-from textgenrnn import textgenrnn
-</code></pre>
-
-<pre><code class="language-python">GitHub_api = os.environ.get(&quot;GITHUB_KEY&quot;)
-</code></pre>
-
-<h3 id="download-commit-messages-from-my-personal-website-zhiiiyang-zhiyang-on-github-https-github-com-zhiiiyang-zhiyang">Download commit messages from my personal website <code>zhiiiyang/zhiyang</code> on <a href="https://github.com/zhiiiyang/zhiyang" target="_blank">GitHub</a></h3>
-
-<pre><code class="language-python">g = Github(GitHub_api)
-repo = g.get_repo(&quot;zhiiiyang/zhiyang&quot;)
-commits = repo.get_commits()
-messages = []
-for i in commits:
-    messages.append(i.commit.message)
-</code></pre>
-
-<h2 id="save-it-to-a-text-file">Save it to a text file</h2>
-
-<pre><code class="language-python">with open('commits.txt', 'w') as f:
-    for message in messages:
-        f.write(&quot;%s\n&quot; % message)
-</code></pre>
-
-<h2 id="read-it-into-textgenrnn">Read it into <code>textgenrnn</code></h2>
-
-<pre><code class="language-python">textgen = textgenrnn()
-textgen.generate()
-</code></pre>
-
-<pre><code>All of the story of relationships who says &quot;New All Trump Control Complete Man Works
-</code></pre>
-
 <h2 id="train-a-model">Train a model</h2>
-
-<pre><code class="language-python">textgen.train_from_file(&quot;commits.txt&quot;, num_epochs=3)
-</code></pre>
-
-<pre><code>135 texts collected.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">textgen<span style="color:#f92672">.</span>train_from_file(<span style="color:#e6db74">&#34;commits.txt&#34;</span>, num_epochs<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
+</code></pre></div><pre><code>135 texts collected.
 Training on 2,248 character sequences.
 Epoch 1/3
 17/17 [==============================] - ETA: 18s - loss: 2.18 - ETA: 9s - loss: 2.3687 - ETA: 6s - loss: 2.428 - ETA: 5s - loss: 2.378 - ETA: 4s - loss: 2.279 - ETA: 3s - loss: 2.251 - ETA: 2s - loss: 2.198 - ETA: 2s - loss: 2.149 - ETA: 2s - loss: 2.151 - ETA: 1s - loss: 2.135 - ETA: 1s - loss: 2.091 - ETA: 1s - loss: 2.029 - ETA: 0s - loss: 2.000 - ETA: 0s - loss: 1.979 - ETA: 0s - loss: 1.949 - ETA: 0s - loss: 1.922 - 3s 200ms/step - loss: 1.8895
@@ -817,15 +787,10 @@ Mika font now slides finish shang haim
 
 change the laymor post
 </code></pre>
-
 <h2 id="predict-the-safest-commit-message">Predict the safest commit message</h2>
-
 <p><code>Temperature</code> parameter controls how conservative or risky the model&rsquo;s guess is going to be. The higher the value is, the riskier the prediction is.</p>
-
-<pre><code class="language-python">textgen.generate(10, return_as_list=True, temperature=0)
-</code></pre>
-
-<pre><code>100%|██████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00&lt;00:00, 11.02it/s]
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">textgen<span style="color:#f92672">.</span>generate(<span style="color:#ae81ff">10</span>, return_as_list<span style="color:#f92672">=</span>True, temperature<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</code></pre></div><pre><code>100%|██████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00&lt;00:00, 11.02it/s]
 
 
 
@@ -842,13 +807,9 @@ change the laymor post
  'add a new post',
  'add a new post']
 </code></pre>
-
 <h2 id="predict-the-riskies-commit-message">Predict the riskies commit message</h2>
-
-<pre><code class="language-python">textgen.generate(10, return_as_list=True, temperature=1)
-</code></pre>
-
-<pre><code>100%|██████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00&lt;00:00,  8.84it/s]
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">textgen<span style="color:#f92672">.</span>generate(<span style="color:#ae81ff">10</span>, return_as_list<span style="color:#f92672">=</span>True, temperature<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</code></pre></div><pre><code>100%|██████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00&lt;00:00,  8.84it/s]
 
 
 
@@ -875,7 +836,7 @@ change the laymor post
   
   <a class="badge badge-light" href="/tags/python/">Python</a>
   
-  <a class="badge badge-light" href="/tags/machine-learning/">Machine learning</a>
+  <a class="badge badge-light" href="">Machine learning</a>
   
 </div>
 
@@ -1250,7 +1211,7 @@ change the laymor post
     
     
     
-    <script src="/js/academic.min.96c5273c350467d35a3c0a325d73ea22.js"></script>
+    <script src="/js/academic.min.48e4f0de59e7e9ac77b2bb261e23d922.js"></script>
 
   </body>
 </html>

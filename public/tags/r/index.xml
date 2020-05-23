@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Zhi Yang</title>
@@ -6,10 +6,19 @@
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking</title>
+      <link>/publication/ecig/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/ecig/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mutational signatures in colon cancer</title>
@@ -26,9 +35,7 @@
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/socalr2019/</guid>
-      <description>Please check out all the slides here.Workshops by Malcolm Barrett and Emil Hvitfeldt@malco_barrett recommends these three books for you to continue on your #dataviz #ggplot2 learning journey. 📕Fundamentals of Data Visualization by @ClausWilke 📘Storytelling with Data by @storywithdata
-📗Better Presentations by @jschwabish pic.twitter.com/10Cdy779SB
-&amp;mdash; Los Angeles R Users (@la_Rusers) November 23, 2019  We had a great day at the SoCal #rstats meetup! My workshop from this morning on designing ggplots is freely available.</description>
+      <description>an entire day of R fun with R Users Groups and R-Ladies</description>
     </item>
     
     <item>
@@ -37,8 +44,7 @@
       <pubDate>Sat, 09 Nov 2019 09:00:00 -0700</pubDate>
       
       <guid>/talk/ocrug_ds/</guid>
-      <description>Tomorrow, I will be giving a talk on &amp;quot;How to Promote Yourself in Today&amp;#39;s Data Science Job Market&amp;quot; at @oc_rug&amp;#39;s 2nd #DataScience #hackathon. All of them are based on my personal experience of only looking for jobs in one city (Seattle) in the past year. https://t.co/UMj773UYLn pic.twitter.com/HdXhMe0o4k
-&amp;mdash; Zhi Yang, PhD (@zhiiiyang) November 9, 2019  </description>
+      <description>A introduction to the family of R Markdown packages.</description>
     </item>
     
     <item>
@@ -47,7 +53,7 @@
       <pubDate>Thu, 17 Oct 2019 12:00:00 -0700</pubDate>
       
       <guid>/talk/uscbiostat/</guid>
-      <description></description>
+      <description>Happy Scientist Seminar for the Department of Preventive Medicine at USC</description>
     </item>
     
     <item>
@@ -56,7 +62,7 @@
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/poster/</guid>
-      <description>Background I worked for Jessica Barrington-Trimis (@Doctor_BT) on a project to look into the effect of e-cigarette use on cigarette use among adolescents. After we submitted the manuscript, Jessica suggested me presenting the results at the upcoming 2019 Meeting – College on Problems of Drug Dependence, San Antonio, TX. Meanwhile, she sent me a video link about transforming the current poster style. After watching it, I was totally down to get the new poster rolling.</description>
+      <description>my first-time experience of making a trending new-style poster</description>
     </item>
     
     <item>
@@ -65,7 +71,7 @@
       <pubDate>Wed, 18 Sep 2019 17:30:00 -0700</pubDate>
       
       <guid>/talk/sbrug/</guid>
-      <description>We&amp;#39;re visiting our #rstats friends up in Santa Barbara! @zhiiiyang giving a talk on how R Markdown can automate the last mile of your work @RLadiesSB pic.twitter.com/WXzS7hhWv7
+      <description>  We&amp;#39;re visiting our #rstats friends up in Santa Barbara! @zhiiiyang giving a talk on how R Markdown can automate the last mile of your work @RLadiesSB pic.twitter.com/WXzS7hhWv7
 &amp;mdash; Los Angeles R Users (@la_Rusers) September 19, 2019  </description>
     </item>
     
@@ -93,7 +99,7 @@
       <pubDate>Fri, 23 Aug 2019 14:00:00 -0700</pubDate>
       
       <guid>/talk/rmarkdown/</guid>
-      <description>Nice turnout for the kickstart of the #uscrbootcamp with @malco_barrett, @brookemariebell, and @zhiiiyang spearheading day 1 of track 1! #rstats pic.twitter.com/4qPcsKzxW6— George G. Vega Yon (@gvegayon) August 19, 2019</description>
+      <description>A introduction to the family of R Markdown packages.</description>
     </item>
     
     <item>
@@ -102,7 +108,7 @@
       <pubDate>Tue, 30 Jul 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/lda_mutations/</guid>
-      <description></description>
+      <description>An application of topic modeling in genomic data</description>
     </item>
     
     <item>
@@ -111,8 +117,7 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/treemap/</guid>
-      <description>Background😄Hi, you are probably directed here because of my recent tweet. To practice my data visualization skills, I decided to enter the this week’s #TidyTuesday challenge, which is about how different media franchises stack up with their revenue streams. You can read more about the dataset here.
-#TidyTuesday I made an interactive treemap for revenue by category using treemap and d3treeR. #rstats pic.</description>
+      <description>an interactive treemap using treemap and d3treeR</description>
     </item>
     
     <item>
@@ -121,7 +126,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/gaokao/</guid>
-      <description>Background In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</description>
+      <description>data visualization of the college entrace exam data in 2017</description>
     </item>
     
     <item>
@@ -130,7 +135,7 @@
       <pubDate>Mon, 17 Jun 2019 10:00:00 -0700</pubDate>
       
       <guid>/talk/cpdd/</guid>
-      <description>Excited to present the research work with @Doctor_BT at #CPDD19 on the effect of e-cigarette use on past 30-day cigarette use among adolescents. Thank you all for dropping by and asking amazing questions. Also, I’d to share my experience of adopting #betterposter by @mikemorrison pic.twitter.com/N4zt7y6Kh9— Zhi Yang (@zhiiiyang) June 17, 2019</description>
+      <description>Young adults using mod (vs. pen-like) e-cigarette devices at baseline smoked &lt;strong&gt;more than 6 times&lt;/strong&gt; as many cigarettes in the past 30 days at follow-up.</description>
     </item>
     
     <item>
@@ -139,7 +144,7 @@
       <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
       
       <guid>/talk/ml4all/</guid>
-      <description></description>
+      <description>An introduction on how to apply topic modeling on somatic mutations</description>
     </item>
     
     <item>
@@ -148,7 +153,7 @@
       <pubDate>Mon, 08 Apr 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/jags/</guid>
-      <description></description>
+      <description>a gentle introduction on how to fit a simple Bayesian model, visualize and summarize the output using R2jags.</description>
     </item>
     
     <item>
@@ -157,8 +162,7 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/ecommerce/</guid>
-      <description>Background I didn&amp;rsquo;t come up with any of those original contents. Here is just a summary of what I&amp;rsquo;ve summarized by learning from reading others&amp;rsquo; insights in how data science contribute to the growth of eCommerce companies and what challenges we are faced with while working as a data scientist at the company.
-5 Data Science Projects Every E-commerce Company Should Do In this article, the author talked about five important DS projects that should be undergoing at every eCommerce company.</description>
+      <description>A short summary of what I&amp;rsquo;ve learned from preparing an interview with an eCommerce company</description>
     </item>
     
     <item>
@@ -167,7 +171,7 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/pramp/</guid>
-      <description>I came across this website to prepare for people to ace interviews for data scientist jobs in the industry. It was mentioned and recommended in the post written by Daniel Miller, a data scientist at Microsoft. I was a little suspicious at the first beginning because I don&amp;rsquo;t think there will be any free services in helping people with improving their interview skills. Normally, we get help from the school Careers Center.</description>
+      <description>What I&amp;rsquo;ve learned from practicing interviews on Pramp for the first time</description>
     </item>
     
     <item>
@@ -176,7 +180,7 @@
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
       <guid>/publication/hilda/</guid>
-      <description></description>
+      <description>We propose a hierarchical latent Dirichlet allocation model (HiLDA) for characterizing somatic mutation data in cancer. The method allows us to infer mutational patterns and their relative frequencies in a set of tumor mutational catalogs and to compare the estimated frequencies between tumor sets.</description>
     </item>
     
     <item>
@@ -185,7 +189,7 @@
       <pubDate>Tue, 26 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/xaringan/</guid>
-      <description></description>
+      <description>A tutorial talk on how to make xaringan slides in R</description>
     </item>
     
     <item>
@@ -194,7 +198,7 @@
       <pubDate>Mon, 11 Feb 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/laerug/</guid>
-      <description></description>
+      <description>A talk on what I&amp;rsquo;ve learned from going to the RStudio conference 2019</description>
     </item>
     
     <item>
@@ -203,7 +207,7 @@
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/hexwall/</guid>
-      <description>Background Nowadays, peoples use LinkedIn and Twitter to look for opportunities and network with others. Except for gaining more skills and doing projects to boost your profile, there is another way to make your profile more professional: finding the right header. No one will argue with the fact that the header picture helps with creating the first impression for recruiters and your future employers. To begin with creating a profile, it might take forever for you to pick their favorite picture as the header but still keep professional.</description>
+      <description>Learn how to make a header with R hex-stickers for LinkedIn and Twitter.</description>
     </item>
     
     <item>
@@ -212,7 +216,7 @@
       <pubDate>Wed, 09 Jan 2019 18:30:00 -0700</pubDate>
       
       <guid>/talk/rladies/</guid>
-      <description></description>
+      <description>An example talk on developing good pratices in R</description>
     </item>
     
     <item>
@@ -221,7 +225,7 @@
       <pubDate>Tue, 31 Jul 2018 14:00:00 -0700</pubDate>
       
       <guid>/talk/jsmtalk/</guid>
-      <description></description>
+      <description>An example talk using Academic&amp;rsquo;s Markdown slides feature.</description>
     </item>
     
     <item>
@@ -231,8 +235,8 @@
       
       <guid>/project/viz/</guid>
       <description>This project contains a list of data visualization generated using R.
-GitHub tidytuesday repoClick here
-TweetsIt is a little bit tricky to do it. I have to make a duplicated row for the midnight hour (hr = 0) and name it as &amp;quot;hr = 24&amp;quot; so the time (0 6 12 18) will be aligned perfectly. https://t.co/poAzMwHNbX pic.twitter.com/eDr1AVtROt
+GitHub tidytuesday repo Click here
+ Tweets It is a little bit tricky to do it. I have to make a duplicated row for the midnight hour (hr = 0) and name it as &amp;quot;hr = 24&amp;quot; so the time (0 6 12 18) will be aligned perfectly. https://t.co/poAzMwHNbX pic.twitter.com/eDr1AVtROt
 &amp;mdash; Zhi Yang, PhD (@zhiiiyang) December 24, 2019  As promised, here are a Sankey diagram and a Twitter-logo-shaped word cloud of the most used hashtags among tweets posted and liked by me in 2019.</description>
     </item>
     
@@ -252,7 +256,7 @@ GitHub tidytuesday repoClick here
       
       <guid>/project/cancer/</guid>
       <description>During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface. Thanks to my advisors Kimberly Siegmund, and committe member Paul Marjoram and Darryl Shibata.
-MotivationsTopic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
+Motivations Topic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Zhi Yang</title>
@@ -44,7 +44,7 @@
       <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>/project/aiy/</guid>
-      <description>MotivationsI am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.</description>
+      <description>Motivations I am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.</description>
     </item>
     
     <item>
@@ -54,8 +54,8 @@
       
       <guid>/project/viz/</guid>
       <description>This project contains a list of data visualization generated using R.
-GitHub tidytuesday repoClick here
-TweetsIt is a little bit tricky to do it. I have to make a duplicated row for the midnight hour (hr = 0) and name it as &amp;quot;hr = 24&amp;quot; so the time (0 6 12 18) will be aligned perfectly. https://t.co/poAzMwHNbX pic.twitter.com/eDr1AVtROt
+GitHub tidytuesday repo Click here
+ Tweets It is a little bit tricky to do it. I have to make a duplicated row for the midnight hour (hr = 0) and name it as &amp;quot;hr = 24&amp;quot; so the time (0 6 12 18) will be aligned perfectly. https://t.co/poAzMwHNbX pic.twitter.com/eDr1AVtROt
 &amp;mdash; Zhi Yang, PhD (@zhiiiyang) December 24, 2019  As promised, here are a Sankey diagram and a Twitter-logo-shaped word cloud of the most used hashtags among tweets posted and liked by me in 2019.</description>
     </item>
     
@@ -75,7 +75,7 @@ GitHub tidytuesday repoClick here
       
       <guid>/project/cancer/</guid>
       <description>During my doctoral training, most of my research is focused on developing novel statistical methods for genomics data, specifically, cancer development and tumor growth. This project has enlighted me to work on several interesting perspectives of it, including hierarchical topics model, clustering, and interactive interface. Thanks to my advisors Kimberly Siegmund, and committe member Paul Marjoram and Darryl Shibata.
-MotivationsTopic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
+Motivations Topic models have been widely applied to extract topics from various range of documents or collections of texts, i.</description>
     </item>
     
   </channel>

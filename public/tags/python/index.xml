@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Zhi Yang</title>
@@ -17,8 +17,7 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/github-commit/</guid>
-      <description>Introducing textgenrnn textgenrnn allows easy and straightforward process of training a text-generating neural network with a few lines of code using Keras/TensorFlow. Install PyGithub and textgenrnn In this post, we will be introducing two Python libraries called PyGitHub and textgenrnn. You can type the commands in the Windows shell to install these two libraries.
-pip install PyGitHub pip install textgenrnn  Store your GitHub token Go to GitHub website to generate your personal access tokens.</description>
+      <description>a quick tutorial of using &lt;code&gt;PyGitHub&lt;/code&gt; and &lt;code&gt;textgenrnn&lt;/code&gt; in Jupyter notebook</description>
     </item>
     
     <item>
@@ -36,7 +35,7 @@ pip install PyGitHub pip install textgenrnn  Store your GitHub token Go to GitHu
       <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>/project/aiy/</guid>
-      <description>MotivationsI am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.</description>
+      <description>Motivations I am in the last three months of my doctoral training in biostatistics at USC, which requires a lot of writing works on my dissertation and papers. Compared to working at school, you get many benefits of working at home: 1) no need to worry about lunch; 2) healthier since you can stretch and take as many breaks as you want; 3) fewer distractions from your co-workers. However, working at home requires strong self-discipline to overcome other distracting behaviors (i.</description>
     </item>
     
   </channel>

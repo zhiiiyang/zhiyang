@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.1.0">
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.71.0" />
 
   
 
@@ -669,43 +669,35 @@ MathJax.Hub.Config({
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<h2 id="background">Background</h2>
-
-<p>I came across H<sub>2</sub>O several times in the past couple of years but I didn&rsquo;t get a chance to try it out by myself. Until very recently, I went to the <a href="https://losangeles2019.satrdays.org/" target="_blank">SatRday Los Angeles conference 2019</a> at UCLA this year where Erin LeDell (<a href="https://twitter.com/ledell" target="_blank">@ledell</a>) gave a keynote talk on <a href="https://youtu.be/A3EmOgpoG60" target="_blank">scalable automatic machine learning with H2O</a>. The elegant way she has navigated the model building process has fascinated me. Most importantly, H<sub>2</sub>O also has a very nice and friendly interface called H<sub>2</sub>O flow to users to quickly familiarize themselves with this tool. Here is a more detailed and official <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/flow.html" target="_blank">documentation</a> of how to use H<sub>2</sub>O flow. But I&rsquo;d like to highlight my favorite features.</p>
-
-<h2 id="let-s-get-started">Let&rsquo;s get started</h2>
-
+      <h2 id="background">Background</h2>
+<p>I came across H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O several times in the past couple of years but I didn&rsquo;t get a chance to try it out by myself. Until very recently, I went to the <a href="https://losangeles2019.satrdays.org/">SatRday Los Angeles conference 2019</a> at UCLA this year where Erin LeDell (<a href="https://twitter.com/ledell">@ledell</a>) gave a keynote talk on <a href="https://youtu.be/A3EmOgpoG60">scalable automatic machine learning with H2O</a>. The elegant way she has navigated the model building process has fascinated me. Most importantly, H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O also has a very nice and friendly interface called H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O flow to users to quickly familiarize themselves with this tool. Here is a more detailed and official <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/flow.html">documentation</a> of how to use H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O flow. But I&rsquo;d like to highlight my favorite features.</p>
+<h2 id="lets-get-started">Let&rsquo;s get started</h2>
 <ol>
-<li><p>First, go to the H<sub>2</sub>O website to <a href="http://h2o-release.s3.amazonaws.com/h2o/rel-yates/2/index.html" target="_blank">download the zip file</a>.</p>
-
-<p><img src="download.PNG" alt="" /></p></li>
-
-<li><p>Follow the instruction to unzip the file and run it from your terminal.</p>
-
+<li>
+<p>First, go to the H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O website to <a href="http://h2o-release.s3.amazonaws.com/h2o/rel-yates/2/index.html">download the zip file</a>.</p>
+<p><img src="download.PNG" alt=""></p>
+</li>
+<li>
+<p>Follow the instruction to unzip the file and run it from your terminal.</p>
 <pre><code>cd Downloads
 unzip h2o-3.24.0.2.zip
 cd h2o-3.24.0.2
 java -jar h2o.jar
 </code></pre></li>
-
-<li><p>Then type <a href="http://localhost:54321" target="_blank">http://localhost:54321</a> in your browser.</p>
-
-<p><img src="interface.PNG" alt="" /></p></li>
+<li>
+<p>Then type http://localhost:54321 in your browser.</p>
+<p><img src="interface.PNG" alt=""></p>
+</li>
 </ol>
-
 <h2 id="feature-highlight">Feature highlight</h2>
-
 <ol>
-<li><p>Notebook layout</p>
-
-<p>The feature that I appreciate the most is the similar layout as the Jupyter notebook. By adopting the style of the existing tools, it saves the users time from learning using the new interface to really starting to adopt this new tool.</p></li>
-
-<li><p>Examples</p>
-
+<li>
+<p>Notebook layout</p>
+<p>The feature that I appreciate the most is the similar layout as the Jupyter notebook. By adopting the style of the existing tools, it saves the users time from learning using the new interface to really starting to adopt this new tool.</p>
+</li>
+<li>
+<p>Examples</p>
 <p>Without too much efforts, new users can directly jump into the pipeline by opening the existing projects, i.e., deep learning, GBM, XGbBoost and etc.</p>
-
 <table>
 <thead>
 <tr>
@@ -713,25 +705,22 @@ java -jar h2o.jar
 <th align="center">Examples</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
-<td align="center"><img src="panel.PNG" alt="" /></td>
-<td align="center"><img src="projects.PNG" alt="" /></td>
+<td align="center"><img src="panel.PNG" alt=""></td>
+<td align="center"><img src="projects.PNG" alt=""></td>
 </tr>
 </tbody>
-</table></li>
-
-<li><p>Running time</p>
-
+</table>
+</li>
+<li>
+<p>Running time</p>
 <p>Another noticable feature of the flow is that users have a better sense of time cost of each component in the pipeline. The running time of each block is shown by default, which also improves the users engagement from using this new tool.</p>
-
-<p><img src="time.PNG" alt="" /></p></li>
-
-<li><p>Model diagnostics tools</p>
-
-<p>After the models are implemented and performed, the H<sub>2</sub>O flow generates a wide range of output for users to select from. Here are some examples from a project using GBM for airline classificaiton.</p>
-
+<p><img src="time.PNG" alt=""></p>
+</li>
+<li>
+<p>Model diagnostics tools</p>
+<p>After the models are implemented and performed, the H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O flow generates a wide range of output for users to select from. Here are some examples from a project using GBM for airline classificaiton.</p>
 <table>
 <thead>
 <tr>
@@ -740,18 +729,17 @@ java -jar h2o.jar
 <th align="center">Variable importances</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
-<td align="center"><img src="scoring.PNG" alt="" /></td>
-<td align="center"><img src="roc.PNG" alt="" /></td>
-<td align="center"><img src="threshold.PNG" alt="" /></td>
+<td align="center"><img src="scoring.PNG" alt=""></td>
+<td align="center"><img src="roc.PNG" alt=""></td>
+<td align="center"><img src="threshold.PNG" alt=""></td>
 </tr>
 </tbody>
-</table></li>
+</table>
+</li>
 </ol>
-
-<p>If you would like to know more, here is an article on Medium about democratising machine learning with H<sub>2</sub>O, which also introduces all the available H<sub>2</sub>O products including the driverless ai. You can also find a list of publications using H<sub>2</sub>O <a href="https://www.h2o.ai/academic/" target="_blank">here</a>.</p>
+<p>If you would like to know more, here is an article on Medium about democratising machine learning with H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O, which also introduces all the available H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O products including the driverless ai. You can also find a list of publications using H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O <a href="https://www.h2o.ai/academic/">here</a>.</p>
 
     </div>
 
@@ -1113,7 +1101,7 @@ java -jar h2o.jar
     
     
     
-    <script src="/js/academic.min.96c5273c350467d35a3c0a325d73ea22.js"></script>
+    <script src="/js/academic.min.48e4f0de59e7e9ac77b2bb261e23d922.js"></script>
 
   </body>
 </html>

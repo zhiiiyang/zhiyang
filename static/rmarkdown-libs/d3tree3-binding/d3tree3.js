@@ -28,7 +28,7 @@ HTMLWidgets.widget({
     //  http://bost.ocks.org/mike/treemap/
     //  https://gist.github.com/zanarmstrong/76d263bd36f312cb0f9f
 
-    var margin = {top: 60, right: 0, bottom: 20, left: 0, grandparent: 20},
+    var margin = {top: 15, right: 0, bottom: 20, left: 0, grandparent: 20},
         width = el.getBoundingClientRect().width,
         height = el.getBoundingClientRect().height - margin.top - margin.bottom,
         formatNumber = d3.format(",d"),
@@ -155,7 +155,6 @@ HTMLWidgets.widget({
             return d[valueField];
         });
 
-
     var grandparent = graphic.append("g")
         .attr("class", "grandparent");
 
@@ -167,8 +166,37 @@ HTMLWidgets.widget({
     grandparent.append("text")
         .attr("x", 6)
         .attr("y", 6 - margin.grandparent)
-        .attr("dy", ".75em");
+        .attr("dy", ".75em")
+        .attr("class", "grandparent-name");
 
+    //Add Text Element to show click here
+    grandparent.append("text")
+        .attr("x",width)
+        .attr("text-anchor","end")
+        .attr("y", 6 - margin.grandparent)
+        .attr("dy", ".75em")
+        .attr("class","grandparent-info");
+
+    var footer = graphic.append("g")
+        .attr("class","footer")
+
+    footer.append("rect")
+        .attr("y",height)
+        .attr("width",width)
+        .attr("height",margin.grandparent)
+        .style("fill",function(d){
+              // return (d) ?
+              //   ( (d.color) ? d.color : color(leveltwo(d)[celltext]) ) :
+              //   "#bbb";
+              return "rgb(255,255,255)"
+            })
+
+    footer.append("text")
+        .attr("x",width/2)
+        .attr("text-anchor","middle")
+        .attr("y", height)
+        .attr("dy", ".75em")
+        .attr("class","grandparent-hover-info");
 
     // determines if white or black will be better contrasting color
     //  copied from
@@ -266,18 +294,28 @@ HTMLWidgets.widget({
           .on('mouseout', function(d) {
             hideSpan(d);
           })
-          .select("text")
+          .select(".grandparent-name")
             .text(name(d))
             .style("fill", function (d) {
-              return idealTextColor( d.color ? d.color : color(leveltwo(d)[celltext]) );
+              //return idealTextColor( d.color ? d.color : color(leveltwo(d)[celltext]) );
+              return "rgb(68,68,68)";
+            });
+
+        grandparent
+          .select(".grandparent-info")
+            .text("(Click Here to Go Back)")
+            .style("fill", function (d) {
+              //return idealTextColor( d.color ? d.color : color(leveltwo(d)[celltext]) );
+              return "rgb(68,68,68)";
             });
 
         grandparent
           .select("rect")
             .style("fill",function(d){
-              return (d) ?
-                ( (d.color) ? d.color : color(leveltwo(d)[celltext]) ) :
-                "#bbb";
+              // return (d) ?
+              //   ( (d.color) ? d.color : color(leveltwo(d)[celltext]) ) :
+              //   "#bbb";
+              return "rgb(255,255,255)"
             })
 
         var g1 = graphic.insert("g", ".grandparent")
@@ -290,7 +328,7 @@ HTMLWidgets.widget({
 
         g.filter(function(d) { return d._children; })
             .classed("children", true)
-            .on("click", transition);
+            .on("click", transition)
 
         g.selectAll(".child")
             .data(function(d) { return d._children || [d]; })
@@ -317,6 +355,16 @@ HTMLWidgets.widget({
             .attr("dy", ".75em")
             .text(function(d) { return d[celltext]; })
             .call(text);
+
+        g.on("mouseover",function(d){
+          d3.select(".grandparent-hover-info")
+            .text(d[celltext])
+        });
+
+        g.on("mouseout",function(d){
+          d3.select(".grandparent-hover-info")
+            .text("")
+        })
 
         function transition(d) {
           if (transitioning || !d) return;
@@ -406,6 +454,13 @@ HTMLWidgets.widget({
       function text(text) {
         text.attr("x", function(d) { return xscale(d.x) + 6; })
             .attr("y", function(d) { return yscale(d.y) + 6; })
+            .attr("font-size",function(d){
+              //font-size depends on width
+              width = xscale(d.x + d.dx) - xscale(d.x);
+              r1 = [0,400];//Min and max range of box
+              r2 = [0,15]; //min and max range of font-size
+              return ( width - r1[ 0 ] ) * ( r2[ 1 ] - r2[ 0 ] ) / ( r1[ 1 ] - r1[ 0 ] ) + r2[ 0 ];
+            })
             .style("fill", function (d) {
               return idealTextColor( d.color ? d.color : color(leveltwo(d)[celltext]) );
             });
@@ -424,7 +479,7 @@ HTMLWidgets.widget({
 
       function name(d) {
         return d.parent
-            ? name(d.parent) + "." + d[celltext]
+            ? name(d.parent) + "," + d[celltext]
             : d[celltext];
 
       }

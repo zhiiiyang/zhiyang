@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Marjoram on Zhi Yang</title>
@@ -26,7 +26,7 @@
       <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
       
       <guid>/publication/hilda/</guid>
-      <description></description>
+      <description>We propose a hierarchical latent Dirichlet allocation model (HiLDA) for characterizing somatic mutation data in cancer. The method allows us to infer mutational patterns and their relative frequencies in a set of tumor mutational catalogs and to compare the estimated frequencies between tumor sets.</description>
     </item>
     
   </channel>

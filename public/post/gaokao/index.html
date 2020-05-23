@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 4.1.0">
-  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="generator" content="Hugo 0.71.0" />
 
   
 
@@ -739,23 +739,13 @@ MathJax.Hub.Config({
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<h2 id="background">Background</h2>
-
+      <h2 id="background">Background</h2>
 <p>In June of 2019, over 10 millions students took the gaokao, the college entrace exam in China. This exam varies by province to province, so it is the admission rate to the top universities (Beijing/Tsinghua University). I often get asked how difficult to get into those two schools in China. I hope this data visualization will help you understand the admission rates of the top universities across different provinces in China by using the data in 2017.</p>
-
-<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The gaokao is the national college entrance exam taken by Chinese students in June. In 2019, over 10M students took the exam. I hope this viz could help you understand how difficult to get into the top universities (Beijing and Tsinghua University) in China. <a href="https://twitter.com/hashtag/TidyTuesday?src=hash&amp;ref_src=twsrc%5Etfw">#TidyTuesday</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/G425fyGGDD">pic.twitter.com/G425fyGGDD</a></p>&mdash; Zhi Yang (@zhiiiyang) <a href="https://twitter.com/zhiiiyang/status/1144839270143676416?ref_src=twsrc%5Etfw">June 29, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
+<!-- raw HTML omitted -->
 <h2 id="data-visualization">Data visualization</h2>
-
-<p>The geo location of provinces in China was downloade from the R pacakge <a href="https://hafen.github.io/geofacet/" target="_blank"><code>geofacet</code></a> by Ryan Hafen. My first intention of starting this project was inspired by a talk introducing this package. As you can easily tell from the following plots, the style was gently borrowed from the <code>geofacet</code>.</p>
-
+<p>The geo location of provinces in China was downloade from the R pacakge <a href="https://hafen.github.io/geofacet/"><code>geofacet</code></a> by Ryan Hafen. My first intention of starting this project was inspired by a talk introducing this package. As you can easily tell from the following plots, the style was gently borrowed from the <code>geofacet</code>.</p>
 <h3 id="high-admission-rates-in-beijing-tianjin-and-shanghai">High admission rates in Beijing, Tianjin, and Shanghai</h3>
-
 <p>As you probably notice from the plot below, there are three places with very different color patterns compared to the rest of the country. The gaokao is a province-based exam so that there might be some variations. But it is uncommon to see those highly favored results happened to occur in bigger cities. It is often critized that Beijing/Tsinghua University do admit more students from these three places. Then, you might ask whether there are more students living there because these are bigger cities. The admission rates range from 0.03% to 1.03% in 2017.</p>
-
 <pre><code>ggplot(rates, aes(col, row, label = province)) +
   geom_tile(aes(fill = rate*100), colour = &quot;white&quot;, 
             width=0.9, height=0.9, size=1.5, linejoin = &quot;round&quot;) +
@@ -773,14 +763,9 @@ MathJax.Hub.Config({
         plot.title = element_text(size=16, face=&quot;bold&quot;, 
                                   margin = margin(b = -20, t = 10)))
 
-</code></pre>
-
-<p><img src="featured.png" alt="" /></p>
-
+</code></pre><p><img src="featured.png" alt=""></p>
 <h3 id="unproportional-admission-rates">Unproportional admission rates</h3>
-
 <p>Then, I tried to add one more layer of information into the plot by making the size of the tile proportional to the number of students taking the gaokao. Guess what, you can barely find these three places no more because they all shrink to almost points. The number of students taking the gaokao is substantially lower in these three places compared to the other regions of China but with surprisingly high admission rates. Since, the size of these three plots become so small that I have to use <code>ggrepel</code> to label them individually.</p>
-
 <pre><code>ggplot(rates, aes(col, row)) +
   geom_tile(aes(fill = rate*100, width = norm + 0.12, 
             height = norm + 0.15), 
@@ -806,12 +791,8 @@ MathJax.Hub.Config({
         panel.background = element_rect(fill = &quot;#f5f5f5&quot;),
         plot.title = element_text(size=16, face=&quot;bold&quot;, 
                                   margin = margin(b = -20, t = 10)))
-</code></pre>
-
-<p><img src="p2.png" alt="" /></p>
-
+</code></pre><p><img src="p2.png" alt=""></p>
 <p>The same conclusion can be derived from the following two treemap plots using <code>treemapify</code>. I was planning to use the traditional scatter plots with different size of points but later became interested in trying this new way of showing the imbalanced proportions within groups. For example, Beijing is one of provinces in which fewest students took the exam but has the most students admitted to the top universities in China.</p>
-
 <pre><code>p1 &lt;- ggplot(rates, aes(area = pop, fill = rate*100, label = province)) +
       geom_treemap() +
       geom_treemap_text(colour = &quot;white&quot;, place = &quot;centre&quot;,
@@ -847,9 +828,7 @@ p2 &lt;- ggplot(rates, aes(area = total, fill = rate*100, label = province)) +
 
 cowplot::plot_grid(p1, p2, ncol = 1)
 
-</code></pre>
-
-<p><img src="p3.png" alt="" /></p>
+</code></pre><p><img src="p3.png" alt=""></p>
 
     </div>
 
@@ -860,9 +839,9 @@ cowplot::plot_grid(p1, p2, ncol = 1)
   
   <a class="badge badge-light" href="/tags/r/">R</a>
   
-  <a class="badge badge-light" href="/tags/statistical-analysis/">Statistical analysis</a>
+  <a class="badge badge-light" href="">Statistical analysis</a>
   
-  <a class="badge badge-light" href="/tags/data-viz/">Data viz</a>
+  <a class="badge badge-light" href="">Data viz</a>
   
 </div>
 
@@ -1239,7 +1218,7 @@ cowplot::plot_grid(p1, p2, ncol = 1)
     
     
     
-    <script src="/js/academic.min.96c5273c350467d35a3c0a325d73ea22.js"></script>
+    <script src="/js/academic.min.48e4f0de59e7e9ac77b2bb261e23d922.js"></script>
 
   </body>
 </html>
