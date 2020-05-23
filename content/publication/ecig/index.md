@@ -30,14 +30,15 @@ tags:
 - R
 - Smoking
 title: E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking
-url_code: "https://github.com/zhiiiyang/CPDD_poster"
+url_code: ""
 url_dataset: ""
 url_pdf: ""
 url_poster: "https://cpdd2019-poster-53.netlify.com/"
 url_preprint: ""
 url_project: ""
 url_slides: ""
-url_source: "https://news.usc.edu/168364/vaping-combustive-cigarettes-smoking-usc-research/"
+url_source: ""
 url_video: ""
 ---
 
+Our paper has been reported in the [USC news](https://news.usc.edu/168364/vaping-combustive-cigarettes-smoking-usc-research/). 
