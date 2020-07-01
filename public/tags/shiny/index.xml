@@ -20,5 +20,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>iMutSig - a web application to identify the most similar mutational signature using shiny</title>
+      <link>/publication/imutsig/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/imutsig/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

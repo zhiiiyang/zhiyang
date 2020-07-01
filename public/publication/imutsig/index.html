@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="There is a dearth of evidence regarding the association of use of electronic cigarettes (e-cigarettes) with certain product characteristics and adolescent and young adult risk of unhealthy tobacco use patterns (eg, frequency of combustible cigarette smoking), which is needed to inform the regulation of e-cigarettes. Baseline mod users (versus vape pen users) smoked more cigarettes in the past 30 days at follow-up. Regulation of e-cigarette device type warrants consideration as a strategy to reduce cigarette smoking among adolescents and young adults who vape.">
+  <meta name="description" content="There are two frameworks for characterizing mutational signatures which are commonly used to describe the nucleotide patterns that arise from mutational processes. Estimated mutational signatures from fitting these two methods in human cancer can be found online, in the Catalogue Of Somatic Mutations In Cancer (COSMIC) website or a GitHub repository. The two frameworks make differing assumptions regarding independence of base pairs and for that reason may produce different results. Consequently, there is a need to compare and contrast the results of the two methods, but no such tool currently exists. In this paper, we provide a simple and intuitive interface that allows such comparisons to be easily performed. When using our software, the user may download published mutational signatures of either type. Mutational signatures from the pmsignature data source are expanded to probabilistic vectors of 96-possible mutation types, the same model specification used by COSMIC, and then compared to COSMIC signatures. Cosine similarity measures the extent of signature similarity. iMutSig provides a simple and user-friendly web application allowing researchers to compare signatures from COSMIC to those from pmsignature, and vice versa. Furthermore, iMutSig allows users to input a self-defined mutational signature and examine its similarity to published signatures from both data sources.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/ecig/">
+  <link rel="alternate" hreflang="en-us" href="/publication/imutsig/">
 
   
 
@@ -123,7 +123,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/ecig/">
+  <link rel="canonical" href="/publication/imutsig/">
 
   
   
@@ -137,14 +137,14 @@
   <meta property="twitter:creator" content="@zhiiiyang">
   
   <meta property="og:site_name" content="Zhi Yang">
-  <meta property="og:url" content="/publication/ecig/">
-  <meta property="og:title" content="E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking | Zhi Yang">
-  <meta property="og:description" content="There is a dearth of evidence regarding the association of use of electronic cigarettes (e-cigarettes) with certain product characteristics and adolescent and young adult risk of unhealthy tobacco use patterns (eg, frequency of combustible cigarette smoking), which is needed to inform the regulation of e-cigarettes. Baseline mod users (versus vape pen users) smoked more cigarettes in the past 30 days at follow-up. Regulation of e-cigarette device type warrants consideration as a strategy to reduce cigarette smoking among adolescents and young adults who vape."><meta property="og:image" content="/publication/ecig/featured.jpg">
+  <meta property="og:url" content="/publication/imutsig/">
+  <meta property="og:title" content="iMutSig - a web application to identify the most similar mutational signature using shiny | Zhi Yang">
+  <meta property="og:description" content="There are two frameworks for characterizing mutational signatures which are commonly used to describe the nucleotide patterns that arise from mutational processes. Estimated mutational signatures from fitting these two methods in human cancer can be found online, in the Catalogue Of Somatic Mutations In Cancer (COSMIC) website or a GitHub repository. The two frameworks make differing assumptions regarding independence of base pairs and for that reason may produce different results. Consequently, there is a need to compare and contrast the results of the two methods, but no such tool currently exists. In this paper, we provide a simple and intuitive interface that allows such comparisons to be easily performed. When using our software, the user may download published mutational signatures of either type. Mutational signatures from the pmsignature data source are expanded to probabilistic vectors of 96-possible mutation types, the same model specification used by COSMIC, and then compared to COSMIC signatures. Cosine similarity measures the extent of signature similarity. iMutSig provides a simple and user-friendly web application allowing researchers to compare signatures from COSMIC to those from pmsignature, and vice versa. Furthermore, iMutSig allows users to input a self-defined mutational signature and examine its similarity to published signatures from both data sources."><meta property="og:image" content="/publication/imutsig/featured.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2020-05-15T00:00:00-07:00">
+  <meta property="article:published_time" content="2019-06-10T00:00:00-07:00">
   
-  <meta property="article:modified_time" content="2020-05-23T16:01:59-07:00">
+  <meta property="article:modified_time" content="2019-06-10T00:00:00-07:00">
   
 
   
@@ -160,7 +160,7 @@ MathJax.Hub.Config({
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-  <title>E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking | Zhi Yang</title>
+  <title>iMutSig - a web application to identify the most similar mutational signature using shiny | Zhi Yang</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -373,8 +373,8 @@ MathJax.Hub.Config({
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/publication/ecig/featured_hu27e01913099208fb3b96c44ca07d52af_161466_800x0_resize_q90_lanczos.jpg');"></div>
-  <span class="article-header-caption">Image credit: <a href="https://news.usc.edu/files/2020/04/lungs-vaping-barrington-trimis-web-1536x1024.jpg"><strong>Pascal Kiszon</strong></a></span>
+  <div class="featured-image" style="background-image: url('/publication/imutsig/featured_hu52ae55a31e175d3ea82f6f3faf44f7ed_129456_800x0_resize_lanczos_2.png');"></div>
+  
 </div>
 
 
@@ -382,7 +382,7 @@ MathJax.Hub.Config({
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking</h1>
+        <h1 itemprop="name">iMutSig - a web application to identify the most similar mutational signature using shiny</h1>
 
         
 
@@ -390,8 +390,8 @@ MathJax.Hub.Config({
 
 
 
-<meta content="2020-05-15 00:00:00 -0700 PDT" itemprop="datePublished">
-<meta content="2020-05-23 16:01:59 -0700 PDT" itemprop="dateModified">
+<meta content="2019-06-10 00:00:00 -0700 PDT" itemprop="datePublished">
+<meta content="2019-06-10 00:00:00 -0700 PDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -410,13 +410,6 @@ MathJax.Hub.Config({
 
       
       
-      <a href="">Jessica L. Barrington-Trimis</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
       <a href="">Zhi Yang</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
@@ -424,63 +417,21 @@ MathJax.Hub.Config({
 
       
       
-      <a href="">Sara Schiff</a></span></span>, 
+      <a href="">Priyatama Pandey</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
         
 
       
       
-      <a href="">Jennifer Unger</a></span></span>, 
+      <a href="">Paul Marjoram</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
         
 
       
       
-      <a href="">Tess Boley Cruz</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Robert Urman</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Junhan Cho</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Jonathan M. Samet</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Adam M. Leventhal</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Kiros Berhane</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Rob McConnell</a></span></span>
+      <a href="">Kimberly D. Siegmund</a></span></span>
   
 
 
@@ -495,7 +446,7 @@ MathJax.Hub.Config({
     
       
     
-    <time>May 2020</time>
+    <time>June 2019</time>
   </span>
   
 
@@ -506,7 +457,7 @@ MathJax.Hub.Config({
   
   
   <span class="middot-divider"></span>
-  <a href="/publication/ecig/#disqus_thread"></a>
+  <a href="/publication/imutsig/#disqus_thread"></a>
   
 
   
@@ -542,6 +493,14 @@ MathJax.Hub.Config({
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://f1000research.com/articles/9-586" target="_blank" rel="noopener">
+  Preprint
+</a>
+
 
 
 
@@ -551,37 +510,37 @@ MathJax.Hub.Config({
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/ecig/cite.bib">
+        data-filename="/publication/imutsig/cite.bib">
   Cite
 </button>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/ecig/">
-    Project
-  </a>
-  
-
 
 
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://cpdd2019-poster-53.netlify.com/" target="_blank" rel="noopener">
-  Poster
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/USCbiostats/iMutSig" target="_blank" rel="noopener">
+  Code
 </a>
 
 
 
 
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/cancer/">
+    Project
+  </a>
+  
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1542/peds.2019-1652" target="_blank" rel="noopener">
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.12688/f1000research.24435.1" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -596,35 +555,35 @@ MathJax.Hub.Config({
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking&amp;url=%2fpublication%2fecig%2f"
+         href="https://twitter.com/intent/tweet?text=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny&amp;url=%2fpublication%2fimutsig%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fecig%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fimutsig%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fecig%2f&amp;title=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fimutsig%2f&amp;title=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fecig%2f&amp;title=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fimutsig%2f&amp;title=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking&amp;body=%2fpublication%2fecig%2f">
+         href="mailto:?subject=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny&amp;body=%2fpublication%2fimutsig%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -636,15 +595,15 @@ MathJax.Hub.Config({
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/publication/ecig/featured_hu27e01913099208fb3b96c44ca07d52af_161466_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
-        <span class="article-header-caption">Image credit: <a href="https://news.usc.edu/files/2020/04/lungs-vaping-barrington-trimis-web-1536x1024.jpg"><strong>Pascal Kiszon</strong></a></span>
+        <img src="/publication/imutsig/featured_hu52ae55a31e175d3ea82f6f3faf44f7ed_129456_680x500_fill_q90_lanczos_smart1_2.png" itemprop="image" alt="">
+        
       </div>
     </div>
   </div>
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking</h1>
+  <h1 itemprop="name">iMutSig - a web application to identify the most similar mutational signature using shiny</h1>
 
   
 
@@ -652,8 +611,8 @@ MathJax.Hub.Config({
 
 
 
-<meta content="2020-05-15 00:00:00 -0700 PDT" itemprop="datePublished">
-<meta content="2020-05-23 16:01:59 -0700 PDT" itemprop="dateModified">
+<meta content="2019-06-10 00:00:00 -0700 PDT" itemprop="datePublished">
+<meta content="2019-06-10 00:00:00 -0700 PDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -672,13 +631,6 @@ MathJax.Hub.Config({
 
       
       
-      <a href="">Jessica L. Barrington-Trimis</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
       <a href="">Zhi Yang</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
@@ -686,63 +638,21 @@ MathJax.Hub.Config({
 
       
       
-      <a href="">Sara Schiff</a></span></span>, 
+      <a href="">Priyatama Pandey</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
         
 
       
       
-      <a href="">Jennifer Unger</a></span></span>, 
+      <a href="">Paul Marjoram</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
         
 
       
       
-      <a href="">Tess Boley Cruz</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Robert Urman</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Junhan Cho</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Jonathan M. Samet</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Adam M. Leventhal</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Kiros Berhane</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Rob McConnell</a></span></span>
+      <a href="">Kimberly D. Siegmund</a></span></span>
   
 
 
@@ -757,7 +667,7 @@ MathJax.Hub.Config({
     
       
     
-    <time>May 2020</time>
+    <time>June 2019</time>
   </span>
   
 
@@ -768,7 +678,7 @@ MathJax.Hub.Config({
   
   
   <span class="middot-divider"></span>
-  <a href="/publication/ecig/#disqus_thread"></a>
+  <a href="/publication/imutsig/#disqus_thread"></a>
   
 
   
@@ -779,35 +689,35 @@ MathJax.Hub.Config({
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking&amp;url=%2fpublication%2fecig%2f"
+         href="https://twitter.com/intent/tweet?text=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny&amp;url=%2fpublication%2fimutsig%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fecig%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fimutsig%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fecig%2f&amp;title=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fimutsig%2f&amp;title=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fecig%2f&amp;title=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fimutsig%2f&amp;title=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=E-cigarette%20Product%20Characteristics%20and%20Subsequent%20Frequency%20of%20Cigarette%20Smoking&amp;body=%2fpublication%2fecig%2f">
+         href="mailto:?subject=iMutSig%20-%20a%20web%20application%20to%20identify%20the%20most%20similar%20mutational%20signature%20using%20shiny&amp;body=%2fpublication%2fimutsig%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -845,6 +755,14 @@ MathJax.Hub.Config({
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://f1000research.com/articles/9-586" target="_blank" rel="noopener">
+  Preprint
+</a>
+
 
 
 
@@ -854,37 +772,37 @@ MathJax.Hub.Config({
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/ecig/cite.bib">
+        data-filename="/publication/imutsig/cite.bib">
   Cite
 </button>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/ecig/">
-    Project
-  </a>
-  
-
 
 
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://cpdd2019-poster-53.netlify.com/" target="_blank" rel="noopener">
-  Poster
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/USCbiostats/iMutSig" target="_blank" rel="noopener">
+  Code
 </a>
 
 
 
 
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/cancer/">
+    Project
+  </a>
+  
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1542/peds.2019-1652" target="_blank" rel="noopener">
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.12688/f1000research.24435.1" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -901,7 +819,7 @@ MathJax.Hub.Config({
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">There is a dearth of evidence regarding the association of use of electronic cigarettes (e-cigarettes) with certain product characteristics and adolescent and young adult risk of unhealthy tobacco use patterns (eg, frequency of combustible cigarette smoking), which is needed to inform the regulation of e-cigarettes. Baseline mod users (versus vape pen users) smoked more cigarettes in the past 30 days at follow-up. Regulation of e-cigarette device type warrants consideration as a strategy to reduce cigarette smoking among adolescents and young adults who vape.</p>
+    <p class="pub-abstract" itemprop="text">There are two frameworks for characterizing mutational signatures which are commonly used to describe the nucleotide patterns that arise from mutational processes. Estimated mutational signatures from fitting these two methods in human cancer can be found online, in the Catalogue Of Somatic Mutations In Cancer (COSMIC) website or a GitHub repository. The two frameworks make differing assumptions regarding independence of base pairs and for that reason may produce different results. Consequently, there is a need to compare and contrast the results of the two methods, but no such tool currently exists. In this paper, we provide a simple and intuitive interface that allows such comparisons to be easily performed. When using our software, the user may download published mutational signatures of either type. Mutational signatures from the pmsignature data source are expanded to probabilistic vectors of 96-possible mutation types, the same model specification used by COSMIC, and then compared to COSMIC signatures. Cosine similarity measures the extent of signature similarity. iMutSig provides a simple and user-friendly web application allowing researchers to compare signatures from COSMIC to those from pmsignature, and vice versa. Furthermore, iMutSig allows users to input a self-defined mutational signature and examine its similarity to published signatures from both data sources.</p>
     
 
     
@@ -933,7 +851,7 @@ MathJax.Hub.Config({
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In  <em>pediatrics</em></div>
+          <div class="col-12 col-md-9">In  <em>F1000Research</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -943,8 +861,7 @@ MathJax.Hub.Config({
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p>Our paper has been reported in the <a href="https://news.usc.edu/168364/vaping-combustive-cigarettes-smoking-usc-research/">USC news</a>.</p>
-</div>
+    <div class="article-style"></div>
 
     
 
@@ -953,7 +870,7 @@ MathJax.Hub.Config({
   
   <a class="badge badge-light" href="/tags/r/">R</a>
   
-  <a class="badge badge-light" href="/tags/smoking/">Smoking</a>
+  <a class="badge badge-light" href="/tags/shiny/">Shiny</a>
   
 </div>
 

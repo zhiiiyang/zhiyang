@@ -139,6 +139,15 @@
     </item>
     
     <item>
+      <title>iMutSig - a web application to identify the most similar mutational signature using shiny</title>
+      <link>/publication/imutsig/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/imutsig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Extracting topics from cancer patients&#39; mutational profiles</title>
       <link>/talk/ml4all/</link>
       <pubDate>Tue, 30 Apr 2019 14:30:00 -0700</pubDate>
