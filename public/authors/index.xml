@@ -6,10 +6,46 @@
     <description>Recent content in Authors on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kimberly D. Siegmund</title>
+      <link>/authors/kimberly-d.-siegmund/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/kimberly-d.-siegmund/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paul Marjoram</title>
+      <link>/authors/paul-marjoram/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/paul-marjoram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Priyatama Pandey</title>
+      <link>/authors/priyatama-pandey/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/priyatama-pandey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhi Yang</title>
+      <link>/authors/zhi-yang/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/authors/zhi-yang/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adam M. Leventhal</title>
@@ -102,15 +138,6 @@
     </item>
     
     <item>
-      <title>Zhi Yang</title>
-      <link>/authors/zhi-yang/</link>
-      <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
-      
-      <guid>/authors/zhi-yang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>admin</title>
       <link>/authors/admin/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -125,33 +152,6 @@
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/darryl-shibata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kimberly D. Siegmund</title>
-      <link>/authors/kimberly-d.-siegmund/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/kimberly-d.-siegmund/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paul Marjoram</title>
-      <link>/authors/paul-marjoram/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/paul-marjoram/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Priyatama Pandey</title>
-      <link>/authors/priyatama-pandey/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/priyatama-pandey/</guid>
       <description></description>
     </item>
     

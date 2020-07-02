@@ -6,10 +6,19 @@
     <description>Recent content in R on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iMutSig - a web application to identify the most similar mutational signature using shiny</title>
+      <link>/publication/imutsig/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/imutsig/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>E-cigarette Product Characteristics and Subsequent Frequency of Cigarette Smoking</title>
@@ -136,15 +145,6 @@
       
       <guid>/talk/cpdd/</guid>
       <description>Young adults using mod (vs. pen-like) e-cigarette devices at baseline smoked &lt;strong&gt;more than 6 times&lt;/strong&gt; as many cigarettes in the past 30 days at follow-up.</description>
-    </item>
-    
-    <item>
-      <title>iMutSig - a web application to identify the most similar mutational signature using shiny</title>
-      <link>/publication/imutsig/</link>
-      <pubDate>Mon, 10 Jun 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/publication/imutsig/</guid>
-      <description></description>
     </item>
     
     <item>
