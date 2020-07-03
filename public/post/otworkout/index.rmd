@@ -1,0 +1,31 @@
+---
+authors:
+- admin
+date: "2020-07-02"
+draft: true
+gallery_item:
+image:
+  caption: ''
+  focal_point: "left"
+  preview_only: false
+lastmod: "2020-07-02T00:00:00-08:00"
+summary: A shiny app converts workout screenshoots into interactive data viz
+projects:
+- viz
+tags:
+- R
+- Shiny
+- Data viz
+url_code: "https://github.com/zhiiiyang/OTworkout" 
+title: 'How to make a phone app using Shiny'
+---
+
+
+## Background
+
+
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1273861829039550465')
+```
+

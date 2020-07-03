@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>How to make a phone app using Shiny</title>
+      <link>/post/otworkout/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/otworkout/</guid>
+      <description>A shiny app converts workout screenshoots into interactive data viz</description>
+    </item>
+    
+    <item>
       <title>Auto-generating GitHub commit messages using textgenrnn</title>
       <link>/post/github-commit/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -39,10 +48,10 @@
     
     <item>
       <title>An interactive treemap of media franchise revenue by category</title>
-      <link>/post/treemap/</link>
+      <link>/post/treemap/index1/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/treemap/</guid>
+      <guid>/post/treemap/index1/</guid>
       <description>an interactive treemap using treemap and d3treeR</description>
     </item>
     

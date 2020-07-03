@@ -22,10 +22,10 @@
     
     <item>
       <title>An interactive treemap of media franchise revenue by category</title>
-      <link>/post/treemap/</link>
+      <link>/post/treemap/index1/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/treemap/</guid>
+      <guid>/post/treemap/index1/</guid>
       <description>an interactive treemap using treemap and d3treeR</description>
     </item>
     

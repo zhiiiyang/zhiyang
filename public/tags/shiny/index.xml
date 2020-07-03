@@ -6,10 +6,19 @@
     <description>Recent content in Shiny on Zhi Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to make a phone app using Shiny</title>
+      <link>/post/otworkout/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/otworkout/</guid>
+      <description>A shiny app converts workout screenshoots into interactive data viz</description>
+    </item>
     
     <item>
       <title>iMutSig - a web application to identify the most similar mutational signature using shiny</title>
