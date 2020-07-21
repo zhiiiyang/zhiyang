@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>How to build a Twitter bot using AWS Lambda and Python</title>
+      <link>/post/bot/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/bot/</guid>
+      <description>Making a Twitter bot to retweet keywords and post publications from Pubmed</description>
+    </item>
+    
+    <item>
       <title>How to make a phone app using Shiny</title>
       <link>/post/otworkout/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
