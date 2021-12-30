@@ -1,36 +1,12 @@
 .d3tree3 text {
-  pointer-events: all;
-  /* font-size: 10px; */
+  pointer-events: none;
+  font-size: 10px;
   font-family: sans-serif;
 }
 
-/*Controls the font size on hover over*/
-
-/*
-.d3tree3 .depth .children:hover text {
-  font-size: 1em;
-}
-*/
-
-/*
-.d3tree3 .depth g:hover text{
-  font-size: 15px;
-}
-*/
-
-/*Controls the title name font size*/
-.d3tree3 .grandparent .grandparent-name {
-  font-size: 18px;
-}
-
-/*Controls the info bar font size, info bar curently hard coded into d4tree3.js*/
-.d3tree3 .grandparent .grandparent-info {
-  font-size: 12px;
-}
-
-/*Header change color on hover over*/
-.d3tree3 .grandparent:hover rect {
-  fill: #f7f6f6 !important;
+.d3tree3 .grandparent text {
+  font-weight: bold;
+  font-size: inherit;
 }
 
 .d3tree3 .legend text{
@@ -48,6 +24,10 @@
   stroke-width: 2px;
 }
 
+.d3tree3 .grandparent:hover rect {
+  fill: darkgrey;
+}
+
 .d3tree3 .children rect.parent,
 .d3tree3 .grandparent rect {
   cursor: pointer;
@@ -62,10 +42,8 @@
   fill-opacity:0;
   stroke-width: 2px;
 }
-
-/*Change Hover over box border width*/
 .d3tree3 .children:hover rect.parent {
-  stroke-width: 4px;
+  stroke-width: 9px;
 }
 .d3tree3 text.value-label {
   font-size: 12px;
