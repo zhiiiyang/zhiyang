@@ -56,35 +56,23 @@ blogdown::shortcode('tweet', '1198378572039122944')
 <center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198386439190241282')
-blogdown::shortcode('tweet', '1198371505295331328')
 ```
 
 
 ##### "The Linear Algebra Behind Machine Learning: Under the Hood with Regression Analysis" by [Steven Slezak](https://www.linkedin.com/in/steven-slezak-a3243914/)
 <center>
-```{r echo=FALSE}
-blogdown::shortcode('tweet', '1198373995600433153')
-```
 
 ##### "Macgyvering with R: Creating a Work Schedule" by [Wendy Christensen](https://twitter.com/wchristensen)	
 <center>
-```{r echo=FALSE}
-blogdown::shortcode('tweet', '1198376779431342080')
-```
 
 ##### "Condition System in R" by [John Peach](https://www.linkedin.com/in/jpeach/)
 <center>
-```{r echo=FALSE}
-blogdown::shortcode('tweet', '1198378164080132096')
-```
-
 
 ##### "R for better science in less time" by [Julia Stewart Lowndes](https://twitter.com/juliesquid)
 <center>
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1198395159701901312')
 blogdown::shortcode('tweet', '1198385565160202240')
-blogdown::shortcode('tweet', '1198384157983793152')
 blogdown::shortcode('tweet', '1198393837913198592')
 blogdown::shortcode('tweet', '1198466004822548481')
 ```
